@@ -1,0 +1,14 @@
+curl "https://api.lufthansa.com/v1/oauth/token" -X POST -d "client_id=gg57s2qmvkp4rpycy52ehycmn" -d "client_secret=mbbWMpJs9H" -d "grant_type=client_credentials"
+
+
+curl -H "Authorization: Bearer 7dgm376mhy58xg5dfsnv4eyf" -H "Accept: application/json" https://api.lufthansa.com/v1/mds-references/airports/FRA
+
+curl -H "Authorization: Bearer 7dgm376mhy58xg5dfsnv4eyf" -H "Accept: application/json" https://api.lufthansa.com/v1/mds-references/operations/schedules/FRA/JFK/2023-11-14
+
+curl -H "Authorization: Bearer 7dgm376mhy58xg5dfsnv4eyf" -H "Accept: application/json" https://api.lufthansa.com/v1/mds-references/aircraft
+
+curl -H "Authorization: Bearer 7dgm376mhy58xg5dfsnv4eyf" -H "Accept: application/json" https://api.lufthansa.com/v1/mds-references/aircraft/100
+
+curl -H "Authorization: Bearer 7dgm376mhy58xg5dfsnv4eyf" -H "Accept: application/json" https://api.lufthansa.com/v1/operations/schedules/FRA/JFK/2023-11-13
+
+Création d'un package avec setup et faire la config avec 
