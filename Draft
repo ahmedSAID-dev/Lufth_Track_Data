@@ -9,6 +9,7 @@ curl -H "Authorization: Bearer 7dgm376mhy58xg5dfsnv4eyf" -H "Accept: application
 
 curl -H "Authorization: Bearer 7dgm376mhy58xg5dfsnv4eyf" -H "Accept: application/json" https://api.lufthansa.com/v1/mds-references/aircraft/100
 
-curl -H "Authorization: Bearer 7dgm376mhy58xg5dfsnv4eyf" -H "Accept: application/json" https://api.lufthansa.com/v1/operations/schedules/FRA/JFK/2023-11-13
+curl -H "Authorization: Bearer xcayemas3j29y2y3xejsj6ms" -H "Accept: application/json" https://api.lufthansa.com/v1/operations/schedules/FRA/JFK/2023-11-17
+curl -H "Authorization: Bearer xcayemas3j29y2y3xejsj6ms" -H "Accept: application/json" https://api.lufthansa.com/v1/operations/flightstatus/route/FRA/JFK/2023-11-17
 
 Création d'un package avec setup et faire la config avec 

@@ -1,6 +1,6 @@
 from setuptools import setup
 
-setup(name='Lufth OAPI',
+setup(name='lufth_o_api',
       version='0.1',
       description='Lufthansa OAPI python',
       url='https://github.com/',
