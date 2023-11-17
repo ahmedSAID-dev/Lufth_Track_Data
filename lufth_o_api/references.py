@@ -1,6 +1,9 @@
-# import lufth_o_api.request as request
 import request as request
-
+import json
+'''
+Automatisation du package à faire après via setup.py
+# import lufth_o_api.request as request
+'''
 
 base_url = 'https://api.lufthansa.com/v1/references/'
 
@@ -68,7 +71,3 @@ def get_nearest_airports(lat, long):
     url = base_url+'airports/nearest/'+str(lat)+','+str(long)
     return request.make_request(url)
 
-# Test
-if __name__ == "__main__":
-    tk = get_aircraft_data()
-    print(tk)

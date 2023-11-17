@@ -20,7 +20,7 @@ def make_request(url):
     header = auth.get_header()
     r = requests.get(url, headers=header)
     if r.status_code == 200:
-        logging.info('request to URL ' + url + ' status: ' + str(r.status_code))
+        logging.info('request to URL ' + url + ' status: ' + str(r.status_code) + ' OK')
         return r.text
     else:
         logging.info('request to URL ' + url + ' status: ' + str(r.status_code) + ' message: '+r.text)

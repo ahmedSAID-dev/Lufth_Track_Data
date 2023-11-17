@@ -1,0 +1,20 @@
+2023-11-16 16:31:18,582 -INFO- request to URL https://api.lufthansa.com/v1/references/aircraft/ status: 200
+2023-11-16 16:34:01,286 -INFO- request to URL https://api.lufthansa.com/v1/references/aircraft/ status: 200
+2023-11-16 16:43:57,259 -INFO- request to URL https://api.lufthansa.com/v1/references/aircraft/ status: 200 OK
+2023-11-16 16:45:46,406 -INFO- request to URL https://api.lufthansa.com/v1/references/aircraft/ status: 200 OK
+2023-11-16 16:46:07,158 -INFO- request to URL https://api.lufthansa.com/v1/references/aircraft/ status: 200 OK
+2023-11-16 16:46:55,851 -INFO- request to URL https://api.lufthansa.com/v1/references/aircraft/ status: 200 OK
+2023-11-16 16:49:46,603 -INFO- request to URL https://api.lufthansa.com/v1/references/aircraft/ status: 200 OK
+2023-11-16 16:50:41,350 -INFO- request to URL https://api.lufthansa.com/v1/references/aircraft/ status: 200 OK
+2023-11-17 14:55:20,408 -INFO- request to URL https://api.lufthansa.com/v1/references/aircraft/ status: 200 OK
+2023-11-17 14:59:04,243 -INFO- request to URL https://api.lufthansa.com/v1/references/aircraft/ status: 200 OK
+2023-11-17 15:04:23,474 -INFO- request to URL https://api.lufthansa.com/v1/references/aircraft/ status: 200 OK
+2023-11-17 15:24:41,397 -INFO- request to URL https://api.lufthansa.com/v1/references/aircraft/ status: 200 OK
+2023-11-17 15:26:56,860 -INFO- request to URL https://api.lufthansa.com/v1/references/aircraft/ status: 200 OK
+2023-11-17 15:27:20,906 -INFO- request to URL https://api.lufthansa.com/v1/references/aircraft/ status: 200 OK
+2023-11-17 15:34:42,382 -INFO- request to URL https://api.lufthansa.com/v1/references/aircraft/ status: 200 OK
+2023-11-17 15:34:43,297 -INFO- request to URL https://api.lufthansa.com/v1/operations/flightstatus/route/FRA/JFK/2023-11-17 status: 200 OK
+2023-11-17 15:35:50,178 -INFO- request to URL https://api.lufthansa.com/v1/references/aircraft/ status: 200 OK
+2023-11-17 15:35:51,253 -INFO- request to URL https://api.lufthansa.com/v1/operations/flightstatus/route/FRA/JFK/2023-11-17 status: 200 OK
+2023-11-17 15:36:30,549 -INFO- request to URL https://api.lufthansa.com/v1/references/aircraft/ status: 200 OK
+2023-11-17 15:36:31,344 -INFO- request to URL https://api.lufthansa.com/v1/operations/flightstatus/route/FRA/JFK/2023-11-17 status: 200 OK
