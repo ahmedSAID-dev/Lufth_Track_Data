@@ -1,6 +1,6 @@
 import requests
 # import lufth_o_api.authentication as auth
-import authentication as auth
+from lufth_o_api import authentication as auth
 import logging
 
 

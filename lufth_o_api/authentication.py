@@ -1,5 +1,6 @@
 import requests
 import configparser
+import os
 
 def get_auth_token():
     """
@@ -8,7 +9,16 @@ def get_auth_token():
     """
     # read config file
     config = configparser.ConfigParser()
-    config.read('config.conf')
+    if os.path.exists('config.conf'):
+        config.read('config.conf')
+    else:
+        # Chercher dans le dossier <link>lufth_o_api</link>
+        lufth_o_api_path = '../lufth_o_api/config.conf'
+        if os.path.exists(lufth_o_api_path):
+            config.read(lufth_o_api_path)
+        else:
+            print("Le fichier config.conf n'a pas été trouvé.")
+    
     # set variables
     secret = config['LUFTH_OPENAPI']['LUFTH_SECRET']
     key = config['LUFTH_OPENAPI']['LUFTH_KEY']

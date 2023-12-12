@@ -1,4 +1,4 @@
-import request as request
+from lufth_o_api import request as request
 import json
 '''
 Automatisation du package à faire après via setup.py
