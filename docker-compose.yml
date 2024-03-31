@@ -1,0 +1,101 @@
+version: "3"
+
+services:
+  # # API FastAPI
+  # api:
+  #   build:
+  #     context: ./api_database
+  #     dockerfile: Dockerfile-api
+  #   ports:
+  #     - "8000:8000"
+  #   volumes:
+  #     - ./data_json:/data_json
+  #     - ./data_fixe:/data_fixe
+  #     - ./db_mongo/data:/data/db
+  #     - ./db_neo4j/data:/data
+  #   depends_on:
+  #     - mongo_l
+  #     - neo4j_l
+  #     - upload_l
+  #   networks:
+  #     - lufth-network
+
+
+  # Base de données MongoDB
+  mongo_l:
+    build:
+      context: ./db_mongo
+      dockerfile: Dockerfile-mongo
+    environment:
+      - LOG=1
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./db_mongo/data:/data/db
+      - ./data_json:/db_mongo/data_json
+    networks:
+      - lufth-network
+    
+  upload_mongo:
+    build:
+      context: ./db_mongo
+      dockerfile: Dockerfile-upload
+    # command: python3 upload.py  # Run the script on startup
+    volumes:
+      - ./data_json:/db_mongo/data_json # Mount data_json for storing results
+    depends_on:
+      - mongo_l  # Ensure MongoDB is up before running the script
+    networks:
+      - lufth-network
+
+  # Base de données Neo4j
+  neo4j_l:
+    build:
+      context: ./db_neo4j
+      dockerfile: Dockerfile-neo4j
+    ports:
+      - "7687:7687"
+      - "7474:7474"
+    environment:
+      - NEO4J_AUTH=neo4j/password
+      - NEO4J_ACCEPT_LICENSE=yes
+    volumes:
+      - ./db_neo4j/data:/data
+      - ./data_json:/data_json
+    depends_on:
+      - mongo_l
+      - upload_mongo
+    networks:
+      - lufth-network
+  
+  upload_neo4j:
+    build:
+      context: ./db_neo4j
+      dockerfile: Dockerfile-upneo4j
+    volumes:
+      - ./data_json:/db_mongo/data_json
+      - ./db_neo4j/data:/data
+    depends_on:
+      - mongo_l
+      - neo4j_l
+      - upload_mongo
+    networks:
+      - lufth-network
+
+  # Jupyter
+  jupyter:
+    image: jupyter/minimal-notebook:ubuntu-18.04
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/home/jovyan/work
+    environment:
+      JUPYTER_TOKEN: "ahmed"
+    depends_on:
+      - mongo_l
+      - upload_mongo
+      - neo4j_l
+    networks:
+      - lufth-network
+networks:
+  lufth-network:

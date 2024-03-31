@@ -1,27 +1,37 @@
 import requests
-# import lufth_o_api.authentication as auth
-from lufth_o_api import authentication as auth
+import authentication as auth
 import logging
 
-
+# Configuration du logging
 logging.basicConfig(
     level=logging.INFO,
     filename='luth_o_api.log',
     filemode='a',
-    format='%(asctime)s -%(levelname)s- %(message)s')
+    format='%(asctime)s -%(levelname)s- %(message)s'
+)
 
 
 def make_request(url):
     """
-    faire un request au URL
-    :param url:
-    :return json object:
+    Effectue une requête à l'URL spécifiée.
+
+    Args:
+        url (str): L'URL de la requête.
+
+    Returns:
+        str: La réponse de la requête au format texte si le statut de la réponse est 200, sinon 'invalid request'.
     """
+    # Obtention de l'en-tête d'authentification
     header = auth.get_header()
+
+    # Effectuer la requête HTTP GET avec l'en-tête d'authentification
     r = requests.get(url, headers=header)
+
+    # Vérification du statut de la réponse
     if r.status_code == 200:
-        logging.info('request to URL ' + url + ' status: ' + str(r.status_code) + ' OK')
+        logging.info('Request to URL ' + url + ' status: ' + str(r.status_code) + ' OK')
         return r.text
     else:
-        logging.info('request to URL ' + url + ' status: ' + str(r.status_code) + ' message: '+r.text)
+        # Enregistrement d'une entrée de journal en cas d'erreur
+        logging.info('Request to URL ' + url + ' status: ' + str(r.status_code) + ' message: ' + r.text)
         return 'invalid request'

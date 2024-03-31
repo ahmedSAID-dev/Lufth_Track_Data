@@ -1,0 +1,294 @@
+{
+    "FlightStatusResource": {
+        "Flights": {
+            "Flight": [
+                {
+                    "Departure": {
+                        "AirportCode": "NUE",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T06:20"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T04:20Z"
+                        },
+                        "ActualTimeLocal": {
+                            "DateTime": "2024-03-31T06:22"
+                        },
+                        "ActualTimeUTC": {
+                            "DateTime": "2024-03-31T04:22Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Gate": "A14"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T07:10"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T05:10Z"
+                        },
+                        "ActualTimeLocal": {
+                            "DateTime": "2024-03-31T06:56"
+                        },
+                        "ActualTimeUTC": {
+                            "DateTime": "2024-03-31T04:56Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "FE",
+                            "Definition": "Flight Early"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "ASO"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "143"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "143"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "320",
+                        "AircraftRegistration": "DAIQU"
+                    },
+                    "FlightStatus": {
+                        "Code": "LD",
+                        "Definition": "Flight Landed"
+                    },
+                    "ServiceType": "Passenger"
+                },
+                {
+                    "Departure": {
+                        "AirportCode": "NUE",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T08:15"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T06:15Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Gate": "A17"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T09:05"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T07:05Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "ASO"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "145"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "145"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "E90",
+                        "AircraftRegistration": "DAECH"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                },
+                {
+                    "Departure": {
+                        "AirportCode": "NUE",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T11:15"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T09:15Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Gate": "A13"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T12:05"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T10:05Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "ASO"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "147"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "147"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "CR9",
+                        "AircraftRegistration": "DACNE"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                },
+                {
+                    "Departure": {
+                        "AirportCode": "NUE",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T14:40"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T12:40Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Gate": "A13"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T15:30"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T13:30Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "ASO"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "149"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "149"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "CR9",
+                        "AircraftRegistration": "DACNO"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                },
+                {
+                    "Departure": {
+                        "AirportCode": "NUE",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T18:30"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T16:30Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Gate": "A13"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T19:20"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T17:20Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "ASO"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "153"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "153"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "CRK",
+                        "AircraftRegistration": "EIHID"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                }
+            ]
+        },
+        "Meta": {
+            "@Version": "1.0.0",
+            "Link": [
+                {
+                    "@Href": "https://api.lufthansa.com/v1/operations/flightstatus/route/NUE/FRA/2024-03-31",
+                    "@Rel": "self"
+                },
+                {
+                    "@Href": "https://api.lufthansa.com/v1/mds-references/airports/{airportCode}",
+                    "@Rel": "related"
+                }
+            ],
+            "TotalCount": 5
+        }
+    }
+}

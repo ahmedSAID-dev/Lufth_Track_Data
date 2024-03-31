@@ -1,0 +1,86 @@
+{
+    "FlightStatusResource": {
+        "Flights": {
+            "Flight": [
+                {
+                    "Departure": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T13:45"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T11:45Z"
+                        },
+                        "EstimatedTimeLocal": {
+                            "DateTime": "2024-03-31T14:15"
+                        },
+                        "EstimatedTimeUTC": {
+                            "DateTime": "2024-03-31T12:15Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "DL",
+                            "Definition": "Flight Delayed"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "C16"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "LAS",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T16:20"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T23:20Z"
+                        },
+                        "EstimatedTimeLocal": {
+                            "DateTime": "2024-03-31T16:45"
+                        },
+                        "EstimatedTimeUTC": {
+                            "DateTime": "2024-03-31T23:45Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "DL",
+                            "Definition": "Flight Delayed"
+                        },
+                        "Terminal": {
+                            "Name": "3"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "4Y",
+                        "FlightNumber": "054"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "4Y",
+                        "FlightNumber": "054"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "333",
+                        "AircraftRegistration": "DAIKK"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                }
+            ]
+        },
+        "Meta": {
+            "@Version": "1.0.0",
+            "Link": [
+                {
+                    "@Href": "https://api.lufthansa.com/v1/operations/flightstatus/route/FRA/LAS/2024-03-31",
+                    "@Rel": "self"
+                },
+                {
+                    "@Href": "https://api.lufthansa.com/v1/mds-references/airports/{airportCode}",
+                    "@Rel": "related"
+                }
+            ],
+            "TotalCount": 1
+        }
+    }
+}

@@ -1,0 +1,405 @@
+{
+    "FlightStatusResource": {
+        "Flights": {
+            "Flight": [
+                {
+                    "Departure": {
+                        "AirportCode": "CDG",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T06:05"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T04:05Z"
+                        },
+                        "ActualTimeLocal": {
+                            "DateTime": "2024-03-31T06:01"
+                        },
+                        "ActualTimeUTC": {
+                            "DateTime": "2024-03-31T04:01Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "FE",
+                            "Definition": "Flight Early"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "061"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T07:20"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T05:20Z"
+                        },
+                        "EstimatedTimeLocal": {
+                            "DateTime": "2024-03-31T07:07"
+                        },
+                        "EstimatedTimeUTC": {
+                            "DateTime": "2024-03-31T05:07Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "FE",
+                            "Definition": "Flight Early"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "A21"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "1053"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "1053"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "320",
+                        "AircraftRegistration": "DAIZF"
+                    },
+                    "FlightStatus": {
+                        "Code": "DP",
+                        "Definition": "Flight Departed"
+                    },
+                    "ServiceType": "Passenger"
+                },
+                {
+                    "Departure": {
+                        "AirportCode": "CDG",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T09:55"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T07:55Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "063"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T11:10"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T09:10Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "A40"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "1027"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "1027"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "32A",
+                        "AircraftRegistration": "DAIZZ"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                },
+                {
+                    "Departure": {
+                        "AirportCode": "CDG",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T10:30"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T08:30Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "063"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T11:45"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T09:45Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "A26"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "1029"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "1029"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "320",
+                        "AircraftRegistration": "DAIQW"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                },
+                {
+                    "Departure": {
+                        "AirportCode": "CDG",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T11:30"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T09:30Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "065"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T12:45"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T10:45Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "A14"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "1031"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "1031"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "32V",
+                        "AircraftRegistration": "DAIWH"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                },
+                {
+                    "Departure": {
+                        "AirportCode": "CDG",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T14:30"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T12:30Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "061"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T15:45"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T13:45Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "A01"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "1035"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "1035"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "319",
+                        "AircraftRegistration": "DAILD"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                },
+                {
+                    "Departure": {
+                        "AirportCode": "CDG",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T18:40"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T16:40Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "063"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T19:55"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T17:55Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "ASO"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "1041"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "1041"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "32A",
+                        "AircraftRegistration": "DAIUM"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                },
+                {
+                    "Departure": {
+                        "AirportCode": "CDG",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T19:35"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T17:35Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "065"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T20:50"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T18:50Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "ASO"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "1047"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "1047"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "CR9",
+                        "AircraftRegistration": "DACKJ"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                }
+            ]
+        },
+        "Meta": {
+            "@Version": "1.0.0",
+            "Link": [
+                {
+                    "@Href": "https://api.lufthansa.com/v1/operations/flightstatus/route/CDG/FRA/2024-03-31",
+                    "@Rel": "self"
+                },
+                {
+                    "@Href": "https://api.lufthansa.com/v1/mds-references/airports/{airportCode}",
+                    "@Rel": "related"
+                }
+            ],
+            "TotalCount": 7
+        }
+    }
+}

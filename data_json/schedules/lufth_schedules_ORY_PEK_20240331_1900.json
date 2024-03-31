@@ -1,0 +1,439 @@
+[
+    {
+        "TotalJourney": {
+            "Duration": "PT19H"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:30"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "TLS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T08:45"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "AF",
+                    "FlightNumber": "6102"
+                },
+                "Equipment": {
+                    "AircraftCode": "318"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "TLS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T10:05"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "FRA",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T11:55"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "1095"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "CL"
+                },
+                "Equipment": {
+                    "AircraftCode": "CR9"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "FRA",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T15:25"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "PEK",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T08:30"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "720"
+                },
+                "Equipment": {
+                    "AircraftCode": "343",
+                    "OnBoardEquipment": {
+                        "InflightEntertainment": true,
+                        "Compartment": [
+                            {
+                                "ClassCode": "C",
+                                "ClassDesc": "BusinessClass",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "E",
+                                "ClassDesc": "PremiumEconomy",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "Y",
+                                "ClassDesc": "Economy",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            }
+                        ]
+                    }
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT18H55M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:35"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "NCE",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T09:00"
+                    },
+                    "Terminal": {
+                        "Name": "2"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "AF",
+                    "FlightNumber": "6202"
+                },
+                "Equipment": {
+                    "AircraftCode": "318"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "NCE",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T10:05"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "FRA",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T11:45"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "1059"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "CL"
+                },
+                "Equipment": {
+                    "AircraftCode": "CR9"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "FRA",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T15:25"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "PEK",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T08:30"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "720"
+                },
+                "Equipment": {
+                    "AircraftCode": "343",
+                    "OnBoardEquipment": {
+                        "InflightEntertainment": true,
+                        "Compartment": [
+                            {
+                                "ClassCode": "C",
+                                "ClassDesc": "BusinessClass",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "E",
+                                "ClassDesc": "PremiumEconomy",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "Y",
+                                "ClassDesc": "Economy",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            }
+                        ]
+                    }
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT22H5M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:35"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "NCE",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T09:00"
+                    },
+                    "Terminal": {
+                        "Name": "2"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "AF",
+                    "FlightNumber": "6202"
+                },
+                "Equipment": {
+                    "AircraftCode": "318"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "NCE",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T13:30"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "MUC",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T14:55"
+                    },
+                    "Terminal": {
+                        "Name": "2"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "2273"
+                },
+                "Equipment": {
+                    "AircraftCode": "319"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "MUC",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T19:35"
+                    },
+                    "Terminal": {
+                        "Name": "2"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "PEK",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T11:40"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "722"
+                },
+                "Equipment": {
+                    "AircraftCode": "359",
+                    "OnBoardEquipment": {
+                        "InflightEntertainment": true,
+                        "Compartment": [
+                            {
+                                "ClassCode": "F",
+                                "ClassDesc": "FirstClass",
+                                "FlyNet": true
+                            },
+                            {
+                                "ClassCode": "C",
+                                "ClassDesc": "BusinessClass",
+                                "FlyNet": true
+                            },
+                            {
+                                "ClassCode": "E",
+                                "ClassDesc": "PremiumEconomy",
+                                "FlyNet": true
+                            },
+                            {
+                                "ClassCode": "Y",
+                                "ClassDesc": "Economy",
+                                "FlyNet": true
+                            }
+                        ]
+                    }
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            }
+        ]
+    }
+]

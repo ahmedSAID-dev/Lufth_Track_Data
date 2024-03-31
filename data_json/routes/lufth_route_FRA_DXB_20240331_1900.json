@@ -1,0 +1,74 @@
+{
+    "FlightStatusResource": {
+        "Flights": {
+            "Flight": [
+                {
+                    "Departure": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T14:05"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T12:05Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "Z15"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "DXB",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T22:35"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T18:35Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "630"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "630"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "333",
+                        "AircraftRegistration": "DAIKM"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                }
+            ]
+        },
+        "Meta": {
+            "@Version": "1.0.0",
+            "Link": [
+                {
+                    "@Href": "https://api.lufthansa.com/v1/operations/flightstatus/route/FRA/DXB/2024-03-31",
+                    "@Rel": "self"
+                },
+                {
+                    "@Href": "https://api.lufthansa.com/v1/mds-references/airports/{airportCode}",
+                    "@Rel": "related"
+                }
+            ],
+            "TotalCount": 1
+        }
+    }
+}

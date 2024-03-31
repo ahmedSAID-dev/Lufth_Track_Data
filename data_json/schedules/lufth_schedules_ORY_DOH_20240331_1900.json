@@ -1,0 +1,1021 @@
+[
+    {
+        "TotalJourney": {
+            "Duration": "PT16H"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:35"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "BCN",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T08:15"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "VY",
+                    "FlightNumber": "8005"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-14"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "BCN",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T16:25"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "DOH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T23:35"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "QR",
+                    "FlightNumber": "146"
+                },
+                "Equipment": {
+                    "AircraftCode": "789"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-14"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT16H"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:35"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "BCN",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T08:15"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "IB",
+                    "FlightNumber": "5699"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "VY"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-14"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "BCN",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T16:25"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "DOH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T23:35"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "IB",
+                    "FlightNumber": "2474"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "QR"
+                },
+                "Equipment": {
+                    "AircraftCode": "789"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-14"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT16H"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:35"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "BCN",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T08:15"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "IB",
+                    "FlightNumber": "5699"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "VY"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-14"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "BCN",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T16:25"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "DOH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T23:35"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "QR",
+                    "FlightNumber": "146"
+                },
+                "Equipment": {
+                    "AircraftCode": "789"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-14"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT16H"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:35"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "BCN",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T08:15"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "QR",
+                    "FlightNumber": "3549"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "VY"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-14"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "BCN",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T16:25"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "DOH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T23:35"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "QR",
+                    "FlightNumber": "146"
+                },
+                "Equipment": {
+                    "AircraftCode": "789"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-14"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT16H"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:35"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "BCN",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T08:15"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "VY",
+                    "FlightNumber": "8005"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-14"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "BCN",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T16:25"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "DOH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T23:35"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "IB",
+                    "FlightNumber": "2474"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "QR"
+                },
+                "Equipment": {
+                    "AircraftCode": "789"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-14"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT22H25M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:35"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "BCN",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T08:15"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "VY",
+                    "FlightNumber": "8005"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "BCN",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T22:50"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "DOH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T06:00"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "IB",
+                    "FlightNumber": "882"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "QR"
+                },
+                "Equipment": {
+                    "AircraftCode": "359",
+                    "OnBoardEquipment": {
+                        "InflightEntertainment": true,
+                        "Compartment": [
+                            {
+                                "ClassCode": "F",
+                                "ClassDesc": "FirstClass",
+                                "FlyNet": true
+                            },
+                            {
+                                "ClassCode": "C",
+                                "ClassDesc": "BusinessClass",
+                                "FlyNet": true
+                            },
+                            {
+                                "ClassCode": "E",
+                                "ClassDesc": "PremiumEconomy",
+                                "FlyNet": true
+                            },
+                            {
+                                "ClassCode": "Y",
+                                "ClassDesc": "Economy",
+                                "FlyNet": true
+                            }
+                        ]
+                    }
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT22H25M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:35"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "BCN",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T08:15"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "IB",
+                    "FlightNumber": "5699"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "VY"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "BCN",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T22:50"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "DOH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T06:00"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "IB",
+                    "FlightNumber": "882"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "QR"
+                },
+                "Equipment": {
+                    "AircraftCode": "359",
+                    "OnBoardEquipment": {
+                        "InflightEntertainment": true,
+                        "Compartment": [
+                            {
+                                "ClassCode": "F",
+                                "ClassDesc": "FirstClass",
+                                "FlyNet": true
+                            },
+                            {
+                                "ClassCode": "C",
+                                "ClassDesc": "BusinessClass",
+                                "FlyNet": true
+                            },
+                            {
+                                "ClassCode": "E",
+                                "ClassDesc": "PremiumEconomy",
+                                "FlyNet": true
+                            },
+                            {
+                                "ClassCode": "Y",
+                                "ClassDesc": "Economy",
+                                "FlyNet": true
+                            }
+                        ]
+                    }
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT22H25M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:35"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "BCN",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T08:15"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "IB",
+                    "FlightNumber": "5699"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "VY"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "BCN",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T22:50"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "DOH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T06:00"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "QR",
+                    "FlightNumber": "142"
+                },
+                "Equipment": {
+                    "AircraftCode": "359",
+                    "OnBoardEquipment": {
+                        "InflightEntertainment": true,
+                        "Compartment": [
+                            {
+                                "ClassCode": "F",
+                                "ClassDesc": "FirstClass",
+                                "FlyNet": true
+                            },
+                            {
+                                "ClassCode": "C",
+                                "ClassDesc": "BusinessClass",
+                                "FlyNet": true
+                            },
+                            {
+                                "ClassCode": "E",
+                                "ClassDesc": "PremiumEconomy",
+                                "FlyNet": true
+                            },
+                            {
+                                "ClassCode": "Y",
+                                "ClassDesc": "Economy",
+                                "FlyNet": true
+                            }
+                        ]
+                    }
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT22H25M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:35"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "BCN",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T08:15"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "VY",
+                    "FlightNumber": "8005"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "BCN",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T22:50"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "DOH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T06:00"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "QR",
+                    "FlightNumber": "142"
+                },
+                "Equipment": {
+                    "AircraftCode": "359",
+                    "OnBoardEquipment": {
+                        "InflightEntertainment": true,
+                        "Compartment": [
+                            {
+                                "ClassCode": "F",
+                                "ClassDesc": "FirstClass",
+                                "FlyNet": true
+                            },
+                            {
+                                "ClassCode": "C",
+                                "ClassDesc": "BusinessClass",
+                                "FlyNet": true
+                            },
+                            {
+                                "ClassCode": "E",
+                                "ClassDesc": "PremiumEconomy",
+                                "FlyNet": true
+                            },
+                            {
+                                "ClassCode": "Y",
+                                "ClassDesc": "Economy",
+                                "FlyNet": true
+                            }
+                        ]
+                    }
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT22H25M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:35"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "BCN",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T08:15"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "QR",
+                    "FlightNumber": "3549"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "VY"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "BCN",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T22:50"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "DOH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T06:00"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "QR",
+                    "FlightNumber": "142"
+                },
+                "Equipment": {
+                    "AircraftCode": "359",
+                    "OnBoardEquipment": {
+                        "InflightEntertainment": true,
+                        "Compartment": [
+                            {
+                                "ClassCode": "F",
+                                "ClassDesc": "FirstClass",
+                                "FlyNet": true
+                            },
+                            {
+                                "ClassCode": "C",
+                                "ClassDesc": "BusinessClass",
+                                "FlyNet": true
+                            },
+                            {
+                                "ClassCode": "E",
+                                "ClassDesc": "PremiumEconomy",
+                                "FlyNet": true
+                            },
+                            {
+                                "ClassCode": "Y",
+                                "ClassDesc": "Economy",
+                                "FlyNet": true
+                            }
+                        ]
+                    }
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT15H15M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:50"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "BA",
+                    "FlightNumber": "8122"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "VY"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LHR",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T14:00"
+                    },
+                    "Terminal": {
+                        "Name": "5"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "DOH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T23:05"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "QR",
+                    "FlightNumber": "5942"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "BA"
+                },
+                "Equipment": {
+                    "AircraftCode": "777"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            }
+        ]
+    }
+]

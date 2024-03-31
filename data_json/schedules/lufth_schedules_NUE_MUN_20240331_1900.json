@@ -1,0 +1,402 @@
+[
+    {
+        "TotalJourney": {
+            "Duration": "P1DT14H30M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "NUE",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T10:50"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "IST",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T14:50"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "TK",
+                    "FlightNumber": "1504"
+                },
+                "Equipment": {
+                    "AircraftCode": "32Q"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "IST",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T02:00"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "CCS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T12:00"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "TK",
+                    "FlightNumber": "183"
+                },
+                "Equipment": {
+                    "AircraftCode": "789"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 1
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "CCS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T18:00"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "MUN",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T19:20"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "ES",
+                    "FlightNumber": "835"
+                },
+                "Equipment": {
+                    "AircraftCode": "732"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "P1DT10H50M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "NUE",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T14:30"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "SAW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T18:15"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "PC",
+                    "FlightNumber": "1028"
+                },
+                "Equipment": {
+                    "AircraftCode": "320"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "IST",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T02:00"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "CCS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T12:00"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "TK",
+                    "FlightNumber": "183"
+                },
+                "Equipment": {
+                    "AircraftCode": "789"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 1
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "CCS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T18:00"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "MUN",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T19:20"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "ES",
+                    "FlightNumber": "835"
+                },
+                "Equipment": {
+                    "AircraftCode": "732"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "P1DT10H25M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "NUE",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T14:55"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "IST",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T18:55"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "TK",
+                    "FlightNumber": "1510"
+                },
+                "Equipment": {
+                    "AircraftCode": "32B"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "IST",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T02:00"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "CCS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T12:00"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "TK",
+                    "FlightNumber": "183"
+                },
+                "Equipment": {
+                    "AircraftCode": "789"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 1
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "CCS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T18:00"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "MUN",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T19:20"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "ES",
+                    "FlightNumber": "835"
+                },
+                "Equipment": {
+                    "AircraftCode": "732"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "P1DT6H40M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "NUE",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T18:40"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "IST",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T22:35"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "TK",
+                    "FlightNumber": "1506"
+                },
+                "Equipment": {
+                    "AircraftCode": "73H"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "IST",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T02:00"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "CCS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T12:00"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "TK",
+                    "FlightNumber": "183"
+                },
+                "Equipment": {
+                    "AircraftCode": "789"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 1
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "CCS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T18:00"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "MUN",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T19:20"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "ES",
+                    "FlightNumber": "835"
+                },
+                "Equipment": {
+                    "AircraftCode": "732"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            }
+        ]
+    }
+]

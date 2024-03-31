@@ -1,0 +1,386 @@
+{
+    "FlightStatusResource": {
+        "Flights": {
+            "Flight": [
+                {
+                    "Departure": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T07:35"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T05:35Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "A34"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "BCN",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T09:40"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T07:40Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "1124"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "1124"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "32M",
+                        "AircraftRegistration": "DAIDC"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                },
+                {
+                    "Departure": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T09:50"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T07:50Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "A50"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "BCN",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T11:55"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T09:55Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "1126"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "1126"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "321",
+                        "AircraftRegistration": "DAIRP"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                },
+                {
+                    "Departure": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T11:00"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T09:00Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "A18"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "BCN",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T13:05"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T11:05Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "1130"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "1130"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "32Q",
+                        "AircraftRegistration": "DAIEF"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                },
+                {
+                    "Departure": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T14:05"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T12:05Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "A11"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "BCN",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T16:10"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T14:10Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "1134"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "1134"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "321",
+                        "AircraftRegistration": "DAISQ"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                },
+                {
+                    "Departure": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T16:05"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T14:05Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "A56"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "BCN",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T18:10"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T16:10Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "1132"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "1132"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "32M",
+                        "AircraftRegistration": "DAIDF"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                },
+                {
+                    "Departure": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T17:30"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T15:30Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "A24"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "BCN",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T19:35"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T17:35Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "1136"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "1136"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "32Q",
+                        "AircraftRegistration": "DAIEK"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                },
+                {
+                    "Departure": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T21:00"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T19:00Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "A16"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "BCN",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T23:05"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T21:05Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "1138"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "1138"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "321",
+                        "AircraftRegistration": "DAISQ"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                }
+            ]
+        },
+        "Meta": {
+            "@Version": "1.0.0",
+            "Link": [
+                {
+                    "@Href": "https://api.lufthansa.com/v1/operations/flightstatus/route/FRA/BCN/2024-03-31",
+                    "@Rel": "self"
+                },
+                {
+                    "@Href": "https://api.lufthansa.com/v1/mds-references/airports/{airportCode}",
+                    "@Rel": "related"
+                }
+            ],
+            "TotalCount": 7
+        }
+    }
+}

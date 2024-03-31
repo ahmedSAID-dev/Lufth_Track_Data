@@ -1,0 +1,87 @@
+{
+    "FlightStatusResource": {
+        "Flights": {
+            "Flight": [
+                {
+                    "Departure": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-30T17:15"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-30T16:15Z"
+                        },
+                        "ActualTimeLocal": {
+                            "DateTime": "2024-03-30T17:55"
+                        },
+                        "ActualTimeUTC": {
+                            "DateTime": "2024-03-30T16:55Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "DL",
+                            "Definition": "Flight Delayed"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "Z66"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "JFK",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-30T21:25"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T01:25Z"
+                        },
+                        "EstimatedTimeLocal": {
+                            "DateTime": "2024-03-30T20:57"
+                        },
+                        "EstimatedTimeUTC": {
+                            "DateTime": "2024-03-31T00:57Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "FE",
+                            "Definition": "Flight Early"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "004"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "404"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "404"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "333",
+                        "AircraftRegistration": "DAIKL"
+                    },
+                    "FlightStatus": {
+                        "Code": "DP",
+                        "Definition": "Flight Departed"
+                    },
+                    "ServiceType": "Passenger"
+                }
+            ]
+        },
+        "Meta": {
+            "@Version": "1.0.0",
+            "Link": [
+                {
+                    "@Href": "https://api.lufthansa.com/v1/operations/flightstatus/route/FRA/JFK/2024-03-30",
+                    "@Rel": "self"
+                },
+                {
+                    "@Href": "https://api.lufthansa.com/v1/mds-references/airports/{airportCode}",
+                    "@Rel": "related"
+                }
+            ],
+            "TotalCount": 1
+        }
+    }
+}

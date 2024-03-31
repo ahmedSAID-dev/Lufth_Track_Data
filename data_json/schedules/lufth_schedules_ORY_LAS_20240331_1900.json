@@ -1,0 +1,2005 @@
+[
+    {
+        "TotalJourney": {
+            "Duration": "PT16H5M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:50"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "IB",
+                    "FlightNumber": "5829"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "VY"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-10-20"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T11:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T13:55"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "IB",
+                    "FlightNumber": "7631"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "BA"
+                },
+                "Equipment": {
+                    "AircraftCode": "777"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-10-20"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT16H5M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:50"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "IB",
+                    "FlightNumber": "5829"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "VY"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-10-20"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T11:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T13:55"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "BA",
+                    "FlightNumber": "2277"
+                },
+                "Equipment": {
+                    "AircraftCode": "777"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-10-20"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT16H5M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:50"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "BA",
+                    "FlightNumber": "8122"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "VY"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-07-07"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T11:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T13:55"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "AA",
+                    "FlightNumber": "6906"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "BA"
+                },
+                "Equipment": {
+                    "AircraftCode": "777"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-07-07"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT16H5M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:50"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "BA",
+                    "FlightNumber": "8122"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "VY"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-07-07"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T11:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T13:55"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "AY",
+                    "FlightNumber": "5407"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "BA"
+                },
+                "Equipment": {
+                    "AircraftCode": "777"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-07-07"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT16H5M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:50"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "BA",
+                    "FlightNumber": "8122"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "VY"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-10-20"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T11:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T13:55"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "BA",
+                    "FlightNumber": "2277"
+                },
+                "Equipment": {
+                    "AircraftCode": "777"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-10-20"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT16H5M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:50"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "BA",
+                    "FlightNumber": "8122"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "VY"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-10-20"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T11:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T13:55"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "IB",
+                    "FlightNumber": "7631"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "BA"
+                },
+                "Equipment": {
+                    "AircraftCode": "777"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-10-20"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT16H5M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:50"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "IB",
+                    "FlightNumber": "5829"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "VY"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-07-07"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T11:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T13:55"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "AA",
+                    "FlightNumber": "6906"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "BA"
+                },
+                "Equipment": {
+                    "AircraftCode": "777"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-07-07"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT16H5M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:50"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "VY",
+                    "FlightNumber": "8942"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-07-07"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T11:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T13:55"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "AA",
+                    "FlightNumber": "6906"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "BA"
+                },
+                "Equipment": {
+                    "AircraftCode": "777"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-07-07"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT16H5M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:50"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "IB",
+                    "FlightNumber": "5829"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "VY"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-07-07"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T11:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T13:55"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "AY",
+                    "FlightNumber": "5407"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "BA"
+                },
+                "Equipment": {
+                    "AircraftCode": "777"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-07-07"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT16H5M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:50"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "VY",
+                    "FlightNumber": "8942"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-07-07"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T11:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T13:55"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "AY",
+                    "FlightNumber": "5407"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "BA"
+                },
+                "Equipment": {
+                    "AircraftCode": "777"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-07-07"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT16H5M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:50"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "VY",
+                    "FlightNumber": "8942"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-10-20"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T11:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T13:55"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "BA",
+                    "FlightNumber": "2277"
+                },
+                "Equipment": {
+                    "AircraftCode": "777"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-10-20"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT16H5M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:50"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "VY",
+                    "FlightNumber": "8942"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-10-20"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T11:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T13:55"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "IB",
+                    "FlightNumber": "7631"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "BA"
+                },
+                "Equipment": {
+                    "AircraftCode": "777"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-10-20"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT19H13M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:50"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "VY",
+                    "FlightNumber": "8942"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LHR",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T10:45"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LAX",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T14:05"
+                    },
+                    "Terminal": {
+                        "Name": "B"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "AF",
+                    "FlightNumber": "6756"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "VS"
+                },
+                "Equipment": {
+                    "AircraftCode": "351"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LAX",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T15:42"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T17:03"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "AF",
+                    "FlightNumber": "2867"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "DL"
+                },
+                "Equipment": {
+                    "AircraftCode": "319"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT19H13M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:50"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "BA",
+                    "FlightNumber": "8122"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "VY"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LHR",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T10:45"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LAX",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T14:05"
+                    },
+                    "Terminal": {
+                        "Name": "B"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "VS",
+                    "FlightNumber": "7"
+                },
+                "Equipment": {
+                    "AircraftCode": "351"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LAX",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T15:42"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T17:03"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "DL",
+                    "FlightNumber": "2120"
+                },
+                "Equipment": {
+                    "AircraftCode": "319"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT19H13M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:50"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "IB",
+                    "FlightNumber": "5829"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "VY"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LHR",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T10:45"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LAX",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T14:05"
+                    },
+                    "Terminal": {
+                        "Name": "B"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "KL",
+                    "FlightNumber": "4832"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "VS"
+                },
+                "Equipment": {
+                    "AircraftCode": "351"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LAX",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T15:42"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T17:03"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "DL",
+                    "FlightNumber": "2120"
+                },
+                "Equipment": {
+                    "AircraftCode": "319"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT19H13M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:50"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "IB",
+                    "FlightNumber": "5829"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "VY"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LHR",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T10:45"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LAX",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T14:05"
+                    },
+                    "Terminal": {
+                        "Name": "B"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "VS",
+                    "FlightNumber": "7"
+                },
+                "Equipment": {
+                    "AircraftCode": "351"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LAX",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T15:42"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T17:03"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "VS",
+                    "FlightNumber": "1921"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "DL"
+                },
+                "Equipment": {
+                    "AircraftCode": "319"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT19H13M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:50"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "IB",
+                    "FlightNumber": "5829"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "VY"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LHR",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T10:45"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LAX",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T14:05"
+                    },
+                    "Terminal": {
+                        "Name": "B"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "AF",
+                    "FlightNumber": "6756"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "VS"
+                },
+                "Equipment": {
+                    "AircraftCode": "351"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LAX",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T15:42"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T17:03"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "DL",
+                    "FlightNumber": "2120"
+                },
+                "Equipment": {
+                    "AircraftCode": "319"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT19H13M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:50"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "VY",
+                    "FlightNumber": "8942"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LHR",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T10:45"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LAX",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T14:05"
+                    },
+                    "Terminal": {
+                        "Name": "B"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "VS",
+                    "FlightNumber": "7"
+                },
+                "Equipment": {
+                    "AircraftCode": "351"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LAX",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T15:42"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T17:03"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "DL",
+                    "FlightNumber": "2120"
+                },
+                "Equipment": {
+                    "AircraftCode": "319"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT19H13M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:50"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "VY",
+                    "FlightNumber": "8942"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LHR",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T10:45"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LAX",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T14:05"
+                    },
+                    "Terminal": {
+                        "Name": "B"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "VS",
+                    "FlightNumber": "7"
+                },
+                "Equipment": {
+                    "AircraftCode": "351"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LAX",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T15:42"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T17:03"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "VS",
+                    "FlightNumber": "1921"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "DL"
+                },
+                "Equipment": {
+                    "AircraftCode": "319"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT19H13M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:50"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LGW",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:00"
+                    },
+                    "Terminal": {
+                        "Name": "S"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "BA",
+                    "FlightNumber": "8122"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "VY"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LHR",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T10:45"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LAX",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T14:05"
+                    },
+                    "Terminal": {
+                        "Name": "B"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "VS",
+                    "FlightNumber": "7"
+                },
+                "Equipment": {
+                    "AircraftCode": "351"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LAX",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T15:42"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T17:03"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "VS",
+                    "FlightNumber": "1921"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "DL"
+                },
+                "Equipment": {
+                    "AircraftCode": "319"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            }
+        ]
+    }
+]

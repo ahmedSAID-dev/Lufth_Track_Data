@@ -1,0 +1,232 @@
+[
+    {
+        "TotalJourney": {
+            "Duration": "PT15H30M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "NUE",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T05:15"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "MUC",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:30"
+                    },
+                    "Terminal": {
+                        "Name": "2"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "3801"
+                },
+                "Equipment": {
+                    "AircraftCode": "BUS"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "MUC",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T11:45"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "AUH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T19:30"
+                    },
+                    "Terminal": {
+                        "Name": "A"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "9659"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "EY"
+                },
+                "Equipment": {
+                    "AircraftCode": "781"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "AUH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T21:40"
+                    },
+                    "Terminal": {
+                        "Name": "A"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "DOH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T21:45"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "EY",
+                    "FlightNumber": "669"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT20H5M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "NUE",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T05:15"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "MUC",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:30"
+                    },
+                    "Terminal": {
+                        "Name": "2"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "3801"
+                },
+                "Equipment": {
+                    "AircraftCode": "BUS"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "MUC",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T11:45"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "AUH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T19:30"
+                    },
+                    "Terminal": {
+                        "Name": "A"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "9659"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "EY"
+                },
+                "Equipment": {
+                    "AircraftCode": "781"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "AUH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T02:15"
+                    },
+                    "Terminal": {
+                        "Name": "A"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "DOH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T02:20"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "EY",
+                    "FlightNumber": "663"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            }
+        ]
+    }
+]

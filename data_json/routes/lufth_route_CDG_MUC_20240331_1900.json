@@ -1,0 +1,287 @@
+{
+    "FlightStatusResource": {
+        "Flights": {
+            "Flight": [
+                {
+                    "Departure": {
+                        "AirportCode": "CDG",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T08:10"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T06:10Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "063"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "MUC",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T09:40"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T07:40Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "2",
+                            "Gate": "K03"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "2227"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "2227"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "32A",
+                        "AircraftRegistration": "DAIUA"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                },
+                {
+                    "Departure": {
+                        "AirportCode": "CDG",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T12:10"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T10:10Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "063"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "MUC",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T13:40"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T11:40Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "2",
+                            "Gate": "G82"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "2229"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "2229"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "CR9",
+                        "AircraftRegistration": "DACNR"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                },
+                {
+                    "Departure": {
+                        "AirportCode": "CDG",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T14:30"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T12:30Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "065"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "MUC",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T16:00"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T14:00Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "2",
+                            "Gate": "K16"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "2231"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "2231"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "32A",
+                        "AircraftRegistration": "DAIZP"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                },
+                {
+                    "Departure": {
+                        "AirportCode": "CDG",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T18:00"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T16:00Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "065"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "MUC",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T19:30"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T17:30Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "2",
+                            "Gate": "K21"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "2233"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "2233"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "319",
+                        "AircraftRegistration": "DAIBE"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                },
+                {
+                    "Departure": {
+                        "AirportCode": "CDG",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T20:30"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T18:30Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "061"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "MUC",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T22:00"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T20:00Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "2",
+                            "Gate": "G34"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "2237"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "2237"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "32M",
+                        "AircraftRegistration": "DAIDM"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                }
+            ]
+        },
+        "Meta": {
+            "@Version": "1.0.0",
+            "Link": [
+                {
+                    "@Href": "https://api.lufthansa.com/v1/operations/flightstatus/route/CDG/MUC/2024-03-31",
+                    "@Rel": "self"
+                },
+                {
+                    "@Href": "https://api.lufthansa.com/v1/mds-references/airports/{airportCode}",
+                    "@Rel": "related"
+                }
+            ],
+            "TotalCount": 5
+        }
+    }
+}

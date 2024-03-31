@@ -1,0 +1,45 @@
+.
+├── Draft
+├── LICENSE
+├── data_csv
+│   ├── iata.csv
+│   └── iata.csv:Zone.Identifier
+├── data_json
+│   ├── lufth_20231117_1900.json
+│   ├── lufth_p_flight_info_20231212_1900.json
+│   ├── lufth_p_flight_info_20240226_1900.json
+│   ├── lufth_p_flight_info_20240227_1900.json
+│   ├── lufth_route_20231212_1900.json
+│   ├── lufth_route_20240227_1900.json
+│   ├── lufth_schedules_20231212_1900.json
+│   └── lufth_schedules_20240227_1900.json
+├── db_mango
+├── db_sqlite
+├── lufth_o_api
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-310.pyc
+│   │   ├── __init__.cpython-38.pyc
+│   │   ├── authentication.cpython-310.pyc
+│   │   ├── authentication.cpython-38.pyc
+│   │   ├── operations.cpython-310.pyc
+│   │   ├── operations.cpython-38.pyc
+│   │   ├── references.cpython-310.pyc
+│   │   ├── references.cpython-38.pyc
+│   │   ├── request.cpython-310.pyc
+│   │   └── request.cpython-38.pyc
+│   ├── authentication.py
+│   ├── config.conf
+│   ├── luth_o_api.log
+│   ├── operations.py
+│   ├── references.py
+│   └── request.py
+├── packages
+├── setup.py
+├── tester
+│   ├── luth_o_api.log
+│   ├── tester_flight_information.py
+│   └── tester_route_schedules.py
+└── tree.txt
+
+7 directories, 35 files

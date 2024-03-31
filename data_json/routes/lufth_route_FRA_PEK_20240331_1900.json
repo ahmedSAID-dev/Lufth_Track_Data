@@ -1,0 +1,177 @@
+{
+    "FlightStatusResource": {
+        "Flights": {
+            "Flight": [
+                {
+                    "Departure": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T13:55"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T11:55Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "B46"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "PEK",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-04-01T05:15"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T21:15Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "3"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "CA",
+                        "FlightNumber": "966"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "CA",
+                        "FlightNumber": "966"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "773",
+                        "AircraftRegistration": "B2031"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                },
+                {
+                    "Departure": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T15:25"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T13:25Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "Z50"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "PEK",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-04-01T08:30"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-04-01T00:30Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "3"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "720"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "720"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "343",
+                        "AircraftRegistration": "DAIGU"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                },
+                {
+                    "Departure": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T20:00"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T18:00Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "B26"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "PEK",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-04-01T11:40"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-04-01T03:40Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "3"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "CA",
+                        "FlightNumber": "932"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "CA",
+                        "FlightNumber": "932"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "773"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                }
+            ]
+        },
+        "Meta": {
+            "@Version": "1.0.0",
+            "Link": [
+                {
+                    "@Href": "https://api.lufthansa.com/v1/operations/flightstatus/route/FRA/PEK/2024-03-31",
+                    "@Rel": "self"
+                },
+                {
+                    "@Href": "https://api.lufthansa.com/v1/mds-references/airports/{airportCode}",
+                    "@Rel": "related"
+                }
+            ],
+            "TotalCount": 3
+        }
+    }
+}

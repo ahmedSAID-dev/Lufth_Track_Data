@@ -4,27 +4,30 @@ import os
 
 def get_auth_token():
     """
-    get the authentication token
-    :return: auth token
+    Récupère le jeton d'authentification à partir du fichier de configuration et le retourne.
+
+    Returns:
+        str: Jeton d'authentification.
     """
-    # read config file
+    # Lecture du fichier de configuration
     config = configparser.ConfigParser()
     if os.path.exists('config.conf'):
         config.read('config.conf')
     else:
-        # Chercher dans le dossier <link>lufth_o_api</link>
+        # Recherche dans le dossier lufth_o_api si le fichier n'est pas trouvé dans le dossier actuel
         lufth_o_api_path = '../lufth_o_api/config.conf'
         if os.path.exists(lufth_o_api_path):
             config.read(lufth_o_api_path)
         else:
             print("Le fichier config.conf n'a pas été trouvé.")
-    
-    # set variables
+
+    # Extraction des informations d'authentification du fichier de configuration
     secret = config['LUFTH_OPENAPI']['LUFTH_SECRET']
     key = config['LUFTH_OPENAPI']['LUFTH_KEY']
     token_url = config['LUFTH_OPENAPI']['LUFTH_TOKEN_URL']
     data = {'client_id': key, 'client_secret': secret, 'grant_type': 'client_credentials'}
 
+    # Requête POST pour obtenir le jeton d'authentification
     r = requests.post(token_url, data=data)
     if r.status_code == 200:
         token_string = r.json()
@@ -35,10 +38,15 @@ def get_auth_token():
 
 def get_header():
     """
-    getting the header with authorization token
-    :return: header for further requests
+    Récupère l'en-tête avec le jeton d'autorisation pour les requêtes ultérieures.
+
+    Returns:
+        dict: En-tête pour les requêtes HTTP.
     """
+    # Obtenir le jeton d'authentification
     token = get_auth_token()
+
+    # Création de l'en-tête avec le jeton d'authentification
     headers = {'Accept': 'application/json', 'Authorization':'Bearer '+token}
     return headers
 

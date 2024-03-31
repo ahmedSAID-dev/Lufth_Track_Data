@@ -1,0 +1,10 @@
+FROM python:3.9
+
+RUN pip install pymongo
+
+COPY requirements.txt /app/requirements.txt
+RUN pip install -r /app/requirements.txt
+
+COPY script_neo.py /app/script_neo.py
+
+CMD ["python3", "/app/script_neo.py"]

@@ -1,0 +1,530 @@
+[
+    {
+        "TotalJourney": {
+            "Duration": "PT2H5M"
+        },
+        "Flight": {
+            "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T07:35"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "BCN",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T09:40"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "1124"
+            },
+            "Equipment": {
+                "AircraftCode": "321"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "12357",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-04-05"
+                }
+            }
+        }
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT2H5M"
+        },
+        "Flight": {
+            "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T09:50"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "BCN",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T11:55"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "1126"
+            },
+            "Equipment": {
+                "AircraftCode": "321"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "123457",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-04-05"
+                }
+            }
+        }
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT2H5M"
+        },
+        "Flight": {
+            "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T11:00"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "BCN",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T13:05"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "1130"
+            },
+            "Equipment": {
+                "AircraftCode": "32Q"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "67",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-04-06"
+                }
+            }
+        }
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT2H5M"
+        },
+        "Flight": {
+            "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T14:05"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "BCN",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T16:10"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "1134"
+            },
+            "Equipment": {
+                "AircraftCode": "321"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "3457",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-04-07"
+                }
+            }
+        }
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT2H5M"
+        },
+        "Flight": {
+            "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T16:05"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "BCN",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T18:10"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "1132"
+            },
+            "Equipment": {
+                "AircraftCode": "321"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "257",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-04-07"
+                }
+            }
+        }
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT2H5M"
+        },
+        "Flight": {
+            "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T17:30"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "BCN",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T19:35"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "1136"
+            },
+            "Equipment": {
+                "AircraftCode": "32Q"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        }
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT2H5M"
+        },
+        "Flight": {
+            "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T21:00"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "BCN",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T23:05"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "1138"
+            },
+            "Equipment": {
+                "AircraftCode": "321"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "12357",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-04-07"
+                }
+            }
+        }
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT10H54M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "FRA",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:51"
+                    },
+                    "Terminal": {
+                        "Name": "TN"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "AGY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T09:53"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "3400"
+                },
+                "Equipment": {
+                    "AircraftCode": "TRS"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 2
+                    },
+                    "DaysOfOperation": "123457",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "MUC",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T15:40"
+                    },
+                    "Terminal": {
+                        "Name": "2"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "BCN",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T17:45"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "1816"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "BT"
+                },
+                "Equipment": {
+                    "AircraftCode": "223"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "123457",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT14H39M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "FRA",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:51"
+                    },
+                    "Terminal": {
+                        "Name": "TN"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "AGY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T09:53"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "3400"
+                },
+                "Equipment": {
+                    "AircraftCode": "TRS"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 2
+                    },
+                    "DaysOfOperation": "12567",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "MUC",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T19:25"
+                    },
+                    "Terminal": {
+                        "Name": "2"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "BCN",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T21:30"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "1818"
+                },
+                "Equipment": {
+                    "AircraftCode": "321"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "12567",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT7H25M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "FRA",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:05"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "DUS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:55"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "72"
+                },
+                "Equipment": {
+                    "AircraftCode": "319"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "DUS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T12:25"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "BCN",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T14:30"
+                    },
+                    "Terminal": {
+                        "Name": "2"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "EW",
+                    "FlightNumber": "9444"
+                },
+                "Equipment": {
+                    "AircraftCode": "319"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-03-31"
+                    }
+                }
+            }
+        ]
+    }
+]

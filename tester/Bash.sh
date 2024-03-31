@@ -1,3 +1,17 @@
+docker-compose up -d
+docker-compose up --build
+docker-compose logs lufth_track_data-api-1
+
+docker exec -it lufth_track_data-mongo_l-1 /bin/bash
+    mongo
+    use lufth_track_data
+    db.c_airports.find().pretty()
+    db.c_airports.countDocuments({})
+
+docker exec -it lufth_track_data-neo4j_l-1 /bin/bash
+
+
+
 curl "https://api.lufthansa.com/v1/oauth/token" -X POST -d "client_id=gg57s2qmvkp4rpycy52ehycmn" -d "client_secret=mbbWMpJs9H" -d "grant_type=client_credentials"
 
 
@@ -5,7 +19,7 @@ curl -H "Authorization: Bearer 7dgm376mhy58xg5dfsnv4eyf" -H "Accept: application
 
 curl -H "Authorization: Bearer 7dgm376mhy58xg5dfsnv4eyf" -H "Accept: application/json" https://api.lufthansa.com/v1/mds-references/operations/schedules/FRA/JFK/2023-11-14
 
-curl -H "Authorization: Bearer 7dgm376mhy58xg5dfsnv4eyf" -H "Accept: application/json" https://api.lufthansa.com/v1/mds-references/aircraft
+curl -H "Authorization: Bearer 5272xy26yc29f3g4cycqu7w3" -H "Accept: application/json" https://api.lufthansa.com/v1/mds-references/aircraft
 
 curl -H "Authorization: Bearer 7dgm376mhy58xg5dfsnv4eyf" -H "Accept: application/json" https://api.lufthansa.com/v1/mds-references/aircraft/100
 

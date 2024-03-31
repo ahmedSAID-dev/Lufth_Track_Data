@@ -1,0 +1,14 @@
+FROM mongo:5.0
+
+    WORKDIR /db_mongo
+    # Install Python 3 and pip
+    RUN apt-get update && apt-get install -y python3 python3-pip
+    # Install Python packages
+    RUN pip3 install pandas pymongo requests nano
+    # COPY requirements.txt .
+    # RUN pip install --no-cache-dir -r requirements.txt
+
+    COPY upload_mongo.py .
+    # RUN chmod +x upload.py
+    EXPOSE 27017
+    # CMD python3 upload.py

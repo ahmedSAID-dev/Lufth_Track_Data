@@ -1,0 +1,1122 @@
+[
+    {
+        "TotalJourney": {
+            "Duration": "PT8H40M"
+        },
+        "Flight": {
+            "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-30T11:00"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "JFK",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-30T14:40"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "400"
+            },
+            "Equipment": {
+                "AircraftCode": "744",
+                "OnBoardEquipment": {
+                    "InflightEntertainment": true,
+                    "Compartment": [
+                        {
+                            "ClassCode": "C",
+                            "ClassDesc": "BusinessClass",
+                            "FlyNet": true,
+                            "SeatPower": true,
+                            "Usb": true,
+                            "LiveTv": true
+                        },
+                        {
+                            "ClassCode": "E",
+                            "ClassDesc": "PremiumEconomy",
+                            "FlyNet": true,
+                            "SeatPower": true,
+                            "Usb": true,
+                            "LiveTv": true
+                        },
+                        {
+                            "ClassCode": "Y",
+                            "ClassDesc": "Economy",
+                            "FlyNet": true,
+                            "SeatPower": true,
+                            "Usb": true,
+                            "LiveTv": true
+                        }
+                    ]
+                }
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "6",
+                "DatePeriod": {
+                    "Effective": "2024-03-30",
+                    "Expiration": "2024-03-30"
+                }
+            }
+        }
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT9H10M"
+        },
+        "Flight": {
+            "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-30T17:15"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "JFK",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-30T21:25"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "404"
+            },
+            "Equipment": {
+                "AircraftCode": "333",
+                "OnBoardEquipment": {
+                    "InflightEntertainment": true,
+                    "Compartment": [
+                        {
+                            "ClassCode": "F",
+                            "ClassDesc": "FirstClass",
+                            "FlyNet": true,
+                            "SeatPower": true,
+                            "Usb": true,
+                            "LiveTv": true
+                        },
+                        {
+                            "ClassCode": "C",
+                            "ClassDesc": "BusinessClass",
+                            "FlyNet": true,
+                            "SeatPower": true,
+                            "Usb": true,
+                            "LiveTv": true
+                        },
+                        {
+                            "ClassCode": "E",
+                            "ClassDesc": "PremiumEconomy",
+                            "FlyNet": true,
+                            "SeatPower": true,
+                            "Usb": true,
+                            "LiveTv": true
+                        },
+                        {
+                            "ClassCode": "Y",
+                            "ClassDesc": "Economy",
+                            "FlyNet": true,
+                            "SeatPower": true,
+                            "Usb": true,
+                            "LiveTv": true
+                        }
+                    ]
+                }
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "6",
+                "DatePeriod": {
+                    "Effective": "2024-03-30",
+                    "Expiration": "2024-03-30"
+                }
+            }
+        }
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT13H35M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "FRA",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T06:50"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "VIE",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T08:15"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "OS",
+                    "FlightNumber": "218"
+                },
+                "Equipment": {
+                    "AircraftCode": "320"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "6",
+                    "DatePeriod": {
+                        "Effective": "2024-03-30",
+                        "Expiration": "2024-03-30"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "VIE",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T10:40"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "JFK",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T15:25"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "OS",
+                    "FlightNumber": "87"
+                },
+                "Equipment": {
+                    "AircraftCode": "772"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "6",
+                    "DatePeriod": {
+                        "Effective": "2024-03-30",
+                        "Expiration": "2024-03-30"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT13H30M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "FRA",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T07:10"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "GVA",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T08:10"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "7411"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "EN"
+                },
+                "Equipment": {
+                    "AircraftCode": "E95"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "6",
+                    "DatePeriod": {
+                        "Effective": "2024-03-30",
+                        "Expiration": "2024-03-30"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "GVA",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T11:40"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "JFK",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T15:40"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LX",
+                    "FlightNumber": "22"
+                },
+                "Equipment": {
+                    "AircraftCode": "333",
+                    "OnBoardEquipment": {
+                        "InflightEntertainment": true,
+                        "Compartment": [
+                            {
+                                "ClassCode": "F",
+                                "ClassDesc": "FirstClass",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "C",
+                                "ClassDesc": "BusinessClass",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "E",
+                                "ClassDesc": "PremiumEconomy",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "Y",
+                                "ClassDesc": "Economy",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            }
+                        ]
+                    }
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "6",
+                    "DatePeriod": {
+                        "Effective": "2024-03-30",
+                        "Expiration": "2024-03-30"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT14H45M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "FRA",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T07:15"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "MUC",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T08:10"
+                    },
+                    "Terminal": {
+                        "Name": "2"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "94"
+                },
+                "Equipment": {
+                    "AircraftCode": "32Q"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "6",
+                    "DatePeriod": {
+                        "Effective": "2024-03-30",
+                        "Expiration": "2024-03-30"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "MUC",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T12:40"
+                    },
+                    "Terminal": {
+                        "Name": "2"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "JFK",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T17:00"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "410"
+                },
+                "Equipment": {
+                    "AircraftCode": "346",
+                    "OnBoardEquipment": {
+                        "InflightEntertainment": true,
+                        "Compartment": [
+                            {
+                                "ClassCode": "F",
+                                "ClassDesc": "FirstClass",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "C",
+                                "ClassDesc": "BusinessClass",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "E",
+                                "ClassDesc": "PremiumEconomy",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "Y",
+                                "ClassDesc": "Economy",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            }
+                        ]
+                    }
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "6",
+                    "DatePeriod": {
+                        "Effective": "2024-03-30",
+                        "Expiration": "2024-03-30"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT11H40M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "FRA",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T07:20"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "ZRH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T08:15"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "1184"
+                },
+                "Equipment": {
+                    "AircraftCode": "320"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "6",
+                    "DatePeriod": {
+                        "Effective": "2024-03-30",
+                        "Expiration": "2024-03-30"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "ZRH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T09:50"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "JFK",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T14:00"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LX",
+                    "FlightNumber": "16"
+                },
+                "Equipment": {
+                    "AircraftCode": "333",
+                    "OnBoardEquipment": {
+                        "InflightEntertainment": true,
+                        "Compartment": [
+                            {
+                                "ClassCode": "F",
+                                "ClassDesc": "FirstClass",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "C",
+                                "ClassDesc": "BusinessClass",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "E",
+                                "ClassDesc": "PremiumEconomy",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "Y",
+                                "ClassDesc": "Economy",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            }
+                        ]
+                    }
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "6",
+                    "DatePeriod": {
+                        "Effective": "2024-03-30",
+                        "Expiration": "2024-03-30"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT11H40M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "FRA",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T07:20"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "ZRH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T08:15"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LX",
+                    "FlightNumber": "3601"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "LH"
+                },
+                "Equipment": {
+                    "AircraftCode": "320"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "6",
+                    "DatePeriod": {
+                        "Effective": "2024-03-30",
+                        "Expiration": "2024-03-30"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "ZRH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T09:50"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "JFK",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T14:00"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LX",
+                    "FlightNumber": "16"
+                },
+                "Equipment": {
+                    "AircraftCode": "333",
+                    "OnBoardEquipment": {
+                        "InflightEntertainment": true,
+                        "Compartment": [
+                            {
+                                "ClassCode": "F",
+                                "ClassDesc": "FirstClass",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "C",
+                                "ClassDesc": "BusinessClass",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "E",
+                                "ClassDesc": "PremiumEconomy",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "Y",
+                                "ClassDesc": "Economy",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            }
+                        ]
+                    }
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "6",
+                    "DatePeriod": {
+                        "Effective": "2024-03-30",
+                        "Expiration": "2024-03-30"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT15H10M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "FRA",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T07:20"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "ZRH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T08:15"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LX",
+                    "FlightNumber": "3601"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "LH"
+                },
+                "Equipment": {
+                    "AircraftCode": "320"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "6",
+                    "DatePeriod": {
+                        "Effective": "2024-03-30",
+                        "Expiration": "2024-03-30"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "ZRH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T13:10"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "JFK",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T17:30"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LX",
+                    "FlightNumber": "14"
+                },
+                "Equipment": {
+                    "AircraftCode": "333",
+                    "OnBoardEquipment": {
+                        "InflightEntertainment": true,
+                        "Compartment": [
+                            {
+                                "ClassCode": "F",
+                                "ClassDesc": "FirstClass",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "C",
+                                "ClassDesc": "BusinessClass",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "E",
+                                "ClassDesc": "PremiumEconomy",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "Y",
+                                "ClassDesc": "Economy",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            }
+                        ]
+                    }
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "6",
+                    "DatePeriod": {
+                        "Effective": "2024-03-30",
+                        "Expiration": "2024-03-30"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT15H10M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "FRA",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T07:20"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "ZRH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T08:15"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "1184"
+                },
+                "Equipment": {
+                    "AircraftCode": "320"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "6",
+                    "DatePeriod": {
+                        "Effective": "2024-03-30",
+                        "Expiration": "2024-03-30"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "ZRH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T13:10"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "JFK",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T17:30"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LX",
+                    "FlightNumber": "14"
+                },
+                "Equipment": {
+                    "AircraftCode": "333",
+                    "OnBoardEquipment": {
+                        "InflightEntertainment": true,
+                        "Compartment": [
+                            {
+                                "ClassCode": "F",
+                                "ClassDesc": "FirstClass",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "C",
+                                "ClassDesc": "BusinessClass",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "E",
+                                "ClassDesc": "PremiumEconomy",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "Y",
+                                "ClassDesc": "Economy",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            }
+                        ]
+                    }
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "6",
+                    "DatePeriod": {
+                        "Effective": "2024-03-30",
+                        "Expiration": "2024-03-30"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT13H45M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "FRA",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T08:15"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "MUC",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T09:10"
+                    },
+                    "Terminal": {
+                        "Name": "2"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "96"
+                },
+                "Equipment": {
+                    "AircraftCode": "319"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "6",
+                    "DatePeriod": {
+                        "Effective": "2024-03-30",
+                        "Expiration": "2024-03-30"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "MUC",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T12:40"
+                    },
+                    "Terminal": {
+                        "Name": "2"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "JFK",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T17:00"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "410"
+                },
+                "Equipment": {
+                    "AircraftCode": "346",
+                    "OnBoardEquipment": {
+                        "InflightEntertainment": true,
+                        "Compartment": [
+                            {
+                                "ClassCode": "F",
+                                "ClassDesc": "FirstClass",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "C",
+                                "ClassDesc": "BusinessClass",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "E",
+                                "ClassDesc": "PremiumEconomy",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "Y",
+                                "ClassDesc": "Economy",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            }
+                        ]
+                    }
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "6",
+                    "DatePeriod": {
+                        "Effective": "2024-03-30",
+                        "Expiration": "2024-03-30"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT12H5M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "FRA",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T08:20"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "VIE",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T09:45"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "OS",
+                    "FlightNumber": "200"
+                },
+                "Equipment": {
+                    "AircraftCode": "320"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "6",
+                    "DatePeriod": {
+                        "Effective": "2024-03-30",
+                        "Expiration": "2024-03-30"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "VIE",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T10:40"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "JFK",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-30T15:25"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "OS",
+                    "FlightNumber": "87"
+                },
+                "Equipment": {
+                    "AircraftCode": "772"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "6",
+                    "DatePeriod": {
+                        "Effective": "2024-03-30",
+                        "Expiration": "2024-03-30"
+                    }
+                }
+            }
+        ]
+    }
+]

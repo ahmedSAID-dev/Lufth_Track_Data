@@ -2,7 +2,7 @@ import json
 import sys
 sys.path.append('..') # à optimiser
 from lufth_o_api import references as ref
-import lufth_o_api as ope
+from lufth_o_api import operations as ope
 from datetime import datetime
 
 
@@ -53,14 +53,32 @@ def publish_flight_information(flight_codes, flight_query):
 
 if __name__ == "__main__":
     date_aujourdhui = datetime.today().strftime('%Y-%m-%d')
+    
+    airports_couples = [("FRA", "JFK"), ("FRA", "MUC"), ("CDG", "FRA"), ("MUC", "JFK"), ("CDG", "MUC")]
     query_FRA_JFK = {
         'origin': 'FRA',
         'destination': 'JFK',
         'date': date_aujourdhui}
-    print(get_flights(query_FRA_JFK))
-    p_flight_info = publish_flight_information(get_flights(query_FRA_JFK), query_FRA_JFK)
-    # publish_flight_information(get_flights(query_FRA_JFK), query_FRA_JFK)
+
+    for origin, destination in airports_couples:
+        query = {
+            'origin': origin,
+            'destination': destination,
+            'date': date_aujourdhui
+        }
+
+        # Récupération et publication des informations de vol
+        flight_codes = get_flights(query)
+        flight_info = publish_flight_information(flight_codes, query)
+        # publish_flight_information(get_flights(query), query_FRA_JFK)
+        
+        # A automatiser chaque jour à 19h
+        # Enregistrement des données dans des fichiers JSON
+        with open(f"../data_json/lufth_p_flight_info_{origin}_{destination}_{datetime.now().strftime('%Y%m%d')}_1900.json", "w") as write_file:
+            json.dump(flight_info, write_file, indent=4)
+
+        with open(f"../data_json/lufth_get_flights_{origin}_{destination}_{datetime.now().strftime('%Y%m%d')}_1900.json", "w") as write_file:
+            json.dump(flight_codes, write_file, indent=4)
     
-    # A automatiser chaque jour à 19h
-    with open(f"../data_json/lufth_p_flight_info_{datetime.now().strftime('%Y%m%d')}_1900.json", "w") as write_file:
-        json.dump(p_flight_info, write_file, indent=4)
+    
+    

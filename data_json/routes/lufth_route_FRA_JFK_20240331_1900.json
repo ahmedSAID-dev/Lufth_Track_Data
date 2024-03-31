@@ -1,0 +1,178 @@
+{
+    "FlightStatusResource": {
+        "Flights": {
+            "Flight": [
+                {
+                    "Departure": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T08:35"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T06:35Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "B46"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "JFK",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T11:10"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T15:10Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "4"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "SQ",
+                        "FlightNumber": "026"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "SQ",
+                        "FlightNumber": "026"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "77W",
+                        "AircraftRegistration": "9VSWO"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                },
+                {
+                    "Departure": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T10:55"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T08:55Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "Z50"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "JFK",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T13:25"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T17:25Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "400"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "400"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "744",
+                        "AircraftRegistration": "DABVX"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                },
+                {
+                    "Departure": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T17:15"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-31T15:15Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "Z69"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "JFK",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-31T20:05"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-04-01T00:05Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "404"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "404"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "343",
+                        "AircraftRegistration": "DAIFD"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                }
+            ]
+        },
+        "Meta": {
+            "@Version": "1.0.0",
+            "Link": [
+                {
+                    "@Href": "https://api.lufthansa.com/v1/operations/flightstatus/route/FRA/JFK/2024-03-31",
+                    "@Rel": "self"
+                },
+                {
+                    "@Href": "https://api.lufthansa.com/v1/mds-references/airports/{airportCode}",
+                    "@Rel": "related"
+                }
+            ],
+            "TotalCount": 3
+        }
+    }
+}

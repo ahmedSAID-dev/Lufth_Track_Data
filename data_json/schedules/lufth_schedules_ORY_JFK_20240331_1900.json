@@ -1,0 +1,845 @@
+[
+    {
+        "TotalJourney": {
+            "Duration": "PT13H10M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:00"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LIS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:30"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "S4",
+                    "FlightNumber": "8933"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "TP"
+                },
+                "Equipment": {
+                    "AircraftCode": "32N"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "57",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-05"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LIS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T10:00"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "JFK",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T13:10"
+                    },
+                    "Terminal": {
+                        "Name": "4"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "AF",
+                    "FlightNumber": "3564"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "DL"
+                },
+                "Equipment": {
+                    "AircraftCode": "76W"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "57",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-05"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT13H10M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:00"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LIS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:30"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "TP",
+                    "FlightNumber": "441"
+                },
+                "Equipment": {
+                    "AircraftCode": "32N"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "57",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-05"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LIS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T10:00"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "JFK",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T13:10"
+                    },
+                    "Terminal": {
+                        "Name": "4"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "KL",
+                    "FlightNumber": "6098"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "DL"
+                },
+                "Equipment": {
+                    "AircraftCode": "76W"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "57",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-05"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT13H10M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:00"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LIS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:30"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "S4",
+                    "FlightNumber": "8933"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "TP"
+                },
+                "Equipment": {
+                    "AircraftCode": "32N"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "57",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-05"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LIS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T10:00"
+                    },
+                    "Terminal": {
+                        "Name": "0"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "JFK",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T13:10"
+                    },
+                    "Terminal": {
+                        "Name": "4"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "VS",
+                    "FlightNumber": "3898"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "DL"
+                },
+                "Equipment": {
+                    "AircraftCode": "76W"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "57",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-05"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT13H10M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:00"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LIS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:30"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "S4",
+                    "FlightNumber": "8933"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "TP"
+                },
+                "Equipment": {
+                    "AircraftCode": "32N"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "57",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-05"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LIS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T10:00"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "JFK",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T13:10"
+                    },
+                    "Terminal": {
+                        "Name": "4"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "KL",
+                    "FlightNumber": "6098"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "DL"
+                },
+                "Equipment": {
+                    "AircraftCode": "76W"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "57",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-05"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT13H10M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:00"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LIS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:30"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "TP",
+                    "FlightNumber": "441"
+                },
+                "Equipment": {
+                    "AircraftCode": "32N"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "57",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-05"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LIS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T10:00"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "JFK",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T13:10"
+                    },
+                    "Terminal": {
+                        "Name": "4"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "AF",
+                    "FlightNumber": "3564"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "DL"
+                },
+                "Equipment": {
+                    "AircraftCode": "76W"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "57",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-05"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT13H10M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:00"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LIS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:30"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "TP",
+                    "FlightNumber": "441"
+                },
+                "Equipment": {
+                    "AircraftCode": "32N"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "57",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-05"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LIS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T10:00"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "JFK",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T13:10"
+                    },
+                    "Terminal": {
+                        "Name": "4"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "DL",
+                    "FlightNumber": "273"
+                },
+                "Equipment": {
+                    "AircraftCode": "76W"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "57",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-05"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT13H10M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:00"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LIS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:30"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "S4",
+                    "FlightNumber": "8933"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "TP"
+                },
+                "Equipment": {
+                    "AircraftCode": "32N"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "57",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-05"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LIS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T10:00"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "JFK",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T13:10"
+                    },
+                    "Terminal": {
+                        "Name": "4"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "DL",
+                    "FlightNumber": "273"
+                },
+                "Equipment": {
+                    "AircraftCode": "76W"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "57",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-05"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT13H10M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:00"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LIS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:30"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "TP",
+                    "FlightNumber": "441"
+                },
+                "Equipment": {
+                    "AircraftCode": "32N"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "57",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-05"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LIS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T10:00"
+                    },
+                    "Terminal": {
+                        "Name": "0"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "JFK",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T13:10"
+                    },
+                    "Terminal": {
+                        "Name": "4"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "VS",
+                    "FlightNumber": "3898"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "DL"
+                },
+                "Equipment": {
+                    "AircraftCode": "76W"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "57",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-05"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT20H5M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:00"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LIS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:30"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "S4",
+                    "FlightNumber": "8933"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "TP"
+                },
+                "Equipment": {
+                    "AircraftCode": "32N"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "57",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-05"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LIS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T17:05"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "JFK",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T20:05"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "TP",
+                    "FlightNumber": "209"
+                },
+                "Equipment": {
+                    "AircraftCode": "339"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "57",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-05"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT20H5M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "ORY",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T06:00"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LIS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:30"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "TP",
+                    "FlightNumber": "441"
+                },
+                "Equipment": {
+                    "AircraftCode": "32N"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "57",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-05"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LIS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T17:05"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "JFK",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T20:05"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "TP",
+                    "FlightNumber": "209"
+                },
+                "Equipment": {
+                    "AircraftCode": "339"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "57",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-05"
+                    }
+                }
+            }
+        ]
+    }
+]

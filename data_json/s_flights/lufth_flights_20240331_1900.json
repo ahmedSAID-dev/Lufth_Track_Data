@@ -1,0 +1,1297 @@
+[
+    {
+        "Departure": {
+            "AirportCode": "CDG",
+            "ScheduledTimeLocal": {
+                "DateTime": "2024-03-31T08:10"
+            },
+            "Terminal": {
+                "Name": "1"
+            }
+        },
+        "Arrival": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+                "DateTime": "2024-03-31T09:40"
+            },
+            "Terminal": {
+                "Name": "2"
+            }
+        },
+        "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": "2227"
+        },
+        "Equipment": {
+            "AircraftCode": "32A"
+        },
+        "Details": {
+            "Stops": {
+                "StopQuantity": 0
+            },
+            "DaysOfOperation": "7",
+            "DatePeriod": {
+                "Effective": "2024-03-31",
+                "Expiration": "2024-03-31"
+            }
+        }
+    },
+    {
+        "Departure": {
+            "AirportCode": "CDG",
+            "ScheduledTimeLocal": {
+                "DateTime": "2024-03-31T12:10"
+            },
+            "Terminal": {
+                "Name": "1"
+            }
+        },
+        "Arrival": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+                "DateTime": "2024-03-31T13:40"
+            },
+            "Terminal": {
+                "Name": "2"
+            }
+        },
+        "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": "2229"
+        },
+        "OperatingCarrier": {
+            "AirlineID": "CL"
+        },
+        "Equipment": {
+            "AircraftCode": "CR9"
+        },
+        "Details": {
+            "Stops": {
+                "StopQuantity": 0
+            },
+            "DaysOfOperation": "7",
+            "DatePeriod": {
+                "Effective": "2024-03-31",
+                "Expiration": "2024-03-31"
+            }
+        }
+    },
+    {
+        "Departure": {
+            "AirportCode": "CDG",
+            "ScheduledTimeLocal": {
+                "DateTime": "2024-03-31T14:30"
+            },
+            "Terminal": {
+                "Name": "1"
+            }
+        },
+        "Arrival": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+                "DateTime": "2024-03-31T16:00"
+            },
+            "Terminal": {
+                "Name": "2"
+            }
+        },
+        "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": "2231"
+        },
+        "Equipment": {
+            "AircraftCode": "32A"
+        },
+        "Details": {
+            "Stops": {
+                "StopQuantity": 0
+            },
+            "DaysOfOperation": "247",
+            "DatePeriod": {
+                "Effective": "2024-03-31",
+                "Expiration": "2024-04-04"
+            }
+        }
+    },
+    {
+        "Departure": {
+            "AirportCode": "CDG",
+            "ScheduledTimeLocal": {
+                "DateTime": "2024-03-31T18:00"
+            },
+            "Terminal": {
+                "Name": "1"
+            }
+        },
+        "Arrival": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+                "DateTime": "2024-03-31T19:30"
+            },
+            "Terminal": {
+                "Name": "2"
+            }
+        },
+        "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": "2233"
+        },
+        "Equipment": {
+            "AircraftCode": "319"
+        },
+        "Details": {
+            "Stops": {
+                "StopQuantity": 0
+            },
+            "DaysOfOperation": "27",
+            "DatePeriod": {
+                "Effective": "2024-03-31",
+                "Expiration": "2024-04-02"
+            }
+        }
+    },
+    {
+        "Departure": {
+            "AirportCode": "CDG",
+            "ScheduledTimeLocal": {
+                "DateTime": "2024-03-31T20:30"
+            },
+            "Terminal": {
+                "Name": "1"
+            }
+        },
+        "Arrival": {
+            "AirportCode": "MUC",
+            "ScheduledTimeLocal": {
+                "DateTime": "2024-03-31T22:00"
+            },
+            "Terminal": {
+                "Name": "2"
+            }
+        },
+        "MarketingCarrier": {
+            "AirlineID": "LH",
+            "FlightNumber": "2237"
+        },
+        "Equipment": {
+            "AircraftCode": "321"
+        },
+        "Details": {
+            "Stops": {
+                "StopQuantity": 0
+            },
+            "DaysOfOperation": "137",
+            "DatePeriod": {
+                "Effective": "2024-03-31",
+                "Expiration": "2024-04-03"
+            }
+        }
+    },
+    [
+        {
+            "Departure": {
+                "AirportCode": "CDG",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T06:05"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T07:20"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "1053"
+            },
+            "Equipment": {
+                "AircraftCode": "320"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        },
+        {
+            "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T08:15"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "MUC",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T09:10"
+                },
+                "Terminal": {
+                    "Name": "2"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "96"
+            },
+            "Equipment": {
+                "AircraftCode": "320"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        }
+    ],
+    [
+        {
+            "Departure": {
+                "AirportCode": "CDG",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T06:05"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T07:20"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "1053"
+            },
+            "Equipment": {
+                "AircraftCode": "320"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        },
+        {
+            "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T10:15"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "MUC",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T11:10"
+                },
+                "Terminal": {
+                    "Name": "2"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "100"
+            },
+            "Equipment": {
+                "AircraftCode": "32N"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        }
+    ],
+    [
+        {
+            "Departure": {
+                "AirportCode": "CDG",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T06:05"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T07:20"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "1053"
+            },
+            "Equipment": {
+                "AircraftCode": "320"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        },
+        {
+            "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T08:51"
+                },
+                "Terminal": {
+                    "Name": "TN"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "AGY",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T11:53"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "3404"
+            },
+            "Equipment": {
+                "AircraftCode": "TRS"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 2
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        }
+    ],
+    [
+        {
+            "Departure": {
+                "AirportCode": "CDG",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T06:05"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T07:20"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "1053"
+            },
+            "Equipment": {
+                "AircraftCode": "320"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        },
+        {
+            "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T08:34"
+                },
+                "Terminal": {
+                    "Name": "TN"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "ZMU",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T12:10"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "3450"
+            },
+            "Equipment": {
+                "AircraftCode": "TRS"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 2
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        }
+    ],
+    [
+        {
+            "Departure": {
+                "AirportCode": "CDG",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T06:05"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T07:20"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "1053"
+            },
+            "Equipment": {
+                "AircraftCode": "320"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        },
+        {
+            "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T08:51"
+                },
+                "Terminal": {
+                    "Name": "TN"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "ZMU",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T12:26"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "3404"
+            },
+            "Equipment": {
+                "AircraftCode": "TRS"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 3
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        }
+    ],
+    [
+        {
+            "Departure": {
+                "AirportCode": "CDG",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T06:05"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T07:20"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "1053"
+            },
+            "Equipment": {
+                "AircraftCode": "320"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        },
+        {
+            "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T10:09"
+                },
+                "Terminal": {
+                    "Name": "TN"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "AGY",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T12:53"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "3408"
+            },
+            "Equipment": {
+                "AircraftCode": "TRS"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 1
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        }
+    ],
+    [
+        {
+            "Departure": {
+                "AirportCode": "CDG",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T06:05"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T07:20"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "1053"
+            },
+            "Equipment": {
+                "AircraftCode": "320"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        },
+        {
+            "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T09:34"
+                },
+                "Terminal": {
+                    "Name": "TN"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "ZMU",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T13:05"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "3452"
+            },
+            "Equipment": {
+                "AircraftCode": "TRS"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 2
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        }
+    ],
+    [
+        {
+            "Departure": {
+                "AirportCode": "CDG",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T06:05"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T07:20"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "1053"
+            },
+            "Equipment": {
+                "AircraftCode": "320"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        },
+        {
+            "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T12:15"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "MUC",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T13:10"
+                },
+                "Terminal": {
+                    "Name": "2"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "104"
+            },
+            "Equipment": {
+                "AircraftCode": "320"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        }
+    ],
+    [
+        {
+            "Departure": {
+                "AirportCode": "CDG",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T06:05"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T07:20"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "1053"
+            },
+            "Equipment": {
+                "AircraftCode": "320"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        },
+        {
+            "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T10:09"
+                },
+                "Terminal": {
+                    "Name": "TN"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "ZMU",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T13:26"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "3408"
+            },
+            "Equipment": {
+                "AircraftCode": "TRS"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 2
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        }
+    ],
+    [
+        {
+            "Departure": {
+                "AirportCode": "CDG",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T06:05"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T07:20"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "1053"
+            },
+            "Equipment": {
+                "AircraftCode": "320"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        },
+        {
+            "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T10:51"
+                },
+                "Terminal": {
+                    "Name": "TN"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "AGY",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T13:53"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "3410"
+            },
+            "Equipment": {
+                "AircraftCode": "TRS"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 2
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        }
+    ],
+    [
+        {
+            "Departure": {
+                "AirportCode": "CDG",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T06:05"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T07:20"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "1053"
+            },
+            "Equipment": {
+                "AircraftCode": "320"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        },
+        {
+            "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T13:15"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "MUC",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T14:10"
+                },
+                "Terminal": {
+                    "Name": "2"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "106"
+            },
+            "Equipment": {
+                "AircraftCode": "321"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        }
+    ],
+    [
+        {
+            "Departure": {
+                "AirportCode": "CDG",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T06:05"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T07:20"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "1053"
+            },
+            "Equipment": {
+                "AircraftCode": "320"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        },
+        {
+            "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T10:51"
+                },
+                "Terminal": {
+                    "Name": "TN"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "ZMU",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T14:26"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "3410"
+            },
+            "Equipment": {
+                "AircraftCode": "TRS"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 3
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        }
+    ],
+    [
+        {
+            "Departure": {
+                "AirportCode": "CDG",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T06:05"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T07:20"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "1053"
+            },
+            "Equipment": {
+                "AircraftCode": "320"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        },
+        {
+            "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T12:09"
+                },
+                "Terminal": {
+                    "Name": "TN"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "AGY",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T14:53"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "3414"
+            },
+            "Equipment": {
+                "AircraftCode": "TRS"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 1
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        }
+    ],
+    [
+        {
+            "Departure": {
+                "AirportCode": "CDG",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T06:05"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T07:20"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "1053"
+            },
+            "Equipment": {
+                "AircraftCode": "320"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        },
+        {
+            "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T11:34"
+                },
+                "Terminal": {
+                    "Name": "TN"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "ZMU",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T15:12"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "3456"
+            },
+            "Equipment": {
+                "AircraftCode": "TRS"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 2
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        }
+    ],
+    [
+        {
+            "Departure": {
+                "AirportCode": "CDG",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T06:05"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T07:20"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "1053"
+            },
+            "Equipment": {
+                "AircraftCode": "320"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        },
+        {
+            "Departure": {
+                "AirportCode": "FRA",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T12:09"
+                },
+                "Terminal": {
+                    "Name": "TN"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "ZMU",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T15:27"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "LH",
+                "FlightNumber": "3414"
+            },
+            "Equipment": {
+                "AircraftCode": "TRS"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 2
+                },
+                "DaysOfOperation": "7",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-03-31"
+                }
+            }
+        }
+    ]
+]

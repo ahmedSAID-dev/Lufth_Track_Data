@@ -1,0 +1,530 @@
+[
+    {
+        "TotalJourney": {
+            "Duration": "PT4H59M"
+        },
+        "Flight": {
+            "Departure": {
+                "AirportCode": "LAS",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T07:00"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "JFK",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T14:59"
+                },
+                "Terminal": {
+                    "Name": "4"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "DL",
+                "FlightNumber": "510"
+            },
+            "Equipment": {
+                "AircraftCode": "32Q"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "14567",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-04-08"
+                }
+            }
+        }
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT5H"
+        },
+        "Flight": {
+            "Departure": {
+                "AirportCode": "LAS",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T09:50"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "JFK",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T17:50"
+                },
+                "Terminal": {
+                    "Name": "4"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "DL",
+                "FlightNumber": "333"
+            },
+            "Equipment": {
+                "AircraftCode": "32Q"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "1234567",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-04-07"
+                }
+            }
+        }
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT5H6M"
+        },
+        "Flight": {
+            "Departure": {
+                "AirportCode": "LAS",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T09:50"
+                },
+                "Terminal": {
+                    "Name": "3"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "JFK",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T17:56"
+                },
+                "Terminal": {
+                    "Name": "5"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "B6",
+                "FlightNumber": "448"
+            },
+            "Equipment": {
+                "AircraftCode": "32S"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "1237",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-04-03"
+                }
+            }
+        }
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT5H12M"
+        },
+        "Flight": {
+            "Departure": {
+                "AirportCode": "LAS",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T11:18"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "JFK",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T19:30"
+                },
+                "Terminal": {
+                    "Name": "4"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "DL",
+                "FlightNumber": "795"
+            },
+            "Equipment": {
+                "AircraftCode": "32Q"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "123457",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-04-07"
+                }
+            }
+        }
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT5H12M"
+        },
+        "Flight": {
+            "Departure": {
+                "AirportCode": "LAS",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T12:22"
+                },
+                "Terminal": {
+                    "Name": "3"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "JFK",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T20:34"
+                },
+                "Terminal": {
+                    "Name": "5"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "B6",
+                "FlightNumber": "148"
+            },
+            "Equipment": {
+                "AircraftCode": "320"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "1237",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-04-03"
+                }
+            }
+        }
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT5H6M"
+        },
+        "Flight": {
+            "Departure": {
+                "AirportCode": "LAS",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T15:50"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "JFK",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T23:56"
+                },
+                "Terminal": {
+                    "Name": "4"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "DL",
+                "FlightNumber": "548"
+            },
+            "Equipment": {
+                "AircraftCode": "32Q"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "123457",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-04-07"
+                }
+            }
+        }
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT5H1M"
+        },
+        "Flight": {
+            "Departure": {
+                "AirportCode": "LAS",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T20:53"
+                },
+                "Terminal": {
+                    "Name": "3"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "JFK",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-04-01T04:54"
+                },
+                "Terminal": {
+                    "Name": "5"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "B6",
+                "FlightNumber": "948"
+            },
+            "Equipment": {
+                "AircraftCode": "32S"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "12347",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-04-04"
+                }
+            }
+        }
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT4H57M"
+        },
+        "Flight": {
+            "Departure": {
+                "AirportCode": "LAS",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T23:03"
+                },
+                "Terminal": {
+                    "Name": "1"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "JFK",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-04-01T07:00"
+                },
+                "Terminal": {
+                    "Name": "4"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "DL",
+                "FlightNumber": "778"
+            },
+            "Equipment": {
+                "AircraftCode": "32Q"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "123457",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-04-07"
+                }
+            }
+        }
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT4H59M"
+        },
+        "Flight": {
+            "Departure": {
+                "AirportCode": "LAS",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-03-31T23:59"
+                },
+                "Terminal": {
+                    "Name": "3"
+                }
+            },
+            "Arrival": {
+                "AirportCode": "JFK",
+                "ScheduledTimeLocal": {
+                    "DateTime": "2024-04-01T07:58"
+                },
+                "Terminal": {
+                    "Name": "5"
+                }
+            },
+            "MarketingCarrier": {
+                "AirlineID": "B6",
+                "FlightNumber": "2348"
+            },
+            "Equipment": {
+                "AircraftCode": "32S"
+            },
+            "Details": {
+                "Stops": {
+                    "StopQuantity": 0
+                },
+                "DaysOfOperation": "12347",
+                "DatePeriod": {
+                    "Effective": "2024-03-31",
+                    "Expiration": "2024-04-04"
+                }
+            }
+        }
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT11H58M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T00:05"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "BNA",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T05:35"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "NK",
+                    "FlightNumber": "415"
+                },
+                "Equipment": {
+                    "AircraftCode": "32A"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "1234567",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-08"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "BNA",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T11:43"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "JFK",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T15:03"
+                    },
+                    "Terminal": {
+                        "Name": "4"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "DL",
+                    "FlightNumber": "5832"
+                },
+                "Equipment": {
+                    "AircraftCode": "E75"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "1234567",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-08"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT19H2M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T00:05"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "BNA",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T05:35"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "NK",
+                    "FlightNumber": "415"
+                },
+                "Equipment": {
+                    "AircraftCode": "32A"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "1234567",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "BNA",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T18:42"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "JFK",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T22:07"
+                    },
+                    "Terminal": {
+                        "Name": "4"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "DL",
+                    "FlightNumber": "4988"
+                },
+                "Equipment": {
+                    "AircraftCode": "CR9"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "1234567",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            }
+        ]
+    }
+]

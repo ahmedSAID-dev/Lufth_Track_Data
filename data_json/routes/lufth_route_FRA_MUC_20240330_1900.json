@@ -1,0 +1,193 @@
+{
+    "FlightStatusResource": {
+        "Flights": {
+            "Flight": [
+                {
+                    "Departure": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-30T18:15"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-30T17:15Z"
+                        },
+                        "ActualTimeLocal": {
+                            "DateTime": "2024-03-30T18:12"
+                        },
+                        "ActualTimeUTC": {
+                            "DateTime": "2024-03-30T17:12Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "FE",
+                            "Definition": "Flight Early"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "A11"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "MUC",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-30T19:10"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-30T18:10Z"
+                        },
+                        "EstimatedTimeLocal": {
+                            "DateTime": "2024-03-30T18:55"
+                        },
+                        "EstimatedTimeUTC": {
+                            "DateTime": "2024-03-30T17:55Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "FE",
+                            "Definition": "Flight Early"
+                        },
+                        "Terminal": {
+                            "Name": "2",
+                            "Gate": "G16"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "116"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "116"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "32V",
+                        "AircraftRegistration": "DAIWD"
+                    },
+                    "FlightStatus": {
+                        "Code": "DP",
+                        "Definition": "Flight Departed"
+                    },
+                    "ServiceType": "Passenger"
+                },
+                {
+                    "Departure": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-30T19:15"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-30T18:15Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "A56"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "MUC",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-30T20:10"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-30T19:10Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "2",
+                            "Gate": "G40"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "118"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "118"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "321",
+                        "AircraftRegistration": "DAIRR"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                },
+                {
+                    "Departure": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-30T21:15"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-30T20:15Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "A01"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "MUC",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-30T22:10"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-30T21:10Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "2",
+                            "Gate": "G30"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "122"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "122"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "321",
+                        "AircraftRegistration": "DAISB"
+                    },
+                    "FlightStatus": {
+                        "Code": "NA",
+                        "Definition": "No status"
+                    },
+                    "ServiceType": "Passenger"
+                }
+            ]
+        },
+        "Meta": {
+            "@Version": "1.0.0",
+            "Link": [
+                {
+                    "@Href": "https://api.lufthansa.com/v1/operations/flightstatus/route/FRA/MUC/2024-03-30",
+                    "@Rel": "self"
+                },
+                {
+                    "@Href": "https://api.lufthansa.com/v1/mds-references/airports/{airportCode}",
+                    "@Rel": "related"
+                }
+            ],
+            "TotalCount": 3
+        }
+    }
+}

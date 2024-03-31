@@ -1,0 +1,87 @@
+{
+    "FlightStatusResource": {
+        "Flights": {
+            "Flight": [
+                {
+                    "Departure": {
+                        "AirportCode": "CDG",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-30T18:25"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-30T17:25Z"
+                        },
+                        "ActualTimeLocal": {
+                            "DateTime": "2024-03-30T18:25"
+                        },
+                        "ActualTimeUTC": {
+                            "DateTime": "2024-03-30T17:25Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "OT",
+                            "Definition": "Flight On Time"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "063"
+                        }
+                    },
+                    "Arrival": {
+                        "AirportCode": "FRA",
+                        "ScheduledTimeLocal": {
+                            "DateTime": "2024-03-30T19:45"
+                        },
+                        "ScheduledTimeUTC": {
+                            "DateTime": "2024-03-30T18:45Z"
+                        },
+                        "EstimatedTimeLocal": {
+                            "DateTime": "2024-03-30T19:27"
+                        },
+                        "EstimatedTimeUTC": {
+                            "DateTime": "2024-03-30T18:27Z"
+                        },
+                        "TimeStatus": {
+                            "Code": "FE",
+                            "Definition": "Flight Early"
+                        },
+                        "Terminal": {
+                            "Name": "1",
+                            "Gate": "A40"
+                        }
+                    },
+                    "MarketingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "1041"
+                    },
+                    "OperatingCarrier": {
+                        "AirlineID": "LH",
+                        "FlightNumber": "1041"
+                    },
+                    "Equipment": {
+                        "AircraftCode": "32A",
+                        "AircraftRegistration": "DAIUL"
+                    },
+                    "FlightStatus": {
+                        "Code": "DP",
+                        "Definition": "Flight Departed"
+                    },
+                    "ServiceType": "Passenger"
+                }
+            ]
+        },
+        "Meta": {
+            "@Version": "1.0.0",
+            "Link": [
+                {
+                    "@Href": "https://api.lufthansa.com/v1/operations/flightstatus/route/CDG/FRA/2024-03-30",
+                    "@Rel": "self"
+                },
+                {
+                    "@Href": "https://api.lufthansa.com/v1/mds-references/airports/{airportCode}",
+                    "@Rel": "related"
+                }
+            ],
+            "TotalCount": 1
+        }
+    }
+}

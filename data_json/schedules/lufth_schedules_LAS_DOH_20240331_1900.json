@@ -1,0 +1,1215 @@
+[
+    {
+        "TotalJourney": {
+            "Duration": "PT19H55M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T18:15"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "FRA",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T14:40"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "4353"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "4Y"
+                },
+                "Equipment": {
+                    "AircraftCode": "333",
+                    "OnBoardEquipment": {
+                        "InflightEntertainment": true,
+                        "Compartment": [
+                            {
+                                "ClassCode": "F",
+                                "ClassDesc": "FirstClass",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "C",
+                                "ClassDesc": "BusinessClass",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "E",
+                                "ClassDesc": "PremiumEconomy",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "Y",
+                                "ClassDesc": "Economy",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            }
+                        ]
+                    }
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "57",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "FRA",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T17:15"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "DOH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-02T00:10"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "FB",
+                    "FlightNumber": "1915"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "QR"
+                },
+                "Equipment": {
+                    "AircraftCode": "320"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "57",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT19H55M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T18:15"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "FRA",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T14:40"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "4353"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "4Y"
+                },
+                "Equipment": {
+                    "AircraftCode": "333",
+                    "OnBoardEquipment": {
+                        "InflightEntertainment": true,
+                        "Compartment": [
+                            {
+                                "ClassCode": "F",
+                                "ClassDesc": "FirstClass",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "C",
+                                "ClassDesc": "BusinessClass",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "E",
+                                "ClassDesc": "PremiumEconomy",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "Y",
+                                "ClassDesc": "Economy",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            }
+                        ]
+                    }
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "57",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "FRA",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T17:15"
+                    },
+                    "Terminal": {
+                        "Name": "2"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "DOH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-02T00:10"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "QR",
+                    "FlightNumber": "68"
+                },
+                "Equipment": {
+                    "AircraftCode": "77W"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "57",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT23H10M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T18:15"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "FRA",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T14:40"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "4353"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "4Y"
+                },
+                "Equipment": {
+                    "AircraftCode": "333",
+                    "OnBoardEquipment": {
+                        "InflightEntertainment": true,
+                        "Compartment": [
+                            {
+                                "ClassCode": "F",
+                                "ClassDesc": "FirstClass",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "C",
+                                "ClassDesc": "BusinessClass",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "E",
+                                "ClassDesc": "PremiumEconomy",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "Y",
+                                "ClassDesc": "Economy",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            }
+                        ]
+                    }
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "57",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "FRA",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T20:30"
+                    },
+                    "Terminal": {
+                        "Name": "2"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "DOH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-02T03:25"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "QR",
+                    "FlightNumber": "72"
+                },
+                "Equipment": {
+                    "AircraftCode": "789"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "57",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "PT23H10M"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T18:15"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "FRA",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T14:40"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "4353"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "4Y"
+                },
+                "Equipment": {
+                    "AircraftCode": "333",
+                    "OnBoardEquipment": {
+                        "InflightEntertainment": true,
+                        "Compartment": [
+                            {
+                                "ClassCode": "F",
+                                "ClassDesc": "FirstClass",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "C",
+                                "ClassDesc": "BusinessClass",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "E",
+                                "ClassDesc": "PremiumEconomy",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            },
+                            {
+                                "ClassCode": "Y",
+                                "ClassDesc": "Economy",
+                                "FlyNet": true,
+                                "SeatPower": true,
+                                "Usb": true,
+                                "LiveTv": true
+                            }
+                        ]
+                    }
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "57",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "FRA",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T20:30"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "DOH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-02T03:25"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "FB",
+                    "FlightNumber": "1919"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "QR"
+                },
+                "Equipment": {
+                    "AircraftCode": "320"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "57",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-07"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "P1DT6H"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:15"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "ORD",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T12:56"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "9313"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "UA"
+                },
+                "Equipment": {
+                    "AircraftCode": "7M9"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-28"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "ORD",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T15:45"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LHR",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T05:55"
+                    },
+                    "Terminal": {
+                        "Name": "2"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "9357"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "UA"
+                },
+                "Equipment": {
+                    "AircraftCode": "763"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-28"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LHR",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T14:10"
+                    },
+                    "Terminal": {
+                        "Name": "5"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "DOH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T23:15"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "BA",
+                    "FlightNumber": "127"
+                },
+                "Equipment": {
+                    "AircraftCode": "777"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-28"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "P1DT6H"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:15"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "ORD",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T12:56"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "9313"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "UA"
+                },
+                "Equipment": {
+                    "AircraftCode": "7M9"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-28"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "ORD",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T21:35"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LHR",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T11:45"
+                    },
+                    "Terminal": {
+                        "Name": "2"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "9355"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "UA"
+                },
+                "Equipment": {
+                    "AircraftCode": "763"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-28"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LHR",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T14:10"
+                    },
+                    "Terminal": {
+                        "Name": "5"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "DOH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T23:15"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "QR",
+                    "FlightNumber": "5942"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "BA"
+                },
+                "Equipment": {
+                    "AircraftCode": "777"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-28"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "P1DT6H"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:15"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "ORD",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T12:56"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "9313"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "UA"
+                },
+                "Equipment": {
+                    "AircraftCode": "7M9"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-28"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "ORD",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T18:50"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LHR",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T09:00"
+                    },
+                    "Terminal": {
+                        "Name": "2"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "9349"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "UA"
+                },
+                "Equipment": {
+                    "AircraftCode": "763"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-28"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LHR",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T14:10"
+                    },
+                    "Terminal": {
+                        "Name": "5"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "DOH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T23:15"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "QR",
+                    "FlightNumber": "5942"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "BA"
+                },
+                "Equipment": {
+                    "AircraftCode": "777"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-28"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "P1DT6H"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:15"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "ORD",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T12:56"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "9313"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "UA"
+                },
+                "Equipment": {
+                    "AircraftCode": "7M9"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-28"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "ORD",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T18:50"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LHR",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T09:00"
+                    },
+                    "Terminal": {
+                        "Name": "2"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "9349"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "UA"
+                },
+                "Equipment": {
+                    "AircraftCode": "763"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-28"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LHR",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T14:10"
+                    },
+                    "Terminal": {
+                        "Name": "5"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "DOH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T23:15"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "BA",
+                    "FlightNumber": "127"
+                },
+                "Equipment": {
+                    "AircraftCode": "777"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-28"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "P1DT6H"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:15"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "ORD",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T12:56"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "9313"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "UA"
+                },
+                "Equipment": {
+                    "AircraftCode": "7M9"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-28"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "ORD",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T21:35"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LHR",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T11:45"
+                    },
+                    "Terminal": {
+                        "Name": "2"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "9355"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "UA"
+                },
+                "Equipment": {
+                    "AircraftCode": "763"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-28"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LHR",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T14:10"
+                    },
+                    "Terminal": {
+                        "Name": "5"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "DOH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T23:15"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "BA",
+                    "FlightNumber": "127"
+                },
+                "Equipment": {
+                    "AircraftCode": "777"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-28"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "TotalJourney": {
+            "Duration": "P1DT6H"
+        },
+        "Flight": [
+            {
+                "Departure": {
+                    "AirportCode": "LAS",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T07:15"
+                    },
+                    "Terminal": {
+                        "Name": "3"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "ORD",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T12:56"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "9313"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "UA"
+                },
+                "Equipment": {
+                    "AircraftCode": "7M9"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-28"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "ORD",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-03-31T15:45"
+                    },
+                    "Terminal": {
+                        "Name": "1"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "LHR",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T05:55"
+                    },
+                    "Terminal": {
+                        "Name": "2"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "LH",
+                    "FlightNumber": "9357"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "UA"
+                },
+                "Equipment": {
+                    "AircraftCode": "763"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-28"
+                    }
+                }
+            },
+            {
+                "Departure": {
+                    "AirportCode": "LHR",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T14:10"
+                    },
+                    "Terminal": {
+                        "Name": "5"
+                    }
+                },
+                "Arrival": {
+                    "AirportCode": "DOH",
+                    "ScheduledTimeLocal": {
+                        "DateTime": "2024-04-01T23:15"
+                    }
+                },
+                "MarketingCarrier": {
+                    "AirlineID": "QR",
+                    "FlightNumber": "5942"
+                },
+                "OperatingCarrier": {
+                    "AirlineID": "BA"
+                },
+                "Equipment": {
+                    "AircraftCode": "777"
+                },
+                "Details": {
+                    "Stops": {
+                        "StopQuantity": 0
+                    },
+                    "DaysOfOperation": "7",
+                    "DatePeriod": {
+                        "Effective": "2024-03-31",
+                        "Expiration": "2024-04-28"
+                    }
+                }
+            }
+        ]
+    }
+]
