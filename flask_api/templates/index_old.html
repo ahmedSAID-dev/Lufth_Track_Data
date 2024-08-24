@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flights and Airports - LUFTH_TRACK_DATA</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <style>
+    /* Styles for the page layout and elements */
+    body {
+      background-color: ;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    #graph {
+      width: 100%;
+      height: 80vh;
+      margin: 20px auto;
+    }
+
+    .radio-buttons {
+      margin-top: 20px;
+      display: inline-block;
+    }
+
+    .radio-buttons form {
+      display: inline-block;
+    }
+
+    .logo {
+      width: 100px; /* Reduce logo size */
+      height: 100px; /* Reduce logo size */
+      margin-right: 20px;
+    }
+
+    .header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #002b36;
+      padding: 10px;
+      color: white;
+    }
+
+    .app-name {
+      flex: 1;
+      font-size: 2em;
+      font-weight: bold;
+    }
+
+    .header a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.5em;
+    }
+
+    .header a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="{{ url_for('static', filename='images/logo_LUFTH_TRACK_DATA_250x250.png') }}" alt="LUFTH TRACK DATA Logo">
+    <div class="app-name">LUFTH_TRACK_DATA</div>
+    <a href="https://www.lufthansa.com/" target="_blank">Site Officiel Lufthansa</a>
+    <a href="{{ url_for('logout') }}" style="color: white; text-decoration: none; margin-left: 20px;">Logout</a>
+  </div>
+
+  <div class="radio-buttons">
+    <form id="flightTypeForm">
+      <input type="radio" id="allFlights" name="flightType" value="all" checked>
+      <label for="allFlights">All Flights</label>
+      <input type="radio" id="singleFlight" name="flightType" value="single">
+      <label for="singleFlight">Single Flights</label>
+      <input type="radio" id="connectingFlight" name="flightType" value="connecting">
+      <label for="connectingFlight">Connecting Flights</label>
+    </form>
+  </div>
+
+  <div id="graph"></div>
+
+  <script type="text/javascript">
+    // Script to manage graph display and form interactions
+    document.addEventListener('DOMContentLoaded', function() {
+      // Get graph container and initial data
+      var graphDiv = document.getElementById('graph');
+      var graphJSON = {{ graphJSON | safe }};
+      Plotly.newPlot(graphDiv, graphJSON.data, graphJSON.layout);
+
+      // Add event listener for flight type change
+      var form = document.getElementById('flightTypeForm');
+      form.addEventListener('change', function() {
+        var formData = new FormData(form);
+        fetch('/', {
+          method: 'POST',
+          body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+          var graphJSON = JSON.parse(data.graphJSON);
+          Plotly.react(graphDiv, graphJSON.data, graphJSON.layout);
+        })
+        .catch(error => console.error('Error:', error));
+      });
+    });
+  </script>
+</body>
+</html>

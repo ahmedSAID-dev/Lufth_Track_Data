@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flights and Airports - LUFTH_TRACK_DATA</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="header">
+        <div class="logo-container">
+            <img src="{{ url_for('static', filename='images/logo_LUFTH_TRACK_DATA_250x250.png') }}" alt="Logo" class = "logo" >
+        </div>
+      <div class="app-name">LUFTH_TRACK_DATA</div>
+      <a href="https://www.lufthansa.com/" style="color: #1B84a0" target="_blank">Site Officiel Lufthansa</a>
+      <a href="{{ url_for('logout') }}" style="color: #1B84a0; text-decoration: none; margin-left: 20px;">Logout</a>
+    </div>
+  
+    <div class="radio-buttons">
+      <form id="flightTypeForm">
+        <input type="radio" id="allFlights" name="flightType" value="all" checked>
+        <label for="allFlights">All Flights</label>
+        <input type="radio" id="singleFlight" name="flightType" value="single">
+        <label for="singleFlight">Single Flights</label>
+        <input type="radio" id="connectingFlight" name="flightType" value="connecting">
+        <label for="connectingFlight">Connecting Flights</label>
+      </form>
+      <form action="{{ url_for('airport') }}" method="get">
+        <button type="submit">Filtrer par Aéroport</button>
+      </form>
+    </div>
+
+
+  
+    <div id="graph"></div>
+  
+    <script type="text/javascript">
+      // Script to manage graph display and form interactions
+      document.addEventListener('DOMContentLoaded', function() {
+        // Get graph container and initial data
+        var graphDiv = document.getElementById('graph');
+        var graphJSON = {{ graphJSON | safe }};
+        Plotly.newPlot(graphDiv, graphJSON.data, graphJSON.layout);
+  
+        // Add event listener for flight type change
+        var form = document.getElementById('flightTypeForm');
+        form.addEventListener('change', function() {
+          var formData = new FormData(form);
+          fetch('/', {
+            method: 'POST',
+            body: formData
+          })
+          .then(response => response.json())
+          .then(data => {
+            var graphJSON = JSON.parse(data.graphJSON);
+            Plotly.react(graphDiv, graphJSON.data, graphJSON.layout);
+          })
+          .catch(error => console.error('Error:', error));
+        });
+      });
+    </script>
+  </body>
+  </html>
+  

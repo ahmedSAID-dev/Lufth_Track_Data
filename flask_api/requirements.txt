@@ -1,0 +1,6 @@
+flask
+pymongo
+plotly
+pandas
+flask_caching
+flask_login

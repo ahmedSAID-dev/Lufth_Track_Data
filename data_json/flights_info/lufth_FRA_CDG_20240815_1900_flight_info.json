@@ -1,0 +1,114 @@
+[
+    {
+        "type": "single flight",
+        "status": "{\"FlightStatusResource\":{\"Flights\":{\"Flight\":[{\"Departure\":{\"AirportCode\":\"FRA\",\"ScheduledTimeLocal\":{\"DateTime\":\"2024-08-15T07:20\"},\"ScheduledTimeUTC\":{\"DateTime\":\"2024-08-15T05:20Z\"},\"ActualTimeLocal\":{\"DateTime\":\"2024-08-15T07:26\"},\"ActualTimeUTC\":{\"DateTime\":\"2024-08-15T05:26Z\"},\"TimeStatus\":{\"Code\":\"OT\",\"Definition\":\"Flight On Time\"},\"Terminal\":{\"Name\":\"1\",\"Gate\":\"A13\"}},\"Arrival\":{\"AirportCode\":\"CDG\",\"ScheduledTimeLocal\":{\"DateTime\":\"2024-08-15T08:35\"},\"ScheduledTimeUTC\":{\"DateTime\":\"2024-08-15T06:35Z\"},\"ActualTimeLocal\":{\"DateTime\":\"2024-08-15T08:35\"},\"ActualTimeUTC\":{\"DateTime\":\"2024-08-15T06:35Z\"},\"TimeStatus\":{\"Code\":\"OT\",\"Definition\":\"Flight On Time\"},\"Terminal\":{\"Name\":\"1\",\"Gate\":\"064\"}},\"MarketingCarrier\":{\"AirlineID\":\"LH\",\"FlightNumber\":\"1026\"},\"OperatingCarrier\":{\"AirlineID\":\"LH\",\"FlightNumber\":\"1026\"},\"Equipment\":{\"AircraftCode\":\"32A\",\"AircraftRegistration\":\"DAIZT\"},\"FlightStatus\":{\"Code\":\"LD\",\"Definition\":\"Flight Landed\"},\"ServiceType\":\"Passenger\"}]},\"Meta\":{\"@Version\":\"1.0.0\",\"Link\":[{\"@Href\":\"https://api.lufthansa.com/v1/operations/flightstatus/LH1026/2024-08-15\",\"@Rel\":\"self\"},{\"@Href\":\"https://api.lufthansa.com/v1/mds-references/airports/{airportCode}\",\"@Rel\":\"related\"}]}}}"
+    },
+    {
+        "type": "single flight",
+        "status": "{\"FlightStatusResource\":{\"Flights\":{\"Flight\":[{\"Departure\":{\"AirportCode\":\"FRA\",\"ScheduledTimeLocal\":{\"DateTime\":\"2024-08-15T08:35\"},\"ScheduledTimeUTC\":{\"DateTime\":\"2024-08-15T06:35Z\"},\"ActualTimeLocal\":{\"DateTime\":\"2024-08-15T08:49\"},\"ActualTimeUTC\":{\"DateTime\":\"2024-08-15T06:49Z\"},\"TimeStatus\":{\"Code\":\"OT\",\"Definition\":\"Flight On Time\"},\"Terminal\":{\"Name\":\"1\",\"Gate\":\"A21\"}},\"Arrival\":{\"AirportCode\":\"CDG\",\"ScheduledTimeLocal\":{\"DateTime\":\"2024-08-15T09:50\"},\"ScheduledTimeUTC\":{\"DateTime\":\"2024-08-15T07:50Z\"},\"ActualTimeLocal\":{\"DateTime\":\"2024-08-15T09:51\"},\"ActualTimeUTC\":{\"DateTime\":\"2024-08-15T07:51Z\"},\"TimeStatus\":{\"Code\":\"OT\",\"Definition\":\"Flight On Time\"},\"Terminal\":{\"Name\":\"1\",\"Gate\":\"061\"}},\"MarketingCarrier\":{\"AirlineID\":\"LH\",\"FlightNumber\":\"1028\"},\"OperatingCarrier\":{\"AirlineID\":\"LH\",\"FlightNumber\":\"1028\"},\"Equipment\":{\"AircraftCode\":\"320\",\"AircraftRegistration\":\"DAIZF\"},\"FlightStatus\":{\"Code\":\"LD\",\"Definition\":\"Flight Landed\"},\"ServiceType\":\"Passenger\"}]},\"Meta\":{\"@Version\":\"1.0.0\",\"Link\":[{\"@Href\":\"https://api.lufthansa.com/v1/operations/flightstatus/LH1028/2024-08-15\",\"@Rel\":\"self\"},{\"@Href\":\"https://api.lufthansa.com/v1/mds-references/airports/{airportCode}\",\"@Rel\":\"related\"}]}}}"
+    },
+    {
+        "type": "single flight",
+        "status": "{\"FlightStatusResource\":{\"Flights\":{\"Flight\":[{\"Departure\":{\"AirportCode\":\"FRA\",\"ScheduledTimeLocal\":{\"DateTime\":\"2024-08-15T09:30\"},\"ScheduledTimeUTC\":{\"DateTime\":\"2024-08-15T07:30Z\"},\"ActualTimeLocal\":{\"DateTime\":\"2024-08-15T09:48\"},\"ActualTimeUTC\":{\"DateTime\":\"2024-08-15T07:48Z\"},\"TimeStatus\":{\"Code\":\"DL\",\"Definition\":\"Flight Delayed\"},\"Terminal\":{\"Name\":\"1\",\"Gate\":\"A22\"}},\"Arrival\":{\"AirportCode\":\"CDG\",\"ScheduledTimeLocal\":{\"DateTime\":\"2024-08-15T10:45\"},\"ScheduledTimeUTC\":{\"DateTime\":\"2024-08-15T08:45Z\"},\"EstimatedTimeLocal\":{\"DateTime\":\"2024-08-15T11:09\"},\"EstimatedTimeUTC\":{\"DateTime\":\"2024-08-15T09:09Z\"},\"ActualTimeLocal\":{\"DateTime\":\"2024-08-15T10:51\"},\"ActualTimeUTC\":{\"DateTime\":\"2024-08-15T08:51Z\"},\"TimeStatus\":{\"Code\":\"DL\",\"Definition\":\"Flight Delayed\"},\"Terminal\":{\"Name\":\"1\",\"Gate\":\"065\"}},\"MarketingCarrier\":{\"AirlineID\":\"LH\",\"FlightNumber\":\"1030\"},\"OperatingCarrier\":{\"AirlineID\":\"LH\",\"FlightNumber\":\"1030\"},\"Equipment\":{\"AircraftCode\":\"32N\",\"AircraftRegistration\":\"DAINU\"},\"FlightStatus\":{\"Code\":\"LD\",\"Definition\":\"Flight Landed\"},\"ServiceType\":\"Passenger\"}]},\"Meta\":{\"@Version\":\"1.0.0\",\"Link\":[{\"@Href\":\"https://api.lufthansa.com/v1/operations/flightstatus/LH1030/2024-08-15\",\"@Rel\":\"self\"},{\"@Href\":\"https://api.lufthansa.com/v1/mds-references/airports/{airportCode}\",\"@Rel\":\"related\"}]}}}"
+    },
+    {
+        "type": "single flight",
+        "status": "{\"FlightStatusResource\":{\"Flights\":{\"Flight\":[{\"Departure\":{\"AirportCode\":\"FRA\",\"ScheduledTimeLocal\":{\"DateTime\":\"2024-08-15T12:25\"},\"ScheduledTimeUTC\":{\"DateTime\":\"2024-08-15T10:25Z\"},\"ActualTimeLocal\":{\"DateTime\":\"2024-08-15T12:59\"},\"ActualTimeUTC\":{\"DateTime\":\"2024-08-15T10:59Z\"},\"TimeStatus\":{\"Code\":\"DL\",\"Definition\":\"Flight Delayed\"},\"Terminal\":{\"Name\":\"1\",\"Gate\":\"A38\"}},\"Arrival\":{\"AirportCode\":\"CDG\",\"ScheduledTimeLocal\":{\"DateTime\":\"2024-08-15T13:40\"},\"ScheduledTimeUTC\":{\"DateTime\":\"2024-08-15T11:40Z\"},\"ActualTimeLocal\":{\"DateTime\":\"2024-08-15T13:59\"},\"ActualTimeUTC\":{\"DateTime\":\"2024-08-15T11:59Z\"},\"TimeStatus\":{\"Code\":\"DL\",\"Definition\":\"Flight Delayed\"},\"Terminal\":{\"Name\":\"1\",\"Gate\":\"067\"}},\"MarketingCarrier\":{\"AirlineID\":\"LH\",\"FlightNumber\":\"1034\"},\"OperatingCarrier\":{\"AirlineID\":\"LH\",\"FlightNumber\":\"1034\"},\"Equipment\":{\"AircraftCode\":\"321\",\"AircraftRegistration\":\"DAIRK\"},\"FlightStatus\":{\"Code\":\"LD\",\"Definition\":\"Flight Landed\"},\"ServiceType\":\"Passenger\"}]},\"Meta\":{\"@Version\":\"1.0.0\",\"Link\":[{\"@Href\":\"https://api.lufthansa.com/v1/operations/flightstatus/LH1034/2024-08-15\",\"@Rel\":\"self\"},{\"@Href\":\"https://api.lufthansa.com/v1/mds-references/airports/{airportCode}\",\"@Rel\":\"related\"}]}}}"
+    },
+    {
+        "type": "single flight",
+        "status": "{\"FlightStatusResource\":{\"Flights\":{\"Flight\":[{\"Departure\":{\"AirportCode\":\"FRA\",\"ScheduledTimeLocal\":{\"DateTime\":\"2024-08-15T16:30\"},\"ScheduledTimeUTC\":{\"DateTime\":\"2024-08-15T14:30Z\"},\"ActualTimeLocal\":{\"DateTime\":\"2024-08-15T16:39\"},\"ActualTimeUTC\":{\"DateTime\":\"2024-08-15T14:39Z\"},\"TimeStatus\":{\"Code\":\"OT\",\"Definition\":\"Flight On Time\"},\"Terminal\":{\"Name\":\"1\",\"Gate\":\"B19\"}},\"Arrival\":{\"AirportCode\":\"CDG\",\"ScheduledTimeLocal\":{\"DateTime\":\"2024-08-15T17:45\"},\"ScheduledTimeUTC\":{\"DateTime\":\"2024-08-15T15:45Z\"},\"ActualTimeLocal\":{\"DateTime\":\"2024-08-15T17:47\"},\"ActualTimeUTC\":{\"DateTime\":\"2024-08-15T15:47Z\"},\"TimeStatus\":{\"Code\":\"OT\",\"Definition\":\"Flight On Time\"},\"Terminal\":{\"Name\":\"1\",\"Gate\":\"068\"}},\"MarketingCarrier\":{\"AirlineID\":\"LH\",\"FlightNumber\":\"1040\"},\"OperatingCarrier\":{\"AirlineID\":\"LH\",\"FlightNumber\":\"1040\"},\"Equipment\":{\"AircraftCode\":\"321\",\"AircraftRegistration\":\"DAISQ\"},\"FlightStatus\":{\"Code\":\"LD\",\"Definition\":\"Flight Landed\"},\"ServiceType\":\"Passenger\"}]},\"Meta\":{\"@Version\":\"1.0.0\",\"Link\":[{\"@Href\":\"https://api.lufthansa.com/v1/operations/flightstatus/LH1040/2024-08-15\",\"@Rel\":\"self\"},{\"@Href\":\"https://api.lufthansa.com/v1/mds-references/airports/{airportCode}\",\"@Rel\":\"related\"}]}}}"
+    },
+    {
+        "type": "single flight",
+        "status": "{\"FlightStatusResource\":{\"Flights\":{\"Flight\":[{\"Departure\":{\"AirportCode\":\"FRA\",\"ScheduledTimeLocal\":{\"DateTime\":\"2024-08-15T17:20\"},\"ScheduledTimeUTC\":{\"DateTime\":\"2024-08-15T15:20Z\"},\"ActualTimeLocal\":{\"DateTime\":\"2024-08-15T17:58\"},\"ActualTimeUTC\":{\"DateTime\":\"2024-08-15T15:58Z\"},\"TimeStatus\":{\"Code\":\"DL\",\"Definition\":\"Flight Delayed\"},\"Terminal\":{\"Gate\":\"A60\"}},\"Arrival\":{\"AirportCode\":\"CDG\",\"ScheduledTimeLocal\":{\"DateTime\":\"2024-08-15T18:35\"},\"ScheduledTimeUTC\":{\"DateTime\":\"2024-08-15T16:35Z\"},\"ActualTimeLocal\":{\"DateTime\":\"2024-08-15T18:57\"},\"ActualTimeUTC\":{\"DateTime\":\"2024-08-15T16:57Z\"},\"TimeStatus\":{\"Code\":\"DL\",\"Definition\":\"Flight Delayed\"},\"Terminal\":{\"Gate\":\"064\"}},\"MarketingCarrier\":{\"AirlineID\":\"LH\",\"FlightNumber\":\"1046\"},\"OperatingCarrier\":{\"AirlineID\":\"LH\",\"FlightNumber\":\"1046\"},\"Equipment\":{\"AircraftCode\":\"319\",\"AircraftRegistration\":\"DAIBG\"},\"FlightStatus\":{\"Code\":\"LD\",\"Definition\":\"Flight Landed\"},\"ServiceType\":\"Passenger\"}]},\"Meta\":{\"@Version\":\"1.0.0\",\"Link\":[{\"@Href\":\"https://api.lufthansa.com/v1/operations/flightstatus/LH1046/2024-08-15\",\"@Rel\":\"self\"},{\"@Href\":\"https://api.lufthansa.com/v1/mds-references/airports/{airportCode}\",\"@Rel\":\"related\"}]}}}"
+    },
+    {
+        "type": "single flight",
+        "status": "{\"FlightStatusResource\":{\"Flights\":{\"Flight\":[{\"Departure\":{\"AirportCode\":\"FRA\",\"ScheduledTimeLocal\":{\"DateTime\":\"2024-08-15T20:10\"},\"ScheduledTimeUTC\":{\"DateTime\":\"2024-08-15T18:10Z\"},\"TimeStatus\":{\"Code\":\"OT\",\"Definition\":\"Flight On Time\"},\"Terminal\":{\"Name\":\"1\",\"Gate\":\"A52\"}},\"Arrival\":{\"AirportCode\":\"CDG\",\"ScheduledTimeLocal\":{\"DateTime\":\"2024-08-15T21:25\"},\"ScheduledTimeUTC\":{\"DateTime\":\"2024-08-15T19:25Z\"},\"TimeStatus\":{\"Code\":\"OT\",\"Definition\":\"Flight On Time\"},\"Terminal\":{\"Name\":\"1\"}},\"MarketingCarrier\":{\"AirlineID\":\"LH\",\"FlightNumber\":\"1050\"},\"OperatingCarrier\":{\"AirlineID\":\"LH\",\"FlightNumber\":\"1050\"},\"Equipment\":{\"AircraftCode\":\"320\",\"AircraftRegistration\":\"DAIZH\"},\"FlightStatus\":{\"Code\":\"NA\",\"Definition\":\"No status\"},\"ServiceType\":\"Passenger\"}]},\"Meta\":{\"@Version\":\"1.0.0\",\"Link\":[{\"@Href\":\"https://api.lufthansa.com/v1/operations/flightstatus/LH1050/2024-08-15\",\"@Rel\":\"self\"},{\"@Href\":\"https://api.lufthansa.com/v1/mds-references/airports/{airportCode}\",\"@Rel\":\"related\"}]}}}"
+    },
+    {
+        "type": "single flight",
+        "status": "{\"FlightStatusResource\":{\"Flights\":{\"Flight\":[{\"Departure\":{\"AirportCode\":\"FRA\",\"ScheduledTimeLocal\":{\"DateTime\":\"2024-08-15T21:40\"},\"ScheduledTimeUTC\":{\"DateTime\":\"2024-08-15T19:40Z\"},\"TimeStatus\":{\"Code\":\"OT\",\"Definition\":\"Flight On Time\"},\"Terminal\":{\"Name\":\"1\",\"Gate\":\"A24\"}},\"Arrival\":{\"AirportCode\":\"CDG\",\"ScheduledTimeLocal\":{\"DateTime\":\"2024-08-15T22:55\"},\"ScheduledTimeUTC\":{\"DateTime\":\"2024-08-15T20:55Z\"},\"TimeStatus\":{\"Code\":\"OT\",\"Definition\":\"Flight On Time\"},\"Terminal\":{\"Name\":\"1\"}},\"MarketingCarrier\":{\"AirlineID\":\"LH\",\"FlightNumber\":\"1052\"},\"OperatingCarrier\":{\"AirlineID\":\"LH\",\"FlightNumber\":\"1052\"},\"Equipment\":{\"AircraftCode\":\"319\",\"AircraftRegistration\":\"DAIBI\"},\"FlightStatus\":{\"Code\":\"NA\",\"Definition\":\"No status\"},\"ServiceType\":\"Passenger\"}]},\"Meta\":{\"@Version\":\"1.0.0\",\"Link\":[{\"@Href\":\"https://api.lufthansa.com/v1/operations/flightstatus/LH1052/2024-08-15\",\"@Rel\":\"self\"},{\"@Href\":\"https://api.lufthansa.com/v1/mds-references/airports/{airportCode}\",\"@Rel\":\"related\"}]}}}"
+    },
+    {
+        "type": "connecting flight",
+        "status": "{\"FlightStatusResource\":{\"Flights\":{\"Flight\":[{\"Departure\":{\"AirportCode\":\"FRA\",\"ScheduledTimeLocal\":{\"DateTime\":\"2024-08-15T06:40\"},\"ScheduledTimeUTC\":{\"DateTime\":\"2024-08-15T04:40Z\"},\"ActualTimeLocal\":{\"DateTime\":\"2024-08-15T06:44\"},\"ActualTimeUTC\":{\"DateTime\":\"2024-08-15T04:44Z\"},\"TimeStatus\":{\"Code\":\"OT\",\"Definition\":\"Flight On Time\"},\"Terminal\":{\"Name\":\"1\",\"Gate\":\"A54\"}},\"Arrival\":{\"AirportCode\":\"ZRH\",\"ScheduledTimeLocal\":{\"DateTime\":\"2024-08-15T07:35\"},\"ScheduledTimeUTC\":{\"DateTime\":\"2024-08-15T05:35Z\"},\"ActualTimeLocal\":{\"DateTime\":\"2024-08-15T07:35\"},\"ActualTimeUTC\":{\"DateTime\":\"2024-08-15T05:35Z\"},\"TimeStatus\":{\"Code\":\"OT\",\"Definition\":\"Flight On Time\"}},\"MarketingCarrier\":{\"AirlineID\":\"LH\",\"FlightNumber\":\"1182\"},\"OperatingCarrier\":{\"AirlineID\":\"LH\",\"FlightNumber\":\"1182\"},\"Equipment\":{\"AircraftCode\":\"32A\",\"AircraftRegistration\":\"DAIZX\"},\"FlightStatus\":{\"Code\":\"LD\",\"Definition\":\"Flight Landed\"},\"ServiceType\":\"Passenger\"}]},\"Meta\":{\"@Version\":\"1.0.0\",\"Link\":[{\"@Href\":\"https://api.lufthansa.com/v1/operations/flightstatus/LH1182/2024-08-15\",\"@Rel\":\"self\"},{\"@Href\":\"https://api.lufthansa.com/v1/mds-references/airports/{airportCode}\",\"@Rel\":\"related\"}]}}}"
+    },
+    {
+        "type": "connecting flight",
+        "status": "{\"FlightStatusResource\":{\"Flights\":{\"Flight\":[{\"Departure\":{\"AirportCode\":\"ZRH\",\"ScheduledTimeLocal\":{\"DateTime\":\"2024-08-15T12:55\"},\"ScheduledTimeUTC\":{\"DateTime\":\"2024-08-15T10:55Z\"},\"ActualTimeLocal\":{\"DateTime\":\"2024-08-15T13:05\"},\"ActualTimeUTC\":{\"DateTime\":\"2024-08-15T11:05Z\"},\"TimeStatus\":{\"Code\":\"OT\",\"Definition\":\"Flight On Time\"},\"Terminal\":{\"Gate\":\"A74\"}},\"Arrival\":{\"AirportCode\":\"CDG\",\"ScheduledTimeLocal\":{\"DateTime\":\"2024-08-15T14:15\"},\"ScheduledTimeUTC\":{\"DateTime\":\"2024-08-15T12:15Z\"},\"ActualTimeLocal\":{\"DateTime\":\"2024-08-15T14:25\"},\"ActualTimeUTC\":{\"DateTime\":\"2024-08-15T12:25Z\"},\"TimeStatus\":{\"Code\":\"OT\",\"Definition\":\"Flight On Time\"},\"Terminal\":{\"Name\":\"1\",\"Gate\":\"065\"}},\"MarketingCarrier\":{\"AirlineID\":\"LX\",\"FlightNumber\":\"638\"},\"OperatingCarrier\":{\"AirlineID\":\"LX\",\"FlightNumber\":\"638\"},\"Equipment\":{\"AircraftCode\":\"223\",\"AircraftRegistration\":\"YLABM\"},\"FlightStatus\":{\"Code\":\"LD\",\"Definition\":\"Flight Landed\"},\"ServiceType\":\"Passenger\"}]},\"Meta\":{\"@Version\":\"1.0.0\",\"Link\":[{\"@Href\":\"https://api.lufthansa.com/v1/operations/flightstatus/LX638/2024-08-15\",\"@Rel\":\"self\"},{\"@Href\":\"https://api.lufthansa.com/v1/mds-references/airports/{airportCode}\",\"@Rel\":\"related\"}]}}}"
+    },
+    {
+        "type": "connecting flight",
+        "status": "{\"FlightStatusResource\":{\"Flights\":{\"Flight\":[{\"Departure\":{\"AirportCode\":\"FRA\",\"ScheduledTimeLocal\":{\"DateTime\":\"2024-08-15T06:40\"},\"ScheduledTimeUTC\":{\"DateTime\":\"2024-08-15T04:40Z\"},\"ActualTimeLocal\":{\"DateTime\":\"2024-08-15T06:44\"},\"ActualTimeUTC\":{\"DateTime\":\"2024-08-15T04:44Z\"},\"TimeStatus\":{\"Code\":\"OT\",\"Definition\":\"Flight On Time\"},\"Terminal\":{\"Name\":\"1\",\"Gate\":\"A54\"}},\"Arrival\":{\"AirportCode\":\"ZRH\",\"ScheduledTimeLocal\":{\"DateTime\":\"2024-08-15T07:35\"},\"ScheduledTimeUTC\":{\"DateTime\":\"2024-08-15T05:35Z\"},\"ActualTimeLocal\":{\"DateTime\":\"2024-08-15T07:35\"},\"ActualTimeUTC\":{\"DateTime\":\"2024-08-15T05:35Z\"},\"TimeStatus\":{\"Code\":\"OT\",\"Definition\":\"Flight On Time\"}},\"MarketingCarrier\":{\"AirlineID\":\"LX\",\"FlightNumber\":\"3613\"},\"OperatingCarrier\":{\"AirlineID\":\"LH\",\"FlightNumber\":\"1182\"},\"Equipment\":{\"AircraftCode\":\"32A\"},\"FlightStatus\":{\"Code\":\"LD\",\"Definition\":\"Flight Landed\"},\"ServiceType\":\"Passenger\"}]},\"Meta\":{\"@Version\":\"1.0.0\",\"Link\":[{\"@Href\":\"https://api.lufthansa.com/v1/operations/flightstatus/LX3613/2024-08-15\",\"@Rel\":\"self\"},{\"@Href\":\"https://api.lufthansa.com/v1/mds-references/airports/{airportCode}\",\"@Rel\":\"related\"}]}}}"
+    },
+    {
+        "type": "connecting flight",
+        "status": "invalid request"
+    },
+    {
+        "type": "connecting flight",
+        "status": "invalid request"
+    },
+    {
+        "type": "connecting flight",
+        "status": "invalid request"
+    },
+    {
+        "type": "connecting flight",
+        "status": "invalid request"
+    },
+    {
+        "type": "connecting flight",
+        "status": "invalid request"
+    },
+    {
+        "type": "connecting flight",
+        "status": "invalid request"
+    },
+    {
+        "type": "connecting flight",
+        "status": "invalid request"
+    },
+    {
+        "type": "connecting flight",
+        "status": "invalid request"
+    },
+    {
+        "type": "connecting flight",
+        "status": "invalid request"
+    },
+    {
+        "type": "connecting flight",
+        "status": "invalid request"
+    },
+    {
+        "type": "connecting flight",
+        "status": "invalid request"
+    },
+    {
+        "type": "connecting flight",
+        "status": "invalid request"
+    },
+    {
+        "type": "connecting flight",
+        "status": "invalid request"
+    },
+    {
+        "type": "connecting flight",
+        "status": "invalid request"
+    },
+    {
+        "type": "connecting flight",
+        "status": "invalid request"
+    },
+    {
+        "type": "connecting flight",
+        "status": "invalid request"
+    },
+    {
+        "type": "connecting flight",
+        "status": "invalid request"
+    }
+]

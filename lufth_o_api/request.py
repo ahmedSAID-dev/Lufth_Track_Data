@@ -1,15 +1,22 @@
 import requests
 import authentication as auth
 import logging
+import os
 
+# Création du dossier logs s'il n'existe pas
+if not os.path.exists("./app/logs"):
+    os.makedirs("./app/logs")
 # Configuration du logging
+log_file = "./app/logs/request.log"
 logging.basicConfig(
     level=logging.INFO,
-    filename='luth_o_api.log',
-    filemode='a',
-    format='%(asctime)s -%(levelname)s- %(message)s'
+    filename=log_file,
+    filemode='w',
+    format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
+current_directory = os.getcwd()
+print("Chemin du dossier actuel:", current_directory)
 
 def make_request(url):
     """

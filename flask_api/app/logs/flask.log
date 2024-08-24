@@ -1,0 +1,11 @@
+2024-08-15 16:57:45,123 - WARNING -  * Debugger is active!
+2024-08-15 16:57:45,124 - INFO -  * Debugger PIN: 724-431-378
+2024-08-15 16:57:52,583 - INFO - 172.24.0.1 - - [15/Aug/2024 16:57:52] "GET /airport?departureAirport=FRA&arrivalAirport=JFK HTTP/1.1" 200 -
+2024-08-15 16:57:52,746 - INFO - 172.24.0.1 - - [15/Aug/2024 16:57:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-08-15 16:57:52,751 - INFO - 172.24.0.1 - - [15/Aug/2024 16:57:52] "[36mGET /static/images/logo_LUFTH_TRACK_DATA_250x250.png HTTP/1.1[0m" 304 -
+2024-08-15 16:58:46,418 - INFO - Cache used for key: view//airport
+2024-08-15 16:58:46,428 - INFO - 172.24.0.1 - - [15/Aug/2024 16:58:46] "GET /airport?departureAirport=FRA&arrivalAirport=BCN HTTP/1.1" 200 -
+2024-08-15 16:58:46,556 - INFO - 172.24.0.1 - - [15/Aug/2024 16:58:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-08-15 16:58:46,570 - INFO - 172.24.02024-08-15 17:00:21,467 - INFO -  * Restarting with stat
+go_LUFTH_TRACK_DATA_250x250.png HTTP/1.1[0m" 304 -
+2024-08-15 17:00:20,867 - INFO -  * Detected change in '/app/app.py', reloading

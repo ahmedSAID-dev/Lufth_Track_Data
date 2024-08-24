@@ -1,7 +1,0 @@
-FROM python:3.9
-
-WORKDIR /db_mongo
-
-RUN pip3 install pandas pymongo requests nano
-COPY upload_mongo.py .
-CMD ["python3", "upload_mongo.py"]

@@ -1,0 +1,12 @@
+FROM python:3.9
+
+RUN pip install pymongo
+
+COPY requirements.txt /app/requirements.txt
+RUN pip install -r /app/requirements.txt
+
+# Copier les fichiers du dossier actuel
+COPY --chown=root:root . /app
+# Exposer le port sur lequel l'application va écouter
+EXPOSE 5000
+CMD ["python3", "/app/scrapper.py"]

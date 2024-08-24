@@ -7,12 +7,14 @@ docker exec -it lufth_track_data-mongo_l-1 /bin/bash
     use lufth_track_data
     db.c_airports.find().pretty()
     db.c_airports.countDocuments({})
+    db.c_flights_info.countDocuments({})
+    db.c_flights_info.find().limit(2).pretty()
 
 docker exec -it lufth_track_data-neo4j_l-1 /bin/bash
 
 
 
-curl "https://api.lufthansa.com/v1/oauth/token" -X POST -d "client_id=gg57s2qmvkp4rpycy52ehycmn" -d "client_secret=mbbWMpJs9H" -d "grant_type=client_credentials"
+curl "https://api.lufthansa.com/v1/oauth/token" -X POST -d "client_id=x7qpcucksndbwugshshxnapdp" -d "client_secret=44Ws7QrHr4" -d "grant_type=client_credentials"
 
 
 curl -H "Authorization: Bearer 7dgm376mhy58xg5dfsnv4eyf" -H "Accept: application/json" https://api.lufthansa.com/v1/mds-references/airports/FRA
@@ -27,3 +29,8 @@ curl -H "Authorization: Bearer xcayemas3j29y2y3xejsj6ms" -H "Accept: application
 curl -H "Authorization: Bearer xcayemas3j29y2y3xejsj6ms" -H "Accept: application/json" https://api.lufthansa.com/v1/operations/flightstatus/route/FRA/JFK/2023-11-17
 
 Création d'un package avec setup et faire la config avec 
+##########################################################
+
+Neo4j:
+MATCH (a:Airport {nom: 'FRA'})-[r:SINGLE_FLIGHT]->(n)
+RETURN a,n

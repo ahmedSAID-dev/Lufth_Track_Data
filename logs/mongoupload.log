@@ -1,0 +1,80 @@
+2024-08-16 16:16:04,886 - INFO - En attente du fichier de signalisation pour démarrer le script...
+2024-08-16 16:16:04,886 - INFO - Fichier de signalisation détecté. Démarrage du script...
+2024-08-16 16:16:04,889 - INFO - Connexion à MongoDB établie avec succès.
+2024-08-16 16:16:04,890 - INFO - Nettoyage de la collection c_airports...
+2024-08-16 16:16:05,399 - INFO - 1467 documents supprimés de la collection c_airports.
+2024-08-16 16:16:05,400 - INFO - Nettoyage de la collection c_flights_info...
+2024-08-16 16:16:05,404 - INFO - 726 documents supprimés de la collection c_flights_info.
+2024-08-16 16:16:05,552 - INFO - 1467 documents insérés dans la collection c_airports.
+2024-08-16 16:16:05,555 - INFO - Chargement des données du fichier lufth_CDG_MUC_20240807_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,555 - INFO - Chargement des données du fichier lufth_CDG_MUC_20240815_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,555 - INFO - Chargement des données du fichier lufth_FRA_DXB_20240708_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,555 - INFO - Chargement des données du fichier lufth_DOH_FRA_20240806_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,555 - INFO - Chargement des données du fichier lufth_DXB_FRA_20240813_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,555 - INFO - Chargement des données du fichier lufth_FRA_CDG_20240806_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,556 - INFO - Chargement des données du fichier lufth_DXB_FRA_20240815_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,556 - INFO - Chargement des données du fichier lufth_MUC_JFK_20240806_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,556 - INFO - Chargement des données du fichier lufth_MUC_FRA_20240807_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,556 - INFO - Chargement des données du fichier lufth_MUC_FRA_20240708_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,556 - INFO - Chargement des données du fichier lufth_LAS_FRA_20240815_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,556 - INFO - Chargement des données du fichier lufth_MUC_JFK_20240708_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,557 - INFO - Chargement des données du fichier lufth_FRA_JFK_20240815_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,557 - INFO - Chargement des données du fichier lufth_FRA_DOH_20240807_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,557 - INFO - Chargement des données du fichier lufth_FRA_CDG_20240708_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,557 - INFO - Chargement des données du fichier lufth_LAS_FRA_20240813_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,557 - INFO - Chargement des données du fichier lufth_CDG_FRA_20240807_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,558 - INFO - Chargement des données du fichier lufth_CDG_FRA_20240815_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,558 - INFO - Chargement des données du fichier lufth_JFK_FRA_20240815_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,558 - INFO - Chargement des données du fichier lufth_DXB_FRA_20240806_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,558 - INFO - Chargement des données du fichier lufth_FRA_DXB_20240806_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,558 - INFO - Chargement des données du fichier lufth_FRA_CDG_20240807_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,559 - INFO - Chargement des données du fichier lufth_JFK_FRA_20240708_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,559 - INFO - Chargement des données du fichier lufth_CDG_MUC_20240806_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,559 - INFO - Chargement des données du fichier lufth_FRA_LAS_20240813_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,559 - INFO - Chargement des données du fichier lufth_FRA_MUC_20240806_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,559 - INFO - Chargement des données du fichier lufth_DOH_FRA_20240807_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,560 - INFO - Chargement des données du fichier lufth_FRA_MUC_20240815_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,560 - INFO - Chargement des données du fichier lufth_CDG_FRA_20240813_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,560 - INFO - Chargement des données du fichier lufth_DOH_FRA_20240815_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,560 - INFO - Chargement des données du fichier lufth_FRA_LAS_20240815_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,560 - INFO - Chargement des données du fichier lufth_MUC_FRA_20240815_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,561 - INFO - Chargement des données du fichier lufth_FRA_MUC_20240708_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,561 - INFO - Chargement des données du fichier lufth_FRA_DXB_20240807_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,561 - INFO - Chargement des données du fichier lufth_FRA_LAS_20240806_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,561 - INFO - Chargement des données du fichier lufth_MUC_JFK_20240807_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,561 - INFO - Chargement des données du fichier lufth_JFK_FRA_20240813_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,561 - INFO - Chargement des données du fichier lufth_DXB_FRA_20240708_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,562 - INFO - Chargement des données du fichier lufth_FRA_MUC_20240807_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,562 - INFO - Chargement des données du fichier lufth_LAS_FRA_20240708_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,562 - INFO - Chargement des données du fichier lufth_FRA_DOH_20240813_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,562 - INFO - Chargement des données du fichier lufth_FRA_DXB_20240815_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,562 - INFO - Chargement des données du fichier lufth_DOH_FRA_20240708_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,562 - INFO - Chargement des données du fichier lufth_FRA_DOH_20240708_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,562 - INFO - Chargement des données du fichier lufth_LAS_FRA_20240807_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,562 - INFO - Chargement des données du fichier lufth_CDG_MUC_20240708_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,563 - INFO - Chargement des données du fichier lufth_CDG_FRA_20240708_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,563 - INFO - Chargement des données du fichier lufth_DOH_FRA_20240813_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,563 - INFO - Chargement des données du fichier lufth_FRA_JFK_20240806_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,563 - INFO - Chargement des données du fichier lufth_FRA_CDG_20240813_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,563 - INFO - Chargement des données du fichier lufth_FRA_JFK_20240813_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,563 - INFO - Chargement des données du fichier lufth_FRA_DOH_20240815_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,564 - INFO - Chargement des données du fichier lufth_JFK_FRA_20240807_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,564 - INFO - Chargement des données du fichier lufth_FRA_JFK_20240807_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,564 - INFO - Chargement des données du fichier lufth_DXB_FRA_20240807_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,564 - INFO - Chargement des données du fichier lufth_FRA_MUC_20240813_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,564 - INFO - Chargement des données du fichier lufth_JFK_FRA_20240806_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,564 - INFO - Chargement des données du fichier lufth_MUC_FRA_20240806_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,565 - INFO - Chargement des données du fichier lufth_LAS_FRA_20240806_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,565 - INFO - Chargement des données du fichier lufth_FRA_DXB_20240813_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,565 - INFO - Chargement des données du fichier lufth_FRA_LAS_20240708_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,565 - INFO - Chargement des données du fichier lufth_FRA_CDG_20240815_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,565 - INFO - Chargement des données du fichier lufth_MUC_FRA_20240813_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,566 - INFO - Chargement des données du fichier lufth_FRA_DOH_20240806_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,566 - INFO - Chargement des données du fichier lufth_MUC_JFK_20240815_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,566 - INFO - Chargement des données du fichier lufth_MUC_JFK_20240813_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,566 - INFO - Chargement des données du fichier lufth_CDG_FRA_20240806_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,566 - INFO - Chargement des données du fichier lufth_CDG_MUC_20240813_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,567 - INFO - Chargement des données du fichier lufth_FRA_JFK_20240708_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,567 - INFO - Chargement des données du fichier lufth_FRA_LAS_20240807_1900_flight_info.json des vols réussi.
+2024-08-16 16:16:05,820 - INFO - 726 documents insérés dans la collection c_flights_info.
+2024-08-16 16:16:05,820 - INFO - Upload de tous les fichiers JSON vers MongoDB terminé.

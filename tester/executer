@@ -1,0 +1,16 @@
+docker-compose up
+docker-compose down
+docker-compose up --build lufth_o_api
+
+##### GIT #######
+
+
+
+#### Docker Mango ######
+docker exec -it lufth_track_data-mongo_l-1 /bin/bash
+    mongo
+    use lufth_track_data
+    db.getCollectionNames()
+    db.c_airports.find().pretty()
+    db.c_airports.countDocuments({})
+    db.c_flights_info.countDocuments({})

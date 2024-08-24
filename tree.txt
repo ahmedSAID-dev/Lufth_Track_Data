@@ -1,45 +1,332 @@
 .
-├── Draft
 ├── LICENSE
-├── data_csv
-│   ├── iata.csv
-│   └── iata.csv:Zone.Identifier
 ├── data_json
-│   ├── lufth_20231117_1900.json
-│   ├── lufth_p_flight_info_20231212_1900.json
-│   ├── lufth_p_flight_info_20240226_1900.json
-│   ├── lufth_p_flight_info_20240227_1900.json
-│   ├── lufth_route_20231212_1900.json
-│   ├── lufth_route_20240227_1900.json
-│   ├── lufth_schedules_20231212_1900.json
-│   └── lufth_schedules_20240227_1900.json
-├── db_mango
-├── db_sqlite
+│   ├── completion_signal.txt
+│   ├── completion_signal_mango.txt
+│   ├── filter_execution_rapide.py
+│   ├── flights_codes
+│   │   ├── lufth_CDG_FRA_20240708_1900_flight_codes.json
+│   │   ├── lufth_CDG_FRA_20240807_1900_flight_codes.json
+│   │   ├── lufth_CDG_FRA_20240813_1900_flight_codes.json
+│   │   ├── lufth_CDG_FRA_20240815_1900_flight_codes.json
+│   │   ├── lufth_CDG_MUC_20240813_1900_flight_codes.json
+│   │   ├── lufth_CDG_MUC_20240815_1900_flight_codes.json
+│   │   ├── lufth_DOH_FRA_20240708_1900_flight_codes.json
+│   │   ├── lufth_DOH_FRA_20240805_1900_flight_codes.json
+│   │   ├── lufth_DOH_FRA_20240806_1900_flight_codes.json
+│   │   ├── lufth_DOH_FRA_20240807_1900_flight_codes.json
+│   │   ├── lufth_DOH_FRA_20240813_1900_flight_codes.json
+│   │   ├── lufth_DOH_FRA_20240815_1900_flight_codes.json
+│   │   ├── lufth_DXB_FRA_20240708_1900_flight_codes.json
+│   │   ├── lufth_DXB_FRA_20240805_1900_flight_codes.json
+│   │   ├── lufth_DXB_FRA_20240806_1900_flight_codes.json
+│   │   ├── lufth_DXB_FRA_20240807_1900_flight_codes.json
+│   │   ├── lufth_DXB_FRA_20240813_1900_flight_codes.json
+│   │   ├── lufth_DXB_FRA_20240815_1900_flight_codes.json
+│   │   ├── lufth_FRA_CDG_20240708_1900_flight_codes.json
+│   │   ├── lufth_FRA_CDG_20240805_1900_flight_codes.json
+│   │   ├── lufth_FRA_CDG_20240806_1900_flight_codes.json
+│   │   ├── lufth_FRA_CDG_20240807_1900_flight_codes.json
+│   │   ├── lufth_FRA_CDG_20240813_1900_flight_codes.json
+│   │   ├── lufth_FRA_CDG_20240815_1900_flight_codes.json
+│   │   ├── lufth_FRA_DOH_20240813_1900_flight_codes.json
+│   │   ├── lufth_FRA_DOH_20240815_1900_flight_codes.json
+│   │   ├── lufth_FRA_DXB_20240813_1900_flight_codes.json
+│   │   ├── lufth_FRA_JFK_20240708_1900_flight_codes.json
+│   │   ├── lufth_FRA_JFK_20240807_1900_flight_codes.json
+│   │   ├── lufth_FRA_JFK_20240813_1900_flight_codes.json
+│   │   ├── lufth_FRA_JFK_20240815_1900_flight_codes.json
+│   │   ├── lufth_FRA_LAS_20240813_1900_flight_codes.json
+│   │   ├── lufth_FRA_MUC_20240708_1900_flight_codes.json
+│   │   ├── lufth_FRA_MUC_20240807_1900_flight_codes.json
+│   │   ├── lufth_FRA_MUC_20240813_1900_flight_codes.json
+│   │   ├── lufth_FRA_MUC_20240815_1900_flight_codes.json
+│   │   ├── lufth_JFK_FRA_20240708_1900_flight_codes.json
+│   │   ├── lufth_JFK_FRA_20240807_1900_flight_codes.json
+│   │   ├── lufth_JFK_FRA_20240813_1900_flight_codes.json
+│   │   ├── lufth_JFK_FRA_20240815_1900_flight_codes.json
+│   │   ├── lufth_LAS_FRA_20240813_1900_flight_codes.json
+│   │   ├── lufth_MUC_FRA_20240708_1900_flight_codes.json
+│   │   ├── lufth_MUC_FRA_20240807_1900_flight_codes.json
+│   │   ├── lufth_MUC_FRA_20240813_1900_flight_codes.json
+│   │   ├── lufth_MUC_FRA_20240815_1900_flight_codes.json
+│   │   └── lufth_MUC_JFK_20240813_1900_flight_codes.json
+│   ├── flights_info
+│   │   ├── lufth_CDG_FRA_20240708_1900_flight_info.json
+│   │   ├── lufth_CDG_FRA_20240807_1900_flight_info.json
+│   │   ├── lufth_CDG_FRA_20240813_1900_flight_info.json
+│   │   ├── lufth_CDG_FRA_20240815_1900_flight_info.json
+│   │   ├── lufth_CDG_MUC_20240813_1900_flight_info.json
+│   │   ├── lufth_DOH_FRA_20240813_1900_flight_info.json
+│   │   ├── lufth_DXB_FRA_20240708_1901_flight_info.json
+│   │   ├── lufth_FRA_CDG_20240708_1900_flight_info.json
+│   │   ├── lufth_FRA_CDG_20240807_1900_flight_info.json
+│   │   ├── lufth_FRA_CDG_20240813_1900_flight_info.json
+│   │   ├── lufth_FRA_CDG_20240815_1900_flight_info.json
+│   │   ├── lufth_FRA_DOH_20240813_1900_flight_info.json
+│   │   ├── lufth_FRA_DXB_20240708_1901_flight_info.json
+│   │   ├── lufth_FRA_JFK_20240708_1900_flight_info.json
+│   │   ├── lufth_FRA_JFK_20240807_1900_flight_info.json
+│   │   ├── lufth_FRA_JFK_20240813_1900_flight_info.json
+│   │   ├── lufth_FRA_JFK_20240815_1900_flight_info.json
+│   │   ├── lufth_FRA_LAS_20240813_1900_flight_info.json
+│   │   ├── lufth_FRA_MUC_20240708_1900_flight_info.json
+│   │   ├── lufth_FRA_MUC_20240807_1900_flight_info.json
+│   │   ├── lufth_FRA_MUC_20240813_1900_flight_info.json
+│   │   ├── lufth_FRA_MUC_20240815_1900_flight_info.json
+│   │   ├── lufth_JFK_FRA_20240708_1900_flight_info.json
+│   │   ├── lufth_JFK_FRA_20240807_1900_flight_info.json
+│   │   ├── lufth_JFK_FRA_20240813_1900_flight_info.json
+│   │   ├── lufth_JFK_FRA_20240815_1900_flight_info.json
+│   │   ├── lufth_LAS_FRA_20240813_1900_flight_info.json
+│   │   ├── lufth_MUC_FRA_20240708_1900_flight_info.json
+│   │   ├── lufth_MUC_FRA_20240807_1900_flight_info.json
+│   │   ├── lufth_MUC_FRA_20240813_1900_flight_info.json
+│   │   ├── lufth_MUC_FRA_20240815_1900_flight_info.json
+│   │   └── lufth_MUC_JFK_20240813_1900_flight_info.json
+│   ├── lufth_all_aircrafts_20240320_1900.json
+│   ├── lufth_all_airlines_20240320_1900.json
+│   ├── lufth_all_airports.json
+│   ├── lufth_all_airports_20240331_1900.json
+│   ├── lufth_all_airports_backup.json
+│   ├── routes
+│   │   ├── lufth_route_CDG_FRA_20240330_1900.json
+│   │   ├── lufth_route_CDG_FRA_20240331_1900.json
+│   │   ├── lufth_route_CDG_MUC_20240331_1900.json
+│   │   ├── lufth_route_FRA_BCN_20240331_1900.json
+│   │   ├── lufth_route_FRA_CDG_20240331_1900.json
+│   │   ├── lufth_route_FRA_DXB_20240331_1900.json
+│   │   ├── lufth_route_FRA_JFK_20240330_1900.json
+│   │   ├── lufth_route_FRA_JFK_20240331_1900.json
+│   │   ├── lufth_route_FRA_LAS_20240331_1900.json
+│   │   ├── lufth_route_FRA_MUC_20240330_1900.json
+│   │   ├── lufth_route_FRA_MUC_20240331_1900.json
+│   │   ├── lufth_route_FRA_NUE_20240331_1900.json
+│   │   ├── lufth_route_FRA_PEK_20240331_1900.json
+│   │   ├── lufth_route_MUC_JFK_20240331_1900.json
+│   │   └── lufth_route_NUE_FRA_20240331_1900.json
+│   ├── s_flights
+│   │   ├── lufth_flights_20240331_1900.json
+│   │   └── lufth_flights_20240331_1901.json
+│   └── schedules
+│       ├── lufth_schedules_BCN_DOH_20240331_1900.json
+│       ├── lufth_schedules_BCN_DXB_20240331_1900.json
+│       ├── lufth_schedules_BCN_JFK_20240331_1900.json
+│       ├── lufth_schedules_BCN_LAS_20240331_1900.json
+│       ├── lufth_schedules_BCN_PEK_20240331_1900.json
+│       ├── lufth_schedules_CDG_BCN_20240331_1900.json
+│       ├── lufth_schedules_CDG_DOH_20240331_1900.json
+│       ├── lufth_schedules_CDG_DXB_20240331_1900.json
+│       ├── lufth_schedules_CDG_FRA_20240330_1900.json
+│       ├── lufth_schedules_CDG_FRA_20240331_1900.json
+│       ├── lufth_schedules_CDG_JFK_20240331_1900.json
+│       ├── lufth_schedules_CDG_LAS_20240331_1900.json
+│       ├── lufth_schedules_CDG_MUC_20240331_1900.json
+│       ├── lufth_schedules_CDG_NUE_20240331_1900.json
+│       ├── lufth_schedules_CDG_PEK_20240331_1900.json
+│       ├── lufth_schedules_DXB_JFK_20240331_1900.json
+│       ├── lufth_schedules_FRA_BCN_20240331_1900.json
+│       ├── lufth_schedules_FRA_CDG_20240331_1900.json
+│       ├── lufth_schedules_FRA_DOH_20240331_1900.json
+│       ├── lufth_schedules_FRA_DXB_20240331_1900.json
+│       ├── lufth_schedules_FRA_JFK_20240330_1900.json
+│       ├── lufth_schedules_FRA_JFK_20240331_1900.json
+│       ├── lufth_schedules_FRA_LAS_20240331_1900.json
+│       ├── lufth_schedules_FRA_MUC_20240330_1900.json
+│       ├── lufth_schedules_FRA_MUC_20240331_1900.json
+│       ├── lufth_schedules_FRA_MUN_20240331_1900.json
+│       ├── lufth_schedules_FRA_NUE_20240331_1900.json
+│       ├── lufth_schedules_FRA_ORY_20240331_1900.json
+│       ├── lufth_schedules_FRA_PEK_20240331_1900.json
+│       ├── lufth_schedules_LAS_DOH_20240331_1900.json
+│       ├── lufth_schedules_LAS_DXB_20240331_1900.json
+│       ├── lufth_schedules_LAS_JFK_20240331_1900.json
+│       ├── lufth_schedules_LAS_PEK_20240331_1900.json
+│       ├── lufth_schedules_MUC_JFK_20240331_1900.json
+│       ├── lufth_schedules_NUE_BCN_20240331_1900.json
+│       ├── lufth_schedules_NUE_CDG_20240331_1900.json
+│       ├── lufth_schedules_NUE_DOH_20240331_1900.json
+│       ├── lufth_schedules_NUE_DXB_20240331_1900.json
+│       ├── lufth_schedules_NUE_FRA_20240331_1900.json
+│       ├── lufth_schedules_NUE_JFK_20240331_1900.json
+│       ├── lufth_schedules_NUE_LAS_20240331_1900.json
+│       ├── lufth_schedules_NUE_MUN_20240331_1900.json
+│       ├── lufth_schedules_NUE_ORY_20240331_1900.json
+│       ├── lufth_schedules_NUE_PEK_20240331_1900.json
+│       ├── lufth_schedules_ORY_BCN_20240331_1900.json
+│       ├── lufth_schedules_ORY_DOH_20240331_1900.json
+│       ├── lufth_schedules_ORY_DXB_20240331_1900.json
+│       ├── lufth_schedules_ORY_JFK_20240331_1900.json
+│       ├── lufth_schedules_ORY_LAS_20240331_1900.json
+│       └── lufth_schedules_ORY_PEK_20240331_1900.json
+├── db_mongo
+│   ├── Dockerfile-mongo
+│   ├── Dockerfile-upmongo
+│   ├── app.py
+│   ├── data
+│   │   ├── WiredTiger
+│   │   ├── WiredTiger.lock
+│   │   ├── WiredTiger.turtle
+│   │   ├── WiredTiger.wt
+│   │   ├── WiredTigerHS.wt
+│   │   ├── _mdb_catalog.wt
+│   │   ├── collection-0-2686222057358522176.wt
+│   │   ├── collection-0-4026727692754255122.wt
+│   │   ├── collection-2-2686222057358522176.wt
+│   │   ├── collection-2-4026727692754255122.wt
+│   │   ├── collection-4-2686222057358522176.wt
+│   │   ├── diagnostic.data  [error opening dir]
+│   │   ├── index-1-2686222057358522176.wt
+│   │   ├── index-1-4026727692754255122.wt
+│   │   ├── index-3-2686222057358522176.wt
+│   │   ├── index-3-4026727692754255122.wt
+│   │   ├── index-5-2686222057358522176.wt
+│   │   ├── index-6-2686222057358522176.wt
+│   │   ├── journal  [error opening dir]
+│   │   ├── mongod.lock
+│   │   ├── sizeStorer.wt
+│   │   └── storage.bson
+│   └── upload_mongo.py
+├── db_neo4j
+│   ├── Dockerfile-neo4j
+│   ├── Dockerfile-upneo4j
+│   ├── data
+│   │   ├── databases
+│   │   │   ├── neo4j
+│   │   │   │   ├── database_lock
+│   │   │   │   ├── neostore
+│   │   │   │   ├── neostore.counts.db
+│   │   │   │   ├── neostore.indexstats.db
+│   │   │   │   ├── neostore.labelscanstore.db
+│   │   │   │   ├── neostore.labeltokenstore.db
+│   │   │   │   ├── neostore.labeltokenstore.db.id
+│   │   │   │   ├── neostore.labeltokenstore.db.names
+│   │   │   │   ├── neostore.labeltokenstore.db.names.id
+│   │   │   │   ├── neostore.nodestore.db
+│   │   │   │   ├── neostore.nodestore.db.id
+│   │   │   │   ├── neostore.nodestore.db.labels
+│   │   │   │   ├── neostore.nodestore.db.labels.id
+│   │   │   │   ├── neostore.propertystore.db
+│   │   │   │   ├── neostore.propertystore.db.arrays
+│   │   │   │   ├── neostore.propertystore.db.arrays.id
+│   │   │   │   ├── neostore.propertystore.db.id
+│   │   │   │   ├── neostore.propertystore.db.index
+│   │   │   │   ├── neostore.propertystore.db.index.id
+│   │   │   │   ├── neostore.propertystore.db.index.keys
+│   │   │   │   ├── neostore.propertystore.db.index.keys.id
+│   │   │   │   ├── neostore.propertystore.db.strings
+│   │   │   │   ├── neostore.propertystore.db.strings.id
+│   │   │   │   ├── neostore.relationshipgroupstore.db
+│   │   │   │   ├── neostore.relationshipgroupstore.db.id
+│   │   │   │   ├── neostore.relationshipgroupstore.degrees.db
+│   │   │   │   ├── neostore.relationshipstore.db
+│   │   │   │   ├── neostore.relationshipstore.db.id
+│   │   │   │   ├── neostore.relationshiptypescanstore.db
+│   │   │   │   ├── neostore.relationshiptypestore.db
+│   │   │   │   ├── neostore.relationshiptypestore.db.id
+│   │   │   │   ├── neostore.relationshiptypestore.db.names
+│   │   │   │   ├── neostore.relationshiptypestore.db.names.id
+│   │   │   │   ├── neostore.schemastore.db
+│   │   │   │   └── neostore.schemastore.db.id
+│   │   │   ├── store_lock
+│   │   │   └── system
+│   │   │       ├── database_lock
+│   │   │       ├── neostore
+│   │   │       ├── neostore.counts.db
+│   │   │       ├── neostore.indexstats.db
+│   │   │       ├── neostore.labelscanstore.db
+│   │   │       ├── neostore.labeltokenstore.db
+│   │   │       ├── neostore.labeltokenstore.db.id
+│   │   │       ├── neostore.labeltokenstore.db.names
+│   │   │       ├── neostore.labeltokenstore.db.names.id
+│   │   │       ├── neostore.nodestore.db
+│   │   │       ├── neostore.nodestore.db.id
+│   │   │       ├── neostore.nodestore.db.labels
+│   │   │       ├── neostore.nodestore.db.labels.id
+│   │   │       ├── neostore.propertystore.db
+│   │   │       ├── neostore.propertystore.db.arrays
+│   │   │       ├── neostore.propertystore.db.arrays.id
+│   │   │       ├── neostore.propertystore.db.id
+│   │   │       ├── neostore.propertystore.db.index
+│   │   │       ├── neostore.propertystore.db.index.id
+│   │   │       ├── neostore.propertystore.db.index.keys
+│   │   │       ├── neostore.propertystore.db.index.keys.id
+│   │   │       ├── neostore.propertystore.db.strings
+│   │   │       ├── neostore.propertystore.db.strings.id
+│   │   │       ├── neostore.relationshipgroupstore.db
+│   │   │       ├── neostore.relationshipgroupstore.db.id
+│   │   │       ├── neostore.relationshipgroupstore.degrees.db
+│   │   │       ├── neostore.relationshipstore.db
+│   │   │       ├── neostore.relationshipstore.db.id
+│   │   │       ├── neostore.relationshiptypescanstore.db
+│   │   │       ├── neostore.relationshiptypestore.db
+│   │   │       ├── neostore.relationshiptypestore.db.id
+│   │   │       ├── neostore.relationshiptypestore.db.names
+│   │   │       ├── neostore.relationshiptypestore.db.names.id
+│   │   │       ├── neostore.schemastore.db
+│   │   │       ├── neostore.schemastore.db.id
+│   │   │       └── schema
+│   │   │           └── index
+│   │   │               └── native-btree-1.0
+│   │   │                   ├── 3
+│   │   │                   │   └── index-3
+│   │   │                   ├── 4
+│   │   │                   │   └── index-4
+│   │   │                   └── 7
+│   │   │                       └── index-7
+│   │   ├── dbms
+│   │   │   └── auth.ini
+│   │   ├── server_id
+│   │   └── transactions
+│   │       ├── neo4j
+│   │       │   ├── checkpoint.0
+│   │       │   ├── neostore.transaction.db.0
+│   │       │   └── neostore.transaction.db.1
+│   │       └── system
+│   │           ├── checkpoint.0
+│   │           └── neostore.transaction.db.0
+│   ├── requirements.txt
+│   └── script_neo.py
+├── docker-compose.yml
+├── flask_api
+│   ├── Dockerfile-flask
+│   ├── app
+│   │   └── logs
+│   │       └── flask.log
+│   ├── app.py
+│   ├── logs
+│   ├── requirements.txt
+│   ├── static
+│   │   ├── css
+│   │   │   └── styles.css
+│   │   └── images
+│   │       ├── logo_LUFTH_TRACK_DATA.png
+│   │       └── logo_LUFTH_TRACK_DATA_250x250.png
+│   └── templates
+│       ├── airport.html
+│       ├── index.html
+│       ├── index_old.html
+│       └── login.html
+├── logs
+│   ├── flask.log
+│   ├── mongoupload.log
+│   ├── neo4jupload.log
+│   └── request.log
 ├── lufth_o_api
-│   ├── __init__.py
-│   ├── __pycache__
-│   │   ├── __init__.cpython-310.pyc
-│   │   ├── __init__.cpython-38.pyc
-│   │   ├── authentication.cpython-310.pyc
-│   │   ├── authentication.cpython-38.pyc
-│   │   ├── operations.cpython-310.pyc
-│   │   ├── operations.cpython-38.pyc
-│   │   ├── references.cpython-310.pyc
-│   │   ├── references.cpython-38.pyc
-│   │   ├── request.cpython-310.pyc
-│   │   └── request.cpython-38.pyc
+│   ├── Dockerfile-lufth_o_api
 │   ├── authentication.py
 │   ├── config.conf
-│   ├── luth_o_api.log
 │   ├── operations.py
 │   ├── references.py
-│   └── request.py
-├── packages
-├── setup.py
+│   ├── request.py
+│   ├── requirements.txt
+│   └── scrapper.py
+├── notebooks
 ├── tester
-│   ├── luth_o_api.log
+│   ├── Bash.sh
+│   ├── executer
 │   ├── tester_flight_information.py
 │   └── tester_route_schedules.py
 └── tree.txt
 
-7 directories, 35 files
+37 directories, 292 files

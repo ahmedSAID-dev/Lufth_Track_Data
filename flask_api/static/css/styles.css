@@ -1,0 +1,97 @@
+/* Styles de base */
+body {
+    background-color: #1B84a0; /* Couleur de fond */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Inclut le padding et la border dans la largeur */
+}
+
+#graph {
+    width: 100%;
+    height: 80vh;
+    margin: 20px auto;
+}
+
+.radio-buttons {
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    justify-content: center; /* Centre les boutons radio */
+}
+
+.radio-buttons form {
+    margin: 0 10px; /* Espacement entre les boutons radio */
+}
+
+.logo-container {
+    width: 150px;
+    height: 150px;
+}
+
+.logo {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto; /* Pour conserver les proportions du logo */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #062128;
+    height: 100px;
+    padding: 5px;
+    color: white;
+}
+
+.app-name {
+    flex: 1;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+/* Styles pour les différents écrans */
+@media (max-width: 768px) {
+    /* Styles pour les tablettes */
+    .header {
+        height: auto; /* Permet à l'en-tête de s'adapter */
+        padding: 10px;
+    }
+
+    .app-name {
+        font-size: 1.6em;
+    }
+
+    .header a {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Styles pour les smartphones */
+    .header {
+        height: auto;
+        padding: 5px;
+    }
+
+    .app-name {
+        font-size: 1.4em;
+    }
+
+    .header a {
+        font-size: 1em;
+    }
+}

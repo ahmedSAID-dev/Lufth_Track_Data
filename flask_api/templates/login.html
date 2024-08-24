@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - LUFTH_TRACK_DATA</title>
+    <style>
+        body {
+            background-color: #002b36;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .login-form {
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            width: 300px;
+            background-color: white;
+            position: relative;
+        }
+
+        .login-form input[type="text"],
+        .login-form input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .login-form input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #0073e6;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .login-form input[type="submit"]:hover {
+            background-color: #005bb5;
+        }
+
+        .error {
+            color: red;
+        }
+        .logo {
+            width: 250px; /* Ajustez la taille si nécessaire */
+            height: 250px;
+            margin-bottom: 20px; /* Espacement entre le logo et le formulaire */
+          }
+    </style>
+</head>
+<body>
+<div class="login-form">
+    <img src="{{ url_for('static', filename='images/logo_LUFTH_TRACK_DATA_250x250.png') }}" alt="Logo" class="logo">
+    <h2>Login</h2>
+    <form method="POST">
+    <input type="text" name="username" placeholder="Username" required>
+    <input type="password" name="password" placeholder="Password" required>
+    <input type="submit" value="Login">
+
+    </form>
+    {% if error %}
+    <p class="error">{{ error }}</p>
+    {% endif %}
+</div>
+</body>
+</html>

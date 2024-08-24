@@ -13,9 +13,10 @@ def get_auth_token():
     config = configparser.ConfigParser()
     if os.path.exists('config.conf'):
         config.read('config.conf')
+        print(os.path('config.conf'))
     else:
         # Recherche dans le dossier lufth_o_api si le fichier n'est pas trouvé dans le dossier actuel
-        lufth_o_api_path = '../lufth_o_api/config.conf'
+        lufth_o_api_path = './app/config.conf'
         if os.path.exists(lufth_o_api_path):
             config.read(lufth_o_api_path)
         else:

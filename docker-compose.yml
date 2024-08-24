@@ -21,6 +21,28 @@ services:
   #     - lufth-network
 
 
+  lufth_o_api:
+    build:
+      context: ./lufth_o_api
+      dockerfile: Dockerfile-lufth_o_api
+    environment:
+      - LOG=1
+    volumes:
+      - ./data_json:/data_json # Mount data_json for storing results
+      - ./logs:/app/logs 
+    networks:
+      - lufth-network
+  
+  lufth_o_api_init:
+    image: busybox
+    depends_on:
+      - lufth_o_api
+    command: /bin/sh -c "while [ ! -f /data_json/completion_signal.txt ]; do sleep 1; done;"
+    volumes:
+      - ./data_json:/data_json
+    networks:
+      - lufth-network
+
   # Base de données MongoDB
   mongo_l:
     build:
@@ -30,23 +52,32 @@ services:
       - LOG=1
     ports:
       - "27017:27017"
+    depends_on:
+      - lufth_o_api_init  
     volumes:
       - ./db_mongo/data:/data/db
-      - ./data_json:/db_mongo/data_json
+      - ./data_json:/data_json
+      - ./logs:/app/logs 
     networks:
       - lufth-network
     
   upload_mongo:
     build:
       context: ./db_mongo
-      dockerfile: Dockerfile-upload
-    # command: python3 upload.py  # Run the script on startup
+      dockerfile: Dockerfile-upmongo
+    # command: python3 upload_mongo.py  # le script running
     volumes:
-      - ./data_json:/db_mongo/data_json # Mount data_json for storing results
+      - ./data_json:/data_json # Mount data_json for storing results
+      - ./db_mongo/data:/data/db
+      - ./logs:/app/logs 
     depends_on:
-      - mongo_l  # Ensure MongoDB is up before running the script
+      - mongo_l # Ensure MongoDB is up before running the script
+      - lufth_o_api_init   
     networks:
       - lufth-network
+    environment:
+      - LOG=1
+      - MONGO_LOG_LEVEL=info 
 
   # Base de données Neo4j
   neo4j_l:
@@ -62,7 +93,9 @@ services:
     volumes:
       - ./db_neo4j/data:/data
       - ./data_json:/data_json
+      - ./logs:/app/logs 
     depends_on:
+      - lufth_o_api_init 
       - mongo_l
       - upload_mongo
     networks:
@@ -73,12 +106,35 @@ services:
       context: ./db_neo4j
       dockerfile: Dockerfile-upneo4j
     volumes:
-      - ./data_json:/db_mongo/data_json
+      - ./data_json:/data_json
       - ./db_neo4j/data:/data
+      - ./logs:/app/logs 
     depends_on:
+      - lufth_o_api_init 
       - mongo_l
       - neo4j_l
       - upload_mongo
+    networks:
+      - lufth-network
+    environment:
+      - LOG=1
+ 
+  flask_api:
+    build:
+      context: ./flask_api
+      dockerfile: Dockerfile-flask
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./flask_api:/app
+      - ./data_json:/data_json
+      - ./logs:/app/logs
+    depends_on:
+      - lufth_o_api_init 
+      - mongo_l
+      - upload_mongo
+    environment:
+      - MAPBOX_ACCESS_TOKEN=YOUR_MAPBOX_ACCESS_TOKEN
     networks:
       - lufth-network
 
@@ -97,5 +153,11 @@ services:
       - neo4j_l
     networks:
       - lufth-network
+
+volumes:
+  logs:
+    driver: local
+
 networks:
   lufth-network:
+    driver: bridge

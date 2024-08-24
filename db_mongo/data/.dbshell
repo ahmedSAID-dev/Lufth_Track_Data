@@ -1,0 +1,30 @@
+use lufth_track_data
+db.c_airports.countDocuments({})
+db.c_airports.find().pretty()
+db.c_flights_info.countDocuments({})
+db.c_flights_info.countDocuments({})
+db.c_airports.countDocuments({})
+db.c_flights_info.countDocuments({})
+use lufth_track_data
+db.c_flights_info.countDocuments({})
+db.c_airports.countDocuments({})
+use lufth_track_data
+db.c_airports.countDocuments({})
+db.c_flights_info.countDocuments({})
+db.c_airports.countDocuments({})
+use lufth_track_data
+db.c_airports.countDocuments({})
+db.c_flights_info.countDocuments({})
+db.c_airports.find().pretty()
+use lufth_track_data
+db.c_flights_info.countDocuments({})
+db.c_airports.countDocuments({})
+use lufth_track_data
+db.c_airports.deleteMany()
+db.c_airports.deleteMany({})
+db.c_flights_info.deleteMany({})
+use lufth_track_data
+db.c_airports.countDocuments({})
+use lufth_track_data
+db.c_airports.countDocuments({})
+db.c_flights_info.countDocuments({})
