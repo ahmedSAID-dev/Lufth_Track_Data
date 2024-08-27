@@ -8,12 +8,14 @@ import numpy as np
 from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user
 import logging
 import os
+import re
 
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'
 cache = Cache(app, config={'CACHE_TYPE': 'simple'})  # Configure Flask-Caching
 
-
+ALL_AIRPORTS = False
+airports_list = ["FRA", "JFK", "MUC", "CDG", "DXB", "LAS", "DOH", "LAX"]
 # Connexion à MongoDB
 client = pymongo.MongoClient("mongodb://mongo_l:27017/")
 db = client['lufth_track_data']
@@ -62,18 +64,37 @@ def get_flight_data(departure_airport=None, arrival_airport=None):
             - airports (list): List of airport documents.
     """
 
-    filters = {}
-    if departure_airport:
-        filters["$or"] = [
-            {"Departure.AirportCode": departure_airport},
-            {"MarketingCarrier.FlightNumber": departure_airport}  # Handle potential flight number as code
-        ]
-    if arrival_airport:
-        filters["Arrival.AirportCode"] = arrival_airport
-    print(f"Filters constructed: {filters}")
-    flights = list(db['c_flights_info'].find(filters))
-    airports = list(db['c_airports'].find())
+    filters = []
+    # Commande mongo
+    # db.c_flights_info.find({"$and": [{"status": /\"Departure\":{\"AirportCode\":\"CDG\"/},{"status": /\"Arrival\":{\"AirportCode\":\"FRA\"/}]}).pretty()
 
+    if departure_airport:
+
+        # Filtre pour l'aéroport de départ
+        departure_filter = {
+            "status": re.compile(rf'"Departure":{{"AirportCode":"{departure_airport}"')
+        }
+        filters.append(departure_filter)
+
+    if arrival_airport:
+        # Filtre pour l'aéroport d'arrivée
+        arrival_filter = {
+            "status": re.compile(rf'"Arrival":{{"AirportCode":"{arrival_airport}"')
+        }
+        filters.append(arrival_filter)
+
+    # Si nous avons des filtres, les combiner avec $and
+    if filters:
+        combined_filters = {"$and": filters}
+    else:
+        combined_filters = {}
+
+    print(f"Filters constructed: {combined_filters}")
+        # ({"status": /{\"Departure\":{\"AirportCode\":\"CDG\"/})
+    # print(f"Filters constructed: {filters}")
+    flights = list(db['c_flights_info'].find(combined_filters))
+    # print(f"les flights: {flights}")
+    airports = list(db['c_airports'].find())
     return flights, airports
 
 @cache.cached(timeout=3600)  # Cache les résultats pendant 1 heure (en secondes)
@@ -102,10 +123,14 @@ def get_airports_df():
     # Parcourir chaque document d'aéroport
     for airport in airports:
         airport_code = airport['AirportCode']
+        # Vérifier si on doit filtrer les aéroports
+        if not ALL_AIRPORTS and airport_code not in airports_list:
+            continue  # Passer cet aéroport s'il n'est pas dans la liste
+        
         latitude = airport['Position']['Coordinate']['Latitude']
         longitude = airport['Position']['Coordinate']['Longitude']
         city_code = airport['CityCode']
-        country_code = airport['CountryCode']
+        country_code = airport.get('CountryCode', 'Inconnu') 
         airport_name = airport['Names']['Name']['$']
         
         # Ajouter les données de l'aéroport à la liste
@@ -259,9 +284,12 @@ def create_plot(flight_df, airports_df):
 
     return fig
 
+@app.route('/')
+def home():
+    return redirect(url_for('login'))
 
 # Route principale de l'application Flask
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/index', methods=['GET', 'POST'])
 @login_required
 def index():
     """
@@ -362,7 +390,92 @@ def airport():
         })
 
     return render_template('airport.html', airports=airports_ls, graphJSON=graphJSON, error_message=error_message)
+# Route principale de l'application Flask
+@app.route('/tester', methods=['GET', 'POST'])
+@login_required
+def tester():
+    """
+    Route principale de l'application Flask. Affiche la page d'accueil avec le graphique des vols et des aéroports.
+    
+    Returns:
+        str: Le rendu de la page d'accueil.
+    """
+    graphJSON = None
+    # airports_list= get_airports()
+    
+    airports_list = [
+    {
+        "AirportCode": "FRA",
+        "Position": {
+            "Coordinate": {
+                "Latitude": 50.0331,
+                "Longitude": 8.5706
+            }
+        },
+        "CityCode": "FRA",
+        "CountryCode": "DE",
+        "LocationType": "Airport",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "en",
+                "$": "Frankfurt/Main International"
+            }
+        },
+        "UtcOffset": "2.0",
+        "TimeZoneId": "Europe/Berlin"
+    },
+    {
+        "AirportCode": "CDG",
+        "Position": {
+            "Coordinate": {
+                "Latitude": 49.0097,
+                "Longitude": 2.5478
+            }
+        },
+        "CityCode": "PAR",
+        "CountryCode": "FR",
+        "LocationType": "Airport",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "en",
+                "$": "Paris - Charles De Gaulle"
+            }
+        },
+        "UtcOffset": "2.0",
+        "TimeZoneId": "Europe/Paris"
+    },
+    {
+        "AirportCode": "JFK",
+        "Position": {
+            "Coordinate": {
+                "Latitude": 40.6397,
+                "Longitude": -73.7789
+            }
+        },
+        "CityCode": "NYC",
+        "CountryCode": "US",
+        "LocationType": "Airport",
+        "Names": {
+            "Name": {
+                "@LanguageCode": "en",
+                "$": "New York - JFK International, NY"
+            }
+        },
+        "UtcOffset": "-4.0",
+        "TimeZoneId": "America/New_York"
+    }]
+    departure_airport_code = "FRA"
+    arrival_airport_code = "CDG"
+    flights, air = get_flight_data(departure_airport_code,arrival_airport_code)
+    logging.debug(air)
+    flight_df = process_flight_data(flights, air)
+    airports_df = get_airports_df()
 
+
+    fig = create_plot(flight_df, airports_df)
+    graphJSON = fig.to_json()
+
+    return render_template('tester.html', airports=airports_list, graphJSON=graphJSON)
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
     print(get_flight_data)

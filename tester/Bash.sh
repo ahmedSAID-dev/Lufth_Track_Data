@@ -9,6 +9,10 @@ docker exec -it lufth_track_data-mongo_l-1 /bin/bash
     db.c_airports.countDocuments({})
     db.c_flights_info.countDocuments({})
     db.c_flights_info.find().limit(2).pretty()
+    db.c_flights_info.find({"status": /"AirportCode\":\"CDG/}).pretty()
+    db.c_flights_info.find({"status": /{\"Departure\":{\"AirportCode\":\"CDG\"/}).pretty()
+    db.c_flights_info.find({"$and": [{"status": /\"Departure\":{\"AirportCode\":\"CDG\"/},{"status": /\"Arrival\":{\"AirportCode\":\"FRA\"/}]}).pretty()
+
 
 docker exec -it lufth_track_data-neo4j_l-1 /bin/bash
 

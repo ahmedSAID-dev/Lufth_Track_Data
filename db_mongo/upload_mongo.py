@@ -123,6 +123,7 @@ def insert_flights_data(db, directory):
     try:
         db["c_flights_info"].insert_many(flights_data)
         logging.info(f"{n_documents} documents insérés dans la collection c_flights_info.")
+        print(f"{n_documents} documents insérés dans la collection c_flights_info.")
     except Exception as e:
         logging.error(f"Erreur lors de l'insertion des données des vols dans MongoDB : {e}")
 

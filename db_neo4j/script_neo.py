@@ -111,12 +111,11 @@ def create_flight_relations_basic(driver, departure_airport, arrival_airport, fl
         relationship_type = "SINGLE_FLIGHT"
     elif flight_type == "connecting flight":
         relationship_type = "CONNECTING_FLIGHT"
-    flight_status = flight_data["FlightStatus"]["Definition"]
-
+        
     query = f"""
     MATCH (dep:Airport {{nom: $departure_airport}})
     MATCH (arr:Airport {{nom: $arrival_airport}})
-    CREATE (dep)-[:{relationship_type}{{nom: $arrival_airport}}]->(arr)
+    CREATE (dep)-[:{relationship_type}]->(arr)
     """
     params = {
         "departure_airport": departure_airport,

@@ -45,7 +45,7 @@
         var form = document.getElementById('flightTypeForm');
         form.addEventListener('change', function() {
           var formData = new FormData(form);
-          fetch('/', {
+          fetch('/index', {
             method: 'POST',
             body: formData
           })
