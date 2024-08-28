@@ -1,2 +1,68 @@
-2024-08-25 22:55:16,831 - WARNING -  * Debugger is active!
-2024-08-25 22:55:16,832 - INFO -  * Debugger PIN: 841-638-246
+2024-08-28 16:24:54,421 - WARNING -  * Debugger is active!
+2024-08-28 16:24:54,422 - INFO -  * Debugger PIN: 204-861-250
+2024-08-28 16:24:54,427 - ERROR - Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask_caching/__init__.py", line 392, in decorated_function
+    rv = self.cache.get(cache_key)
+  File "/usr/local/lib/python3.9/site-packages/flask_caching/__init__.py", line 191, in cache
+    return app.extensions["cache"][self]
+KeyError: <flask_caching.Cache object at 0x7f7f2d370c10>
+2024-08-28 16:24:54,446 - ERROR - Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask_caching/__init__.py", line 392, in decorated_function
+    rv = self.cache.get(cache_key)
+  File "/usr/local/lib/python3.9/site-packages/flask_caching/__init__.py", line 191, in cache
+    return app.extensions["cache"][self]
+KeyError: <flask_caching.Cache object at 0x7f7f2d370c10>
+2024-08-28 16:24:54,747 - ERROR - Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask_caching/__init__.py", line 392, in decorated_function
+    rv = self.cache.get(cache_key)
+  File "/usr/local/lib/python3.9/site-packages/flask_caching/__init__.py", line 191, in cache
+    return app.extensions["cache"][self]
+KeyError: <flask_caching.Cache object at 0x7f7f2d370c10>
+2024-08-28 16:24:54,765 - ERROR - Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask_caching/__init__.py", line 392, in decorated_function
+    rv = self.cache.get(cache_key)
+  File "/usr/local/lib/python3.9/site-packages/flask_caching/__init__.py", line 191, in cache
+    return app.extensions["cache"][self]
+KeyError: <flask_caching.Cache object at 0x7f7f2d370c10>
+2024-08-28 16:24:54,786 - ERROR - Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask_caching/__init__.py", line 392, in decorated_function
+    rv = self.cache.get(cache_key)
+  File "/usr/local/lib/python3.9/site-packages/flask_caching/__init__.py", line 191, in cache
+    return app.extensions["cache"][self]
+KeyError: <flask_caching.Cache object at 0x7f7f2d370c10>
+2024-08-28 16:24:54,917 - ERROR - Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask_caching/__init__.py", line 392, in decorated_function
+    rv = self.cache.get(cache_key)
+  File "/usr/local/lib/python3.9/site-packages/flask_caching/__init__.py", line 191, in cache
+    return app.extensions["cache"][self]
+KeyError: <flask_caching.Cache object at 0x7f7f2d370c10>
+2024-08-28 16:24:54,947 - ERROR - Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask_caching/__init__.py", line 392, in decorated_function
+    rv = self.cache.get(cache_key)
+  File "/usr/local/lib/python3.9/site-packages/flask_caching/__init__.py", line 191, in cache
+    return app.extensions["cache"][self]
+KeyError: <flask_caching.Cache object at 0x7f7f2d370c10>
+2024-08-28 16:24:54,968 - ERROR - Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask_caching/__init__.py", line 392, in decorated_function
+    rv = self.cache.get(cache_key)
+  File "/usr/local/lib/python3.9/site-packages/flask_caching/__init__.py", line 191, in cache
+    return app.extensions["cache"][self]
+KeyError: <flask_caching.Cache object at 0x7f7f2d370c10>
+2024-08-28 16:24:54,987 - ERROR - Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask_caching/__init__.py", line 392, in decorated_function
+    rv = self.cache.get(cache_key)
+  File "/usr/local/lib/python3.9/site-packages/flask_caching/__init__.py", line 191, in cache
+    return app.extensions["cache"][self]
+KeyError: <flask_caching.Cache object at 0x7f7f2d370c10>
+2024-08-28 16:24:55,032 - INFO - 172.30.0.1 - - [28/Aug/2024 16:24:55] "GET /statistics HTTP/1.1" 200 -
+2024-08-28 16:24:55,064 - INFO - 172.30.0.1 - - [28/Aug/2024 16:24:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-08-28 16:24:55,065 - INFO - 172.30.0.1 - - [28/Aug/2024 16:24:55] "[36mGET /static/images/logo_LUFTH_TRACK_DATA_250x250.png HTTP/1.1[0m" 304 -

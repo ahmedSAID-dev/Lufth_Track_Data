@@ -108,7 +108,7 @@ def get_airports():
     airports = list(db['c_airports'].find())
     return airports
 
-def get_airports_df():
+def get_airports_df(airports_list, ALL_AIRPORTS=True):
     """
     Récupère les données des aéroports depuis MongoDB et les convertit en DataFrame Pandas.
     
@@ -300,7 +300,7 @@ def index():
     """
     flights, airports = get_flight_data()
     flight_df = process_flight_data(flights, airports)
-    airports_df = get_airports_df()
+    airports_df = get_airports_df(airports_list, ALL_AIRPORTS)
 
     if request.method == 'POST':
         flight_type = request.form['flightType']
@@ -351,7 +351,7 @@ def airport():
         str: Le rendu de la page avec le formulaire de sélection des aéroports et le graphique.
     """
     airports_ls= get_airports()
-    airports_df= get_airports_df()
+    airports_df= get_airports_df(airports_list, ALL_AIRPORTS)
     # airports_df = [{'AirportCode': 'CDG', 'Name': 'Charles de Gaulle', 'CountryCode':'FRA'},
                 #    {'AirportCode': 'FRA', 'Name': 'FRANKFURT', 'CountryCode':'ALL'}]
     graphJSON = None
@@ -469,7 +469,7 @@ def tester():
     flights, air = get_flight_data(departure_airport_code,arrival_airport_code)
     logging.debug(air)
     flight_df = process_flight_data(flights, air)
-    airports_df = get_airports_df()
+    airports_df = get_airports_df(airports_list, ALL_AIRPORTS)
 
 
     fig = create_plot(flight_df, airports_df)

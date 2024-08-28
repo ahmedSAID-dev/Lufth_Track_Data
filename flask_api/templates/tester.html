@@ -12,7 +12,7 @@
         </div>
       <div class="app-name">LUFTH_TRACK_DATA</div>
       <a href="https://www.lufthansa.com/" style="color: #1B84a0" target="_blank">Site Officiel Lufthansa</a>
-      <a href="{{ url_for('logout') }}" style="color: #1B84a0; text-decoration: none; margin-left: 20px;">Logout</a>
+      <a href="{{ url_for('auth.logout') }}" style="color: #1B84a0; text-decoration: none; margin-left: 20px;">Logout</a>
     </div>
   
     <div class="container">
@@ -36,7 +36,9 @@
           <button type="submit">Voir Vols</button>
       </form>
 
-      <a href="{{ url_for('index') }}">Tous les vols</a>
+      <form id="indexForm" action="{{ url_for('main.index') }}" method="get">
+        <button type="submit">Tous les vols</button>
+      </form>
     </div>
   
     <div id="graph"></div>
@@ -44,8 +46,10 @@
     <script type="text/javascript">
       // Script to manage graph display and form interactions
       document.addEventListener('DOMContentLoaded', function() {
-        // Get graph container and initial data
+        
         var graphDiv = document.getElementById('graph');
+        
+         // Initialiser une carte vide
         var graphJSON = {{ graphJSON | safe }};
         Plotly.newPlot(graphDiv, graphJSON.data, graphJSON.layout);
   

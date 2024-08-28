@@ -1,12 +1,12 @@
 from flask import Flask
 from flask_caching import Cache
 from flask_login import LoginManager
-from .routes import main_blueprint, auth_blueprint, airport_blueprint
+from .routes import main_blueprint, auth_blueprint, airport_blueprint, tester_blueprint, statistics_blueprint
 from .models import User
 
 # Initialize Flask app
 def create_app():
-    app = Flask(__name__)
+    app = Flask(__name__, template_folder='../templates', static_folder='../static')
     app.secret_key = 'your_secret_key'  # Secret key for sessions
 
     # Initialize cache
@@ -25,5 +25,7 @@ def create_app():
     app.register_blueprint(main_blueprint)
     app.register_blueprint(auth_blueprint)
     app.register_blueprint(airport_blueprint)
+    app.register_blueprint(tester_blueprint)
+    app.register_blueprint(statistics_blueprint) 
 
     return app

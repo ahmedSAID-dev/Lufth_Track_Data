@@ -1,0 +1,49 @@
+<!-- templates/statistics.html -->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Statistiques des Vols par Aéroport de Départ - LUFTH_TRACK_DATA</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="header">
+        <div class="logo-container">
+            <img src="{{ url_for('static', filename='images/logo_LUFTH_TRACK_DATA_250x250.png') }}" alt="Logo" class="logo">
+        </div>
+        <div class="app-name">LUFTH_TRACK_DATA</div>
+        <a href="{{ url_for('auth.logout') }}" style="color: #1B84a0; text-decoration: none; margin-left: 20px;">Logout</a>
+    </div>
+
+    <div class="container">
+        <h1>Statistiques des Vols par Aéroport de Départ</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Aéroport de Départ</th>
+                    <th>Nombre Total de Vols</th>
+                    <th>Pourcentage de Vols Retardés</th>
+                    <th>Destination Préférée</th>
+                    <th>Nombre Moyen de Passagers</th>
+                    <th>Retard Moyen (en minutes)</th>
+                    <th>Nombre Total de Passagers</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for stat in statistics_data %}
+                <tr>
+                    <td>{{ stat.airport_code }}</td>
+                    <td>{{ stat.total_flights }}</td>
+                    <td>{{ stat.delayed_percentage }}%</td>
+                    <td>{{ stat.preferred_destination }}</td>
+                    <td>{{ stat.avg_passengers }}</td>
+                    <td>{{ stat.avg_delay }}</td>
+                    <td>{{ stat.total_passengers }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

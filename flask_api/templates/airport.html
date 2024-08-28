@@ -13,7 +13,7 @@
         </div>
         <div class="app-name">LUFTH_TRACK_DATA</div>
         <a href="https://www.lufthansa.com/" style="color: #1B84a0" target="_blank">Site Officiel Lufthansa</a>
-        <a href="{{ url_for('logout') }}" style="color: #1B84a0; text-decoration: none; margin-left: 20px;">Logout</a>
+        <a href="{{ url_for('auth.logout') }}" style="color: #1B84a0; text-decoration: none; margin-left: 20px;">Logout</a>
     </div>
 
     <div class="container">
@@ -37,16 +37,22 @@
             <button type="submit">Voir Vols</button>
         </form>
 
-        <a href="{{ url_for('index') }}">Tous les vols</a>
+        <form id="indexForm" action="{{ url_for('main.index') }}" method="get">
+            <button type="submit">Tous les vols</button>
+          </form>
+          <form id="statsForm" action="{{ url_for('statistics.statistics') }}" method="get">
+            <button type="submit">Statistiques</button>
+          </form>
 
-        <div id="airportCodes">
-            <p>Aéroport de départ: <span id="departureCode"></span></p>
-            <p>Aéroport d'arrivée: <span id="arrivalCode"></span></p>
-        </div>
-        <div id="errorMessage" class="error"></div>
+
     </div>
 
     <div id="graph"></div>
+    <div id="airportCodes">
+        <p>Aéroport de départ: <span id="departureCode"></span></p>
+        <p>Aéroport d'arrivée: <span id="arrivalCode"></span></p>
+    </div>
+    <div id="errorMessage" class="error"></div>
     
 
 
@@ -56,8 +62,10 @@
 
             // Initialiser une carte vide
             var graphJSON = {{ graphJSON | safe }};
-            Plotly.newPlot(graphDiv, graphJSON.data, graphJSON.layout);
-
+            if (graphJSON) {
+                Plotly.newPlot(graphDiv, graphJSON.data, graphJSON.layout);
+            }
+        
             var form = document.getElementById('airportSelectionForm');
             form.addEventListener('submit', function(event) {
                 event.preventDefault();
@@ -68,16 +76,27 @@
                 })
                 .then(response => response.json())
                 .then(data => {
-                    if (data.error_message) {
-                        document.getElementById('errorMessage').innerText = data.error_message;
-                    } else {
+                    if (data.graphJSON) {
                         var graphJSON = JSON.parse(data.graphJSON);
                         Plotly.react(graphDiv, graphJSON.data, graphJSON.layout);
+                    } else {
+                        console.error('Erreur: Aucune donnée graphique reçue.');
+                    }
+        
+                    // Mettre à jour les codes d'aéroport affichés
+                    document.getElementById('departureCode').textContent = data.departureAirportCode;
+                    document.getElementById('arrivalCode').textContent = data.arrivalAirportCode;
+        
+                    // Gérer le message d'erreur
+                    if (data.error_message) {
+                        document.getElementById('errorMessage').textContent = data.error_message;
+                    } else {
+                        document.getElementById('errorMessage').textContent = '';
                     }
                 })
                 .catch(error => console.error('Error:', error));
+              });
             });
-        });
     </script>
 </body>
 </html>

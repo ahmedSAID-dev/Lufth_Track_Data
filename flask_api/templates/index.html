@@ -12,7 +12,7 @@
         </div>
       <div class="app-name">LUFTH_TRACK_DATA</div>
       <a href="https://www.lufthansa.com/" style="color: #1B84a0" target="_blank">Site Officiel Lufthansa</a>
-      <a href="{{ url_for('logout') }}" style="color: #1B84a0; text-decoration: none; margin-left: 20px;">Logout</a>
+      <a href="{{ url_for('auth.logout') }}" style="color: #1B84a0; text-decoration: none; margin-left: 20px;">Logout</a>
     </div>
   
     <div class="radio-buttons">
@@ -24,7 +24,7 @@
         <input type="radio" id="connectingFlight" name="flightType" value="connecting">
         <label for="connectingFlight">Connecting Flights</label>
       </form>
-      <form action="{{ url_for('airport') }}" method="get">
+       <form action="{{ url_for('airport.airport') }}" method="get">
         <button type="submit">Filtrer par Aéroport</button>
       </form>
     </div>
