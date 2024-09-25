@@ -32,7 +32,6 @@ def statistics():
         # delayed_flights = flight_df[flight_df['time_status'] == 'Flight Delayed']
         # delayed_percentage = (len(delayed_flights) / total_flights) * 100 if total_flights > 0 else 0
         preferred_destination = flight_df['destination_code'].mode().iloc[0] if not flight_df.empty else 'N/A'
-        avg_passengers = flight_df['passenger_count'].mean() if 'passenger_count' in flight_df.columns else 'N/A'
         avg_delay = flight_df[flight_df['time_status'] == 'Flight Delayed']['delay_minutes'].mean() if 'delay_minutes' in flight_df.columns else float('nan')
 
         # Vérifier si avg_delay est un NaN
@@ -41,16 +40,13 @@ def statistics():
             avg_delay = round(avg_delay,1)  # arrondir peut être fait directement sans conversion en int
         else:
             avg_delay = 'N/A'
-        total_passengers = flight_df['passenger_count'].sum() if 'passenger_count' in flight_df.columns else 'N/A'
 
         statistics_data.append({
             'airport_code': airport_code,
             'total_flights': total_flights,
             # 'delayed_percentage': delayed_percentage,
             'preferred_destination': preferred_destination,
-            'avg_passengers': avg_passengers,
-            'avg_delay': avg_delay,
-            'total_passengers': total_passengers
+            'avg_delay': avg_delay
         })
 
     # Rendre le template avec les données de statistiques

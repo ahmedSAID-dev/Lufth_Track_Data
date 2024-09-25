@@ -25,9 +25,7 @@
                     <th>Nombre Total de Vols</th>
                     <th>Pourcentage de Vols Retardés</th>
                     <th>Destination Préférée</th>
-                    <th>Nombre Moyen de Passagers</th>
                     <th>Retard Moyen (en minutes)</th>
-                    <th>Nombre Total de Passagers</th>
                 </tr>
             </thead>
             <tbody>
@@ -37,9 +35,7 @@
                     <td>{{ stat.total_flights }}</td>
                     <td>{{ stat.delayed_percentage }}%</td>
                     <td>{{ stat.preferred_destination }}</td>
-                    <td>{{ stat.avg_passengers }}</td>
                     <td>{{ stat.avg_delay }}</td>
-                    <td>{{ stat.total_passengers }}</td>
                 </tr>
                 {% endfor %}
             </tbody>

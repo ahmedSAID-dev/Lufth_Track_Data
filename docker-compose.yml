@@ -1,25 +1,6 @@
 version: "3"
 
 services:
-  # # API FastAPI
-  # api:
-  #   build:
-  #     context: ./api_database
-  #     dockerfile: Dockerfile-api
-  #   ports:
-  #     - "8000:8000"
-  #   volumes:
-  #     - ./data_json:/data_json
-  #     - ./data_fixe:/data_fixe
-  #     - ./db_mongo/data:/data/db
-  #     - ./db_neo4j/data:/data
-  #   depends_on:
-  #     - mongo_l
-  #     - neo4j_l
-  #     - upload_l
-  #   networks:
-  #     - lufth-network
-
 
   lufth_o_api:
     build:
@@ -139,20 +120,20 @@ services:
       - lufth-network
 
   # Jupyter
-  jupyter:
-    image: jupyter/minimal-notebook:ubuntu-18.04
-    ports:
-      - "8888:8888"
-    volumes:
-      - ./notebooks:/home/jovyan/work
-    environment:
-      JUPYTER_TOKEN: "ahmed"
-    depends_on:
-      - mongo_l
-      - upload_mongo
-      - neo4j_l
-    networks:
-      - lufth-network
+  # jupyter:
+  #   image: jupyter/minimal-notebook:ubuntu-18.04
+  #   ports:
+  #     - "8888:8888"
+  #   volumes:
+  #     - ./notebooks:/home/jovyan/work
+  #   environment:
+  #     JUPYTER_TOKEN: "ahmed"
+  #   depends_on:
+  #     - mongo_l
+  #     - upload_mongo
+  #     - neo4j_l
+  #   networks:
+  #     - lufth-network
 
 volumes:
   logs:
