@@ -1,0 +1,508 @@
+[33mcommit a73ba93fea4635ff004b387ed72e143e1fcbad73[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: ahmedSAID-dev <ahmed.nejib.said@gmail.com>
+Date:   Wed Sep 25 19:51:42 2024 +0200
+
+    avant_pres
+
+ db_mongo/data/journal/WiredTigerLog.0000000012              | Bin [31m104857600[m -> [32m0[m bytes
+ db_mongo/data/journal/WiredTigerPreplog.0000000001          | Bin [31m104857600[m -> [32m0[m bytes
+ db_mongo/data/journal/WiredTigerPreplog.0000000002          | Bin [31m104857600[m -> [32m0[m bytes
+ db_neo4j/data/transactions/neo4j/checkpoint.0               | Bin [31m34240[m -> [32m0[m bytes
+ db_neo4j/data/transactions/neo4j/neostore.transaction.db.0  | Bin [31m270851387[m -> [32m0[m bytes
+ db_neo4j/data/transactions/neo4j/neostore.transaction.db.1  | Bin [31m262144000[m -> [32m0[m bytes
+ db_neo4j/data/transactions/system/checkpoint.0              | Bin [31m27712[m -> [32m0[m bytes
+ db_neo4j/data/transactions/system/neostore.transaction.db.0 | Bin [31m262144000[m -> [32m0[m bytes
+ 8 files changed, 0 insertions(+), 0 deletions(-)
+
+[33mcommit 3d49b8d5858795c4cf0044d2407d2bf2b249154c[m
+Author: ahmedSAID-dev <ahmed.nejib.said@gmail.com>
+Date:   Wed Sep 25 19:02:29 2024 +0200
+
+    avant_pres
+
+ db_mongo/data/WiredTiger.turtle                                                             |    2 [32m+[m[31m-[m
+ db_mongo/data/WiredTiger.wt                                                                 |  Bin [31m86016[m -> [32m57344[m bytes
+ db_mongo/data/_mdb_catalog.wt                                                               |  Bin [31m36864[m -> [32m36864[m bytes
+ db_mongo/data/collection-0--3637884591826022082.wt                                          |  Bin [31m0[m -> [32m139264[m bytes
+ db_mongo/data/collection-0-7955571296925326698.wt                                           |  Bin [31m139264[m -> [32m0[m bytes
+ db_mongo/data/{collection-2-7955571296925326698.wt => collection-2--3637884591826022082.wt} |  Bin [31m143360[m -> [32m143360[m bytes
+ db_mongo/data/collection-2-2686222057358522176.wt                                           |  Bin [31m77824[m -> [32m77824[m bytes
+ db_mongo/data/collection-4-2686222057358522176.wt                                           |  Bin [31m36864[m -> [32m12288[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-09-11T08-45-04Z-00000                            |  Bin [31m0[m -> [32m98652[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-09-11T09-12-00Z-00000                            |  Bin [31m0[m -> [32m1801880[m bytes
+ db_mongo/data/diagnostic.data/metrics.interim                                               |  Bin [31m32371[m -> [32m0[m bytes
+ db_mongo/data/{index-1-7955571296925326698.wt => index-1--3637884591826022082.wt}           |  Bin [31m28672[m -> [32m28672[m bytes
+ db_mongo/data/{index-3-7955571296925326698.wt => index-3--3637884591826022082.wt}           |  Bin [31m24576[m -> [32m24576[m bytes
+ db_mongo/data/index-3-2686222057358522176.wt                                                |  Bin [31m45056[m -> [32m45056[m bytes
+ db_mongo/data/index-5-2686222057358522176.wt                                                |  Bin [31m36864[m -> [32m12288[m bytes
+ db_mongo/data/index-6-2686222057358522176.wt                                                |  Bin [31m36864[m -> [32m12288[m bytes
+ db_mongo/data/journal/{WiredTigerLog.0000000010 => WiredTigerLog.0000000012}                |  Bin [31m104857600[m -> [32m104857600[m bytes
+ db_mongo/data/mongod.lock                                                                   |    1 [31m-[m
+ db_mongo/data/sizeStorer.wt                                                                 |  Bin [31m69632[m -> [32m69632[m bytes
+ db_neo4j/data/databases/neo4j/neostore                                                      |  Bin [31m8192[m -> [32m8192[m bytes
+ db_neo4j/data/databases/neo4j/neostore.counts.db                                            |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/neo4j/neostore.indexstats.db                                        |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/neo4j/neostore.labelscanstore.db                                    |  Bin [31m98304[m -> [32m98304[m bytes
+ db_neo4j/data/databases/neo4j/neostore.labeltokenstore.db.id                                |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/neo4j/neostore.labeltokenstore.db.names.id                          |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/neo4j/neostore.nodestore.db                                         |  Bin [31m663552[m -> [32m663552[m bytes
+ db_neo4j/data/databases/neo4j/neostore.nodestore.db.id                                      |  Bin [31m98304[m -> [32m98304[m bytes
+ db_neo4j/data/databases/neo4j/neostore.nodestore.db.labels.id                               |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/neo4j/neostore.propertystore.db                                     |  Bin [31m3629056[m -> [32m3629056[m bytes
+ db_neo4j/data/databases/neo4j/neostore.propertystore.db.arrays.id                           |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/neo4j/neostore.propertystore.db.id                                  |  Bin [31m155648[m -> [32m155648[m bytes
+ db_neo4j/data/databases/neo4j/neostore.propertystore.db.index.id                            |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/neo4j/neostore.propertystore.db.index.keys.id                       |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/neo4j/neostore.propertystore.db.strings.id                          |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/neo4j/neostore.relationshipgroupstore.db                            |  Bin [31m8192[m -> [32m8192[m bytes
+ db_neo4j/data/databases/neo4j/neostore.relationshipgroupstore.db.id                         |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/neo4j/neostore.relationshipgroupstore.degrees.db                    |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/neo4j/neostore.relationshipstore.db                                 |  Bin [31m24576[m -> [32m24576[m bytes
+ db_neo4j/data/databases/neo4j/neostore.relationshipstore.db.id                              |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/neo4j/neostore.relationshiptypescanstore.db                         |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/neo4j/neostore.relationshiptypestore.db.id                          |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/neo4j/neostore.relationshiptypestore.db.names.id                    |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/neo4j/neostore.schemastore.db.id                                    |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.counts.db                                           |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/system/neostore.indexstats.db                                       |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/system/neostore.labelscanstore.db                                   |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/system/neostore.labeltokenstore.db.id                               |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.labeltokenstore.db.names.id                         |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.nodestore.db.id                                     |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.nodestore.db.labels.id                              |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.propertystore.db.arrays.id                          |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.propertystore.db.id                                 |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.propertystore.db.index.id                           |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/system/neostore.propertystore.db.index.keys.id                      |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.propertystore.db.strings.id                         |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.relationshipgroupstore.db.id                        |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.relationshipgroupstore.degrees.db                   |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.relationshipstore.db.id                             |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.relationshiptypescanstore.db                        |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/system/neostore.relationshiptypestore.db.id                         |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.relationshiptypestore.db.names.id                   |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.schemastore.db.id                                   |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/schema/index/native-btree-1.0/3/index-3                      |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/system/schema/index/native-btree-1.0/4/index-4                      |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/system/schema/index/native-btree-1.0/7/index-7                      |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/dbms/auth.ini                                                                 |    2 [32m+[m[31m-[m
+ db_neo4j/data/transactions/neo4j/checkpoint.0                                               |  Bin [31m33472[m -> [32m34240[m bytes
+ db_neo4j/data/transactions/neo4j/neostore.transaction.db.1                                  |  Bin [31m262144000[m -> [32m262144000[m bytes
+ db_neo4j/data/transactions/system/checkpoint.0                                              |  Bin [31m27328[m -> [32m27712[m bytes
+ docker-compose.yml                                                                          |   47 [32m+[m[31m-[m
+ flask_api/app/routes/__pycache__/statistics.cpython-39.pyc                                  |  Bin [31m1665[m -> [32m1535[m bytes
+ flask_api/app/routes/statistics.py                                                          |    6 [32m+[m[31m-[m
+ flask_api/templates/statistics.html                                                         |    4 [31m-[m
+ logs/flask.log                                                                              |  112 [32m+[m[31m-[m
+ logs/mongoupload.log                                                                        |   84 [32m+[m[31m-[m
+ logs/neo4jupload.log                                                                        | 5856 [32m+++++++++++++++++++++++++++++[m[31m-----------------------------[m
+ logs/request.log                                                                            |    2 [32m+[m[31m-[m
+ 77 files changed, 3077 insertions(+), 3039 deletions(-)
+
+[33mcommit 2be8d075c9dc52c346083528c4ed9e759c634a57[m
+Author: ahmedSAID-dev <ahmed.nejib.said@gmail.com>
+Date:   Wed Aug 28 18:26:06 2024 +0200
+
+    Par AIroport ok stats en cours
+
+ db_mongo/data/WiredTiger.turtle                                                             |    2 [32m+[m[31m-[m
+ db_mongo/data/WiredTiger.wt                                                                 |  Bin [31m57344[m -> [32m86016[m bytes
+ db_mongo/data/_mdb_catalog.wt                                                               |  Bin [31m36864[m -> [32m36864[m bytes
+ db_mongo/data/collection-0--3127928586962426933.wt                                          |  Bin [31m139264[m -> [32m0[m bytes
+ db_mongo/data/collection-0-7955571296925326698.wt                                           |  Bin [31m0[m -> [32m139264[m bytes
+ db_mongo/data/collection-2-2686222057358522176.wt                                           |  Bin [31m77824[m -> [32m77824[m bytes
+ db_mongo/data/{collection-2--3127928586962426933.wt => collection-2-7955571296925326698.wt} |  Bin [31m143360[m -> [32m143360[m bytes
+ db_mongo/data/collection-4-2686222057358522176.wt                                           |  Bin [31m36864[m -> [32m36864[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-28T09-56-24Z-00000                            |  Bin [31m0[m -> [32m74501[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-28T10-04-46Z-00000                            |  Bin [31m0[m -> [32m108209[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-28T10-16-43Z-00000                            |  Bin [31m0[m -> [32m136258[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-28T10-43-31Z-00000                            |  Bin [31m0[m -> [32m67238[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-28T10-51-56Z-00000                            |  Bin [31m0[m -> [32m30097[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-28T10-53-21Z-00000                            |  Bin [31m0[m -> [32m28453[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-28T10-54-42Z-00000                            |  Bin [31m0[m -> [32m38048[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-28T10-55-54Z-00000                            |  Bin [31m0[m -> [32m1880177[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-28T15-47-27Z-00000                            |  Bin [31m0[m -> [32m202255[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-28T16-16-06Z-00000                            |  Bin [31m0[m -> [32m45356[m bytes
+ db_mongo/data/diagnostic.data/metrics.interim                                               |  Bin [31m0[m -> [32m32371[m bytes
+ db_mongo/data/{index-1--3127928586962426933.wt => index-1-7955571296925326698.wt}           |  Bin [31m28672[m -> [32m28672[m bytes
+ db_mongo/data/index-3-2686222057358522176.wt                                                |  Bin [31m45056[m -> [32m45056[m bytes
+ db_mongo/data/{index-3--3127928586962426933.wt => index-3-7955571296925326698.wt}           |  Bin [31m24576[m -> [32m24576[m bytes
+ db_mongo/data/index-5-2686222057358522176.wt                                                |  Bin [31m36864[m -> [32m36864[m bytes
+ db_mongo/data/index-6-2686222057358522176.wt                                                |  Bin [31m36864[m -> [32m36864[m bytes
+ db_mongo/data/journal/WiredTigerLog.0000000010                                              |  Bin [31m0[m -> [32m104857600[m bytes
+ db_mongo/data/journal/WiredTigerPreplog.0000000001                                          |  Bin [31m0[m -> [32m104857600[m bytes
+ db_mongo/data/journal/WiredTigerPreplog.0000000002                                          |  Bin [31m0[m -> [32m104857600[m bytes
+ db_mongo/data/mongod.lock                                                                   |    1 [32m+[m
+ db_mongo/data/sizeStorer.wt                                                                 |  Bin [31m61440[m -> [32m69632[m bytes
+ db_neo4j/data/databases/neo4j/neostore                                                      |  Bin [31m8192[m -> [32m8192[m bytes
+ db_neo4j/data/databases/neo4j/neostore.counts.db                                            |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/neo4j/neostore.indexstats.db                                        |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/neo4j/neostore.labelscanstore.db                                    |  Bin [31m98304[m -> [32m98304[m bytes
+ db_neo4j/data/databases/neo4j/neostore.labeltokenstore.db.id                                |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/neo4j/neostore.labeltokenstore.db.names.id                          |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/neo4j/neostore.nodestore.db                                         |  Bin [31m663552[m -> [32m663552[m bytes
+ db_neo4j/data/databases/neo4j/neostore.nodestore.db.id                                      |  Bin [31m98304[m -> [32m98304[m bytes
+ db_neo4j/data/databases/neo4j/neostore.nodestore.db.labels.id                               |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/neo4j/neostore.propertystore.db                                     |  Bin [31m3629056[m -> [32m3629056[m bytes
+ db_neo4j/data/databases/neo4j/neostore.propertystore.db.arrays.id                           |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/neo4j/neostore.propertystore.db.id                                  |  Bin [31m155648[m -> [32m155648[m bytes
+ db_neo4j/data/databases/neo4j/neostore.propertystore.db.index.id                            |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/neo4j/neostore.propertystore.db.index.keys.id                       |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/neo4j/neostore.propertystore.db.strings.id                          |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/neo4j/neostore.relationshipgroupstore.db                            |  Bin [31m8192[m -> [32m8192[m bytes
+ db_neo4j/data/databases/neo4j/neostore.relationshipgroupstore.db.id                         |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/neo4j/neostore.relationshipgroupstore.degrees.db                    |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/neo4j/neostore.relationshipstore.db                                 |  Bin [31m24576[m -> [32m24576[m bytes
+ db_neo4j/data/databases/neo4j/neostore.relationshipstore.db.id                              |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/neo4j/neostore.relationshiptypescanstore.db                         |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/neo4j/neostore.relationshiptypestore.db.id                          |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/neo4j/neostore.relationshiptypestore.db.names.id                    |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/neo4j/neostore.schemastore.db.id                                    |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.counts.db                                           |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/system/neostore.indexstats.db                                       |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/system/neostore.labelscanstore.db                                   |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/system/neostore.labeltokenstore.db.id                               |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.labeltokenstore.db.names.id                         |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.nodestore.db.id                                     |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.nodestore.db.labels.id                              |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.propertystore.db.arrays.id                          |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.propertystore.db.id                                 |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.propertystore.db.index.id                           |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/system/neostore.propertystore.db.index.keys.id                      |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.propertystore.db.strings.id                         |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.relationshipgroupstore.db.id                        |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.relationshipgroupstore.degrees.db                   |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.relationshipstore.db.id                             |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.relationshiptypescanstore.db                        |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/system/neostore.relationshiptypestore.db.id                         |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.relationshiptypestore.db.names.id                   |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.schemastore.db.id                                   |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/schema/index/native-btree-1.0/3/index-3                      |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/system/schema/index/native-btree-1.0/4/index-4                      |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/system/schema/index/native-btree-1.0/7/index-7                      |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/dbms/auth.ini                                                                 |    2 [32m+[m[31m-[m
+ db_neo4j/data/transactions/neo4j/checkpoint.0                                               |  Bin [31m31360[m -> [32m33472[m bytes
+ db_neo4j/data/transactions/neo4j/neostore.transaction.db.1                                  |  Bin [31m262144000[m -> [32m262144000[m bytes
+ db_neo4j/data/transactions/system/checkpoint.0                                              |  Bin [31m25600[m -> [32m27328[m bytes
+ flask_api/Dockerfile-flask                                                                  |    2 [32m+[m[31m-[m
+ flask_api/__pycache__/config.cpython-39.pyc                                                 |  Bin [31m0[m -> [32m511[m bytes
+ flask_api/app.py                                                                            |    8 [32m+[m[31m-[m
+ flask_api/app/__init__.py                                                                   |    6 [32m+[m[31m-[m
+ flask_api/app/__pycache__/__init__.cpython-39.pyc                                           |  Bin [31m0[m -> [32m1072[m bytes
+ flask_api/app/__pycache__/models.cpython-39.pyc                                             |  Bin [31m0[m -> [32m433[m bytes
+ flask_api/app/models.py                                                                     |    5 [32m+[m
+ flask_api/app/routes/__init__.py                                                            |    5 [32m+[m
+ flask_api/app/routes/__pycache__/__init__.cpython-39.pyc                                    |  Bin [31m0[m -> [32m355[m bytes
+ flask_api/app/routes/__pycache__/airport.cpython-39.pyc                                     |  Bin [31m0[m -> [32m1773[m bytes
+ flask_api/app/routes/__pycache__/auth.cpython-39.pyc                                        |  Bin [31m0[m -> [32m1050[m bytes
+ flask_api/app/routes/__pycache__/main.cpython-39.pyc                                        |  Bin [31m0[m -> [32m1618[m bytes
+ flask_api/app/routes/__pycache__/statistics.cpython-39.pyc                                  |  Bin [31m0[m -> [32m1665[m bytes
+ flask_api/app/routes/__pycache__/tester.cpython-39.pyc                                      |  Bin [31m0[m -> [32m1454[m bytes
+ flask_api/app/routes/airport.py                                                             |   57 [32m+[m
+ flask_api/app/routes/auth.py                                                                |   26 [32m+[m
+ flask_api/app/routes/main.py                                                                |   42 [32m+[m
+ flask_api/app/routes/statistics.py                                                          |   57 [32m+[m
+ flask_api/app/routes/tester.py                                                              |  111 [32m++[m
+ flask_api/app/services/__pycache__/airport_data.cpython-39.pyc                              |  Bin [31m0[m -> [32m1501[m bytes
+ flask_api/app/services/__pycache__/flight_data.cpython-39.pyc                               |  Bin [31m0[m -> [32m4035[m bytes
+ flask_api/app/services/__pycache__/plot_service.cpython-39.pyc                              |  Bin [31m0[m -> [32m2004[m bytes
+ flask_api/app/services/airport_data.py                                                      |   59 [32m+[m
+ flask_api/app/services/flight_data.py                                                       |  124 [32m++[m
+ flask_api/app/services/plot_service.py                                                      |   80 [32m+[m
+ flask_api/app/utils/__pycache__/caching.cpython-39.pyc                                      |  Bin [31m0[m -> [32m274[m bytes
+ flask_api/app/utils/caching.py                                                              |    4 [32m+[m
+ flask_api/config.py                                                                         |    8 [32m+[m
+ flask_api/run.py                                                                            |   16 [32m+[m
+ flask_api/templates/airport.html                                                            |   45 [32m+[m[31m-[m
+ flask_api/templates/index.html                                                              |    4 [32m+[m[31m-[m
+ flask_api/templates/statistics.html                                                         |   49 [32m+[m
+ flask_api/templates/tester.html                                                             |   10 [32m+[m[31m-[m
+ logs/flask.log                                                                              |   70 [32m+[m[31m-[m
+ logs/mongoupload.log                                                                        |   84 [32m+[m[31m-[m
+ logs/neo4jupload.log                                                                        | 5856 [32m+++++++++++++++++++++++++++++[m[31m-----------------------------[m
+ logs/request.log                                                                            |    2 [32m+[m[31m-[m
+ 116 files changed, 3735 insertions(+), 3000 deletions(-)
+
+[33mcommit f8dbd81d02ce2891b471af7a27cfd51507e80d1f[m
+Author: ahmedSAID-dev <ahmed.nejib.said@gmail.com>
+Date:   Tue Aug 27 15:43:41 2024 +0200
+
+    changement blue en cours
+
+ db_mongo/data/WiredTiger.turtle                                                   |    2 [32m+[m[31m-[m
+ db_mongo/data/WiredTiger.wt                                                       |  Bin [31m57344[m -> [32m57344[m bytes
+ db_mongo/data/_mdb_catalog.wt                                                     |  Bin [31m36864[m -> [32m36864[m bytes
+ db_mongo/data/collection-0--3127928586962426933.wt                                |  Bin [31m0[m -> [32m139264[m bytes
+ db_mongo/data/collection-0-4026727692754255122.wt                                 |  Bin [31m139264[m -> [32m0[m bytes
+ db_mongo/data/collection-2--3127928586962426933.wt                                |  Bin [31m0[m -> [32m143360[m bytes
+ db_mongo/data/collection-2-2686222057358522176.wt                                 |  Bin [31m86016[m -> [32m77824[m bytes
+ db_mongo/data/collection-2-4026727692754255122.wt                                 |  Bin [31m135168[m -> [32m0[m bytes
+ db_mongo/data/collection-4-2686222057358522176.wt                                 |  Bin [31m36864[m -> [32m36864[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-03-31T08-04-13Z-00000                  |  Bin [31m30239[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-03-31T08-07-29Z-00000                  |  Bin [31m32863[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-03-31T08-12-36Z-00000                  |  Bin [31m27149[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-03-31T08-17-09Z-00000                  |  Bin [31m32305[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-03-31T08-21-43Z-00000                  |  Bin [31m50427[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-03-31T08-28-49Z-00000                  |  Bin [31m33550[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-04-01T15-06-21Z-00000                  |  Bin [31m34094[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-04-01T15-10-43Z-00000                  |  Bin [31m52689[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-04-01T15-16-46Z-00000                  |  Bin [31m42042[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-04-01T15-19-59Z-00000                  |  Bin [31m99391[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-04-01T15-40-08Z-00000                  |  Bin [31m7752825[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-04-03T13-02-15Z-00000                  |  Bin [31m86954[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-04-03T13-23-00Z-00000                  |  Bin [31m451308[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-04-04T13-43-42Z-00000                  |  Bin [31m674836[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-04-06T13-02-08Z-00000                  |  Bin [31m90069[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-04-07T14-49-14Z-00000                  |  Bin [31m33906[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-04-07T14-54-35Z-00000                  |  Bin [31m55124[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-04-07T14-59-59Z-00000                  |  Bin [31m60903[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-04-07T15-22-45Z-00000                  |  Bin [31m38663[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-04-07T15-34-47Z-00000                  |  Bin [31m30793[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-04-07T15-44-44Z-00000                  |  Bin [31m136200[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-04-07T16-11-37Z-00000                  |  Bin [31m69095[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-04-07T16-19-00Z-00000                  |  Bin [31m55858[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-04-07T16-25-26Z-00000                  |  Bin [31m37766[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-04-07T16-30-15Z-00000                  |  Bin [31m83070[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-04-07T16-41-23Z-00000                  |  Bin [31m34914[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-04-07T18-00-30Z-00000                  |  Bin [31m26609[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-04-07T18-01-29Z-00000                  |  Bin [31m32483[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-04-07T18-04-58Z-00000                  |  Bin [31m80806[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-04-07T18-18-55Z-00000                  |  Bin [31m27334[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-04-07T18-21-18Z-00000                  |  Bin [31m52090[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-04-07T18-27-35Z-00000                  |  Bin [31m50901[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-04-07T18-37-04Z-00000                  |  Bin [31m248477[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-04-07T19-24-44Z-00000                  |  Bin [31m2423702[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-06-29T12-44-12Z-00000                  |  Bin [31m27086[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T07-53-46Z-00000                  |  Bin [31m27239[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T07-54-46Z-00000                  |  Bin [31m186588[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T08-32-52Z-00000                  |  Bin [31m27255[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T08-37-03Z-00000                  |  Bin [31m187772[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T14-01-49Z-00000                  |  Bin [31m176087[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T14-44-43Z-00000                  |  Bin [31m26864[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T14-47-35Z-00000                  |  Bin [31m25521[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T14-48-27Z-00000                  |  Bin [31m26610[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T14-49-53Z-00000                  |  Bin [31m49764[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T14-55-35Z-00000                  |  Bin [31m26030[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T14-56-36Z-00000                  |  Bin [31m32507[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T15-22-30Z-00000                  |  Bin [31m245883[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T20-22-15Z-00000                  |  Bin [31m35863[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T20-26-47Z-00000                  |  Bin [31m29644[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T20-29-46Z-00000                  |  Bin [31m55095[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T20-38-26Z-00000                  |  Bin [31m32735[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T20-42-47Z-00000                  |  Bin [31m152793[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T21-12-48Z-00000                  |  Bin [31m30599[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T21-16-59Z-00000                  |  Bin [31m35958[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T21-20-34Z-00000                  |  Bin [31m29601[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T21-25-59Z-00000                  |  Bin [31m30925[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T21-33-44Z-00000                  |  Bin [31m32310[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T21-36-47Z-00000                  |  Bin [31m105411[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T21-55-59Z-00000                  |  Bin [31m29010[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T21-57-25Z-00000                  |  Bin [31m54060[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T22-04-23Z-00000                  |  Bin [31m28972[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T22-07-08Z-00000                  |  Bin [31m83527[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T22-26-01Z-00000                  |  Bin [31m31071[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T22-28-23Z-00000                  |  Bin [31m76261[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T22-43-48Z-00000                  |  Bin [31m54567[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T22-51-26Z-00000                  |  Bin [31m56111[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T22-59-28Z-00000                  |  Bin [31m52670[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T23-05-30Z-00000                  |  Bin [31m31945[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T23-08-53Z-00000                  |  Bin [31m29571[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T23-11-12Z-00000                  |  Bin [31m29837[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T23-13-49Z-00000                  |  Bin [31m86609[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T23-27-56Z-00000                  |  Bin [31m70411[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T23-37-25Z-00000                  |  Bin [31m36186[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T23-41-58Z-00000                  |  Bin [31m33116[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T23-45-37Z-00000                  |  Bin [31m31227[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-01T23-50-41Z-00000                  |  Bin [31m61981[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-02T00-00-43Z-00000                  |  Bin [31m115403[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-02T00-24-00Z-00000                  |  Bin [31m140417[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-02T17-54-54Z-00000                  |  Bin [31m84039[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-02T18-08-41Z-00000                  |  Bin [31m86284[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-02T18-32-53Z-00000                  |  Bin [31m32044[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-02T18-37-09Z-00000                  |  Bin [31m28882[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-02T18-39-15Z-00000                  |  Bin [31m36585[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-02T18-40-32Z-00000                  |  Bin [31m52788[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-02T18-46-24Z-00000                  |  Bin [31m6623893[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-08T10-38-47Z-00000                  |  Bin [31m58808[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-08T10-47-27Z-00000                  |  Bin [31m403304[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-08T12-15-36Z-00000                  |  Bin [31m30225[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-08T12-19-19Z-00000                  |  Bin [31m129011[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-08T16-37-49Z-00000                  |  Bin [31m174681[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-08T17-07-45Z-00000                  |  Bin [31m60939[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-07-08T17-17-29Z-00000                  |  Bin [31m107348[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-05T20-05-16Z-00000                  |  Bin [31m63982[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-05T20-16-09Z-00000                  |  Bin [31m60372[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-05T20-22-36Z-00000                  |  Bin [31m199851[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-06T22-57-53Z-00000                  |  Bin [31m196293[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-06T23-25-14Z-00000                  |  Bin [31m226518[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-06T23-57-20Z-00000                  |  Bin [31m106312[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-07T00-09-34Z-00000                  |  Bin [31m290786[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-07T00-50-51Z-00000                  |  Bin [31m71581[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-07T01-00-57Z-00000                  |  Bin [31m124547[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-07T01-33-42Z-00000                  |  Bin [31m76403[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-13T12-13-20Z-00000                  |  Bin [31m677940[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-15T14-20-56Z-00000                  |  Bin [31m640372[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-15T15-59-02Z-00000                  |  Bin [31m29161[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-15T16-01-00Z-00000                  |  Bin [31m335756[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-15T16-48-10Z-00000                  |  Bin [31m140828[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-15T17-07-38Z-00000                  |  Bin [31m41109[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-15T17-13-28Z-00000                  |  Bin [31m74214[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-15T17-23-28Z-00000                  |  Bin [31m812821[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-16T14-46-45Z-00000                  |  Bin [31m27973[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-16T15-22-44Z-00000                  |  Bin [31m41239[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-16T15-28-01Z-00000                  |  Bin [31m36359[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-16T15-31-02Z-00000                  |  Bin [31m28168[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-16T15-34-41Z-00000                  |  Bin [31m27339[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-16T15-36-22Z-00000                  |  Bin [31m31073[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-16T15-38-06Z-00000                  |  Bin [31m27385[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-16T15-41-45Z-00000                  |  Bin [31m93691[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-16T15-53-32Z-00000                  |  Bin [31m109603[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-16T16-07-22Z-00000                  |  Bin [31m41866[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-16T16-12-33Z-00000                  |  Bin [31m29438[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-16T16-13-49Z-00000                  |  Bin [31m31549[m -> [32m0[m bytes
+ db_mongo/data/diagnostic.data/metrics.2024-08-16T16-16-05Z-00000                  |  Bin [31m28013[m -> [32m0[m bytes
+ db_mongo/data/{index-1-4026727692754255122.wt => index-1--3127928586962426933.wt} |  Bin [31m28672[m -> [32m28672[m bytes
+ db_mongo/data/{index-3-4026727692754255122.wt => index-3--3127928586962426933.wt} |  Bin [31m24576[m -> [32m24576[m bytes
+ db_mongo/data/index-3-2686222057358522176.wt                                      |  Bin [31m36864[m -> [32m45056[m bytes
+ db_mongo/data/index-5-2686222057358522176.wt                                      |  Bin [31m36864[m -> [32m36864[m bytes
+ db_mongo/data/index-6-2686222057358522176.wt                                      |  Bin [31m36864[m -> [32m36864[m bytes
+ db_mongo/data/journal/WiredTigerLog.0000000123                                    |  Bin [31m104857600[m -> [32m0[m bytes
+ db_mongo/data/journal/WiredTigerPreplog.0000000001                                |  Bin [31m104857600[m -> [32m0[m bytes
+ db_mongo/data/journal/WiredTigerPreplog.0000000002                                |  Bin [31m104857600[m -> [32m0[m bytes
+ db_mongo/data/sizeStorer.wt                                                       |  Bin [31m61440[m -> [32m61440[m bytes
+ db_mongo/upload_mongo.py                                                          |    1 [32m+[m
+ db_neo4j/data/databases/neo4j/neostore                                            |  Bin [31m8192[m -> [32m8192[m bytes
+ db_neo4j/data/databases/neo4j/neostore.counts.db                                  |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/neo4j/neostore.indexstats.db                              |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/neo4j/neostore.labelscanstore.db                          |  Bin [31m98304[m -> [32m98304[m bytes
+ db_neo4j/data/databases/neo4j/neostore.labeltokenstore.db.id                      |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/neo4j/neostore.labeltokenstore.db.names.id                |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/neo4j/neostore.nodestore.db                               |  Bin [31m663552[m -> [32m663552[m bytes
+ db_neo4j/data/databases/neo4j/neostore.nodestore.db.id                            |  Bin [31m98304[m -> [32m98304[m bytes
+ db_neo4j/data/databases/neo4j/neostore.nodestore.db.labels.id                     |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/neo4j/neostore.propertystore.db.arrays.id                 |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/neo4j/neostore.propertystore.db.id                        |  Bin [31m155648[m -> [32m155648[m bytes
+ db_neo4j/data/databases/neo4j/neostore.propertystore.db.index.id                  |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/neo4j/neostore.propertystore.db.index.keys.id             |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/neo4j/neostore.propertystore.db.strings.id                |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/neo4j/neostore.relationshipgroupstore.db                  |  Bin [31m8192[m -> [32m8192[m bytes
+ db_neo4j/data/databases/neo4j/neostore.relationshipgroupstore.db.id               |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/neo4j/neostore.relationshipgroupstore.degrees.db          |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/neo4j/neostore.relationshipstore.db                       |  Bin [31m24576[m -> [32m24576[m bytes
+ db_neo4j/data/databases/neo4j/neostore.relationshipstore.db.id                    |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/neo4j/neostore.relationshiptypescanstore.db               |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/neo4j/neostore.relationshiptypestore.db.id                |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/neo4j/neostore.relationshiptypestore.db.names.id          |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/neo4j/neostore.schemastore.db.id                          |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.counts.db                                 |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/system/neostore.indexstats.db                             |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/system/neostore.labelscanstore.db                         |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/system/neostore.labeltokenstore.db.id                     |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.labeltokenstore.db.names.id               |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.nodestore.db.id                           |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.nodestore.db.labels.id                    |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.propertystore.db.arrays.id                |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.propertystore.db.id                       |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.propertystore.db.index.id                 |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/system/neostore.propertystore.db.index.keys.id            |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.propertystore.db.strings.id               |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.relationshipgroupstore.db.id              |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.relationshipgroupstore.degrees.db         |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.relationshipstore.db.id                   |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.relationshiptypescanstore.db              |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/system/neostore.relationshiptypestore.db.id               |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.relationshiptypestore.db.names.id         |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/neostore.schemastore.db.id                         |  Bin [31m40960[m -> [32m40960[m bytes
+ db_neo4j/data/databases/system/schema/index/native-btree-1.0/3/index-3            |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/system/schema/index/native-btree-1.0/4/index-4            |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/databases/system/schema/index/native-btree-1.0/7/index-7            |  Bin [31m49152[m -> [32m49152[m bytes
+ db_neo4j/data/dbms/auth.ini                                                       |    2 [32m+[m[31m-[m
+ db_neo4j/data/transactions/neo4j/checkpoint.0                                     |  Bin [31m28096[m -> [32m31360[m bytes
+ db_neo4j/data/transactions/neo4j/neostore.transaction.db.1                        |  Bin [31m262144000[m -> [32m262144000[m bytes
+ db_neo4j/data/transactions/system/checkpoint.0                                    |  Bin [31m23488[m -> [32m25600[m bytes
+ db_neo4j/script_neo.py                                                            |    5 [32m+[m[31m-[m
+ flask_api/app.py                                                                  |  137 [32m+[m[31m-[m
+ flask_api/app/__init__.py                                                         |   29 [32m+[m
+ flask_api/templates/airport.html                                                  |    2 [31m-[m
+ flask_api/templates/index.html                                                    |    2 [32m+[m[31m-[m
+ flask_api/templates/tester.html                                                   |   72 [32m+[m
+ logs/flask.log                                                                    |    4 [32m+[m[31m-[m
+ logs/mongoupload.log                                                              |  122 [32m+[m[31m-[m
+ logs/neo4jupload.log                                                              | 5778 [32m++++++++++++++++++++++++++++++++++[m[31m----------------------------------[m
+ logs/request.log                                                                  |    2 [32m+[m[31m-[m
+ tester/Bash.sh                                                                    |    4 [32m+[m
+ 202 files changed, 3209 insertions(+), 2953 deletions(-)
+
+[33mcommit f331d442102b0e72112187a37f36ed6eded63cbe[m
+Author: ahmedSAID-dev <ahmed.nejib.said@gmail.com>
+Date:   Sat Aug 24 14:57:33 2024 +0200
+
+    fixed neo4j
+
+ api_database/Dockerfile-api                                                                          |   16 [31m-[m
+ api_database/__pycache__/database_sqlite.cpython-310.pyc                                             |  Bin [31m4153[m -> [32m0[m bytes
+ api_database/app.py                                                                                  |   60 [31m--[m
+ api_database/database_sqlite.py                                                                      |  213 [31m----[m
+ api_database/lufth_track_data.db                                                                     |  Bin [31m114688[m -> [32m0[m bytes
+ api_database/requirements.txt                                                                        |    3 [31m-[m
+ api_database/test_upload_db.py                                                                       |   37 [31m-[m
+ data_json/completion_signal.txt                                                                      |    1 [32m+[m
+ data_json/completion_signal_mango.txt                                                                |    1 [32m+[m
+ data_json/flights_codes/lufth_CDG_FRA_20240708_1900_flight_codes.json                                |   32 [32m+[m
+ data_json/flights_codes/lufth_CDG_FRA_20240807_1900_flight_codes.json                                |   41 [32m+[m
+ .../{lufth_CDG_FRA_20240331_1900_flight_codes.json => lufth_CDG_FRA_20240813_1900_flight_codes.json} |   16 [32m+[m[31m-[m
+ data_json/flights_codes/lufth_CDG_FRA_20240815_1900_flight_codes.json                                |   58 [32m+[m
+ .../{lufth_CDG_MUC_20240331_1900_flight_codes.json => lufth_CDG_MUC_20240813_1900_flight_codes.json} |   32 [32m+[m[31m-[m
+ data_json/flights_codes/lufth_CDG_MUC_20240815_1900_flight_codes.json                                |    1 [32m+[m
+ data_json/flights_codes/lufth_DOH_FRA_20240708_1900_flight_codes.json                                |    1 [32m+[m
+ data_json/flights_codes/lufth_DOH_FRA_20240805_1900_flight_codes.json                                |    1 [32m+[m
+ data_json/flights_codes/lufth_DOH_FRA_20240806_1900_flight_codes.json                                |    1 [32m+[m
+ data_json/flights_codes/lufth_DOH_FRA_20240807_1900_flight_codes.json                                |    1 [32m+[m
+ data_json/flights_codes/lufth_DOH_FRA_20240813_1900_flight_codes.json                                |   14 [32m+[m
+ data_json/flights_codes/lufth_DOH_FRA_20240815_1900_flight_codes.json                                |    1 [32m+[m
+ data_json/flights_codes/lufth_DXB_FRA_20240708_1900_flight_codes.json                                |    1 [32m+[m
+ data_json/flights_codes/lufth_DXB_FRA_20240805_1900_flight_codes.json                                |    1 [32m+[m
+ data_json/flights_codes/lufth_DXB_FRA_20240806_1900_flight_codes.json                                |    1 [32m+[m
+ data_json/flights_codes/lufth_DXB_FRA_20240807_1900_flight_codes.json                                |    1 [32m+[m
+ data_json/flights_codes/lufth_DXB_FRA_20240813_1900_flight_codes.json                                |    1 [32m+[m
+ data_json/flights_codes/lufth_DXB_FRA_20240815_1900_flight_codes.json                                |    1 [32m+[m
+ data_json/flights_codes/lufth_FRA_CDG_20240708_1900_flight_codes.json                                |   57 [32m+[m
+ data_json/flights_codes/lufth_FRA_CDG_20240805_1900_flight_codes.json                                |    1 [32m+[m
+ data_json/flights_codes/lufth_FRA_CDG_20240806_1900_flight_codes.json                                |    1 [32m+[m
+ data_json/flights_codes/lufth_FRA_CDG_20240807_1900_flight_codes.json                                |   57 [32m+[m
+ data_json/flights_codes/lufth_FRA_CDG_20240813_1900_flight_codes.json                                |   54 [32m+[m
+ data_json/flights_codes/lufth_FRA_CDG_20240815_1900_flight_codes.json                                |   50 [32m+[m
+ data_json/flights_codes/lufth_FRA_DOH_20240813_1900_flight_codes.json                                |   42 [32m+[m
+ data_json/flights_codes/lufth_FRA_DOH_20240815_1900_flight_codes.json                                |    1 [32m+[m
+ data_json/flights_codes/lufth_FRA_DXB_20240813_1900_flight_codes.json                                |   26 [32m+[m
+ data_json/flights_codes/lufth_FRA_JFK_20240708_1900_flight_codes.json                                |   55 [32m+[m
+ data_json/flights_codes/lufth_FRA_JFK_20240807_1900_flight_codes.json                                |   68 [32m++[m
+ .../{lufth_FRA_JFK_20240331_1900_flight_codes.json => lufth_FRA_JFK_20240813_1900_flight_codes.json} |   50 [32m+[m[31m-[m
+ data_json/flights_codes/lufth_FRA_JFK_20240815_1900_flight_codes.json                                |   67 [32m++[m
+ data_json/flights_codes/lufth_FRA_LAS_20240813_1900_flight_codes.json                                |   42 [32m+[m
+ data_json/flights_codes/lufth_FRA_MUC_20240708_1900_flight_codes.json                                |   22 [32m+[m
+ .../{lufth_FRA_MUC_20240331_1900_flight_codes.json => lufth_FRA_MUC_20240807_1900_flight_codes.json} |   16 [32m+[m[31m-[m
+ data_json/flights_codes/lufth_FRA_MUC_20240813_1900_flight_codes.json                                |   22 [32m+[m
+ data_json/flights_codes/lufth_FRA_MUC_20240815_1900_flight_codes.json                                |   22 [32m+[m
+ data_json/flights_codes/lufth_JFK_FRA_20240708_1900_flight_codes.json                                |   43 [32m+[m
+ data_json/flights_codes/lufth_JFK_FRA_20240807_1900_flight_codes.json                                |   44 [32m+[m
+ data_json/flights_codes/lufth_JFK_FRA_20240813_1900_flight_codes.json                                |   40 [32m+[m
+ data_json/flights_codes/lufth_JFK_FRA_20240815_1900_flight_codes.json                                |   47 [32m+[m
+ data_json/flights_codes/lufth_LAS_FRA_20240813_1900_flight_codes.json                                |   50 [32m+[m
+ data_json/flights_codes/lufth_MUC_FRA_20240708_1900_flight_codes.json                                |   22 [32m+[m
+ data_json/flights_codes/lufth_MUC_FRA_20240807_1900_flight_codes.json                                |   22 [32m+[m
+ data_json/flights_codes/lufth_MUC_FRA_20240813_1900_flight_codes.json                                |   22 [32m+[m
+ data_json/flights_codes/lufth_MUC_FRA_20240815_1900_flight_codes.json                                |   22 [32m+[m
+ data_json/flights_codes/lufth_MUC_JFK_20240331_1900_flight_codes.json                                |   55 [31m-[m
+ data_json/flights_codes/lufth_MUC_JFK_20240813_1900_flight_codes.json                                |   79 [32m++[m
+ data_json/flights_info/lufth_CDG_FRA_20240331_1900_flight_info.json                                  |   94 [31m--[m
+ data_json/flights_info/lufth_CDG_FRA_20240708_1900_flight_info.json                                  |   74 [32m++[m
+ data_json/flights_info/lufth_CDG_FRA_20240807_1900_flight_info.json                                  |   94 [32m++[m
+ data_json/flights_info/lufth_CDG_FRA_20240813_1900_flight_info.json                                  |   78 [32m++[m
+ data_json/flights_info/lufth_CDG_FRA_20240815_1900_flight_info.json                                  |  130 [32m+++[m
+ data_json/flights_info/lufth_CDG_MUC_20240331_1900_flight_info.json                                  |  142 [31m---[m
+ data_json/flights_info/lufth_CDG_MUC_20240813_1900_flight_info.json                                  |   94 [32m++[m
+ data_json/flights_info/lufth_DOH_FRA_20240813_1900_flight_info.json                                  |   26 [32m+[m
+ data_json/flights_info/lufth_DXB_FRA_20240708_1901_flight_info.json                                  |   86 [32m++[m
+ data_json/flights_info/lufth_FRA_CDG_20240708_1900_flight_info.json                                  |  126 [32m+++[m
+ data_json/flights_info/lufth_FRA_CDG_20240807_1900_flight_info.json    
