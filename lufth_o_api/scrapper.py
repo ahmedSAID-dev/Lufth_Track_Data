@@ -4,7 +4,7 @@ from datetime import datetime
 import logging
 import operations as ope
 
-DOWNLOAD_NEW_DATA = False
+DOWNLOAD_NEW_DATA = True
 # Création du dossier logs s'il n'existe pas
 if not os.path.exists("./app/logs"):
     os.makedirs("./app/logs")
